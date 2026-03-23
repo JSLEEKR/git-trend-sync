@@ -10,7 +10,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from src.scan_project import scan_project
+from src.scan_project import scan_project, recommend_categories
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -202,16 +202,245 @@ def match_trending_to_project(trending: dict, profile: dict) -> list[dict]:
     return scored[:15]
 
 
+def generate_comparison_table(candidates: list[dict], profile: dict) -> str:
+    """
+    Generate a feature comparison table in markdown format.
+
+    The table compares each candidate repo against the user's own project
+    across a fixed set of AI-relevant features.
+
+    Parameters
+    ----------
+    candidates:
+        List of pre-filtered repo dicts (as returned by match_trending_to_project).
+    profile:
+        Project profile dict (as returned by scan_project).
+
+    Returns
+    -------
+    A markdown string containing the ## Feature Comparison section.
+    """
+    if not candidates:
+        return ""
+
+    # Limit to the top 5 candidates to keep the table readable
+    display = candidates[:5]
+
+    # ------------------------------------------------------------------
+    # Helper: check a repo's description + topics for a keyword set
+    # ------------------------------------------------------------------
+    def _repo_has(repo: dict, *keywords: str) -> bool:
+        text = " ".join([
+            (repo.get("description") or "").lower(),
+            " ".join(repo.get("topics") or []).lower(),
+            (repo.get("name") or "").lower(),
+        ])
+        return any(kw in text for kw in keywords)
+
+    # ------------------------------------------------------------------
+    # Helper: format star count with thousands separator
+    # ------------------------------------------------------------------
+    def _fmt_stars(repo: dict) -> str:
+        stars = (repo.get("raw_metrics") or {}).get("stars") or repo.get("stars")
+        if stars is None:
+            return "N/A"
+        try:
+            return f"{int(stars):,}"
+        except (ValueError, TypeError):
+            return str(stars)
+
+    # ------------------------------------------------------------------
+    # Helper: trend score cell with emoji
+    # ------------------------------------------------------------------
+    def _fmt_trend(repo: dict) -> str:
+        score = (repo.get("scores") or {}).get("overall")
+        if score is None:
+            return "N/A"
+        try:
+            val = float(score)
+        except (ValueError, TypeError):
+            return str(score)
+        emoji = "🔥" if val >= 8.0 else "📈" if val >= 5.0 else "📉"
+        return f"{emoji} {val:.1f}"
+
+    # ------------------------------------------------------------------
+    # Helper: active development cell
+    # ------------------------------------------------------------------
+    def _fmt_activity(repo: dict) -> str:
+        commits = (repo.get("raw_metrics") or {}).get("commits_last_30_days")
+        if commits is None:
+            commits = repo.get("recent_commits_30d")
+        if commits is None:
+            return "N/A"
+        try:
+            c = int(commits)
+        except (ValueError, TypeError):
+            return str(commits)
+        if c > 50:
+            return f"✅ ({c} commits/30d)"
+        elif c > 10:
+            return f"⚠️ ({c} commits/30d)"
+        else:
+            return f"❌ ({c} commits/30d)"
+
+    # ------------------------------------------------------------------
+    # Helper: stack compatible cell
+    # ------------------------------------------------------------------
+    def _fmt_stack_compat(repo: dict, profile: dict) -> str:
+        project_ecosystems = _project_ecosystems(profile)
+        eco = _repo_ecosystem(repo)
+        if eco and eco in project_ecosystems:
+            return "✅"
+        return "❌"
+
+    # ------------------------------------------------------------------
+    # Feature detection for a repo: returns ✅ / ❌
+    # ------------------------------------------------------------------
+    def _bool_cell(flag: bool) -> str:
+        return "✅" if flag else "❌"
+
+    # ------------------------------------------------------------------
+    # "Your Project" feature detection from profile
+    # ------------------------------------------------------------------
+    profile_deps: set[str] = set(profile.get("current_dependencies") or [])
+    profile_hints: str = " ".join(profile.get("architecture_hints") or []).lower()
+    profile_interests: str = " ".join(profile.get("declared_interests") or []).lower()
+    profile_text = profile_hints + " " + profile_interests
+
+    def _project_dep_label(*dep_names: str) -> str:
+        """Return ✅ (dep_name) if any of the given dep names are in profile_deps."""
+        for dep in dep_names:
+            if dep in profile_deps:
+                return f"✅ ({dep})"
+        return "❌"
+
+    def _project_text_has(*keywords: str) -> str:
+        for kw in keywords:
+            if kw in profile_text:
+                return "✅"
+        return "❌"
+
+    # RAG support: uses LLM framework or vector store hint
+    rag_deps = {"langchain", "langchain-core", "langchain-community",
+                "llama-index", "llama_index", "haystack-ai", "haystack"}
+    project_rag = _project_dep_label(*rag_deps)
+
+    # Agent framework
+    agent_deps = {"crewai", "autogen", "metagpt", "dspy", "dspy-ai", "phidata"}
+    project_agent = _project_dep_label(*agent_deps)
+
+    # Vector store
+    vector_deps = {"chromadb", "pinecone-client", "pinecone", "weaviate-client",
+                   "qdrant-client", "faiss-cpu", "faiss-gpu", "faiss",
+                   "milvus", "pymilvus", "lancedb", "pgvector"}
+    project_vector = _project_dep_label(*vector_deps)
+
+    # Multi-agent: agent framework OR "multi-agent" / "orchestrat" in hints
+    project_multi_agent = "✅" if (
+        any(d in profile_deps for d in {"crewai", "autogen", "metagpt"})
+        or "multi-agent" in profile_text
+        or "orchestrat" in profile_text
+    ) else "❌"
+
+    # API server
+    api_deps = {"fastapi", "flask", "django", "starlette", "express"}
+    project_api = _project_dep_label(*api_deps)
+
+    # UI / Dashboard
+    ui_deps = {"react", "vue", "angular", "svelte", "next", "nuxt", "remix"}
+    project_ui = _project_dep_label(*ui_deps)
+
+    # MCP
+    project_mcp = "✅" if (
+        any("mcp" in d for d in profile_deps) or "mcp" in profile_text
+    ) else "❌"
+
+    # Project language (best-effort from detected_stack)
+    stack = profile.get("tech_stack_override") or profile.get("detected_stack") or []
+    project_lang = stack[0].capitalize() if stack else "-"
+
+    # ------------------------------------------------------------------
+    # Build table rows
+    # ------------------------------------------------------------------
+    repo_names = [repo.get("name", f"repo-{i}") for i, repo in enumerate(display)]
+    col_header = " | ".join(repo_names) + " | Your Project"
+    separator = " | ".join(["--------"] * len(display)) + " | ------------|"
+
+    def _row(feature: str, *cells: str) -> str:
+        return f"| {feature} | " + " | ".join(cells) + " |"
+
+    rows: list[str] = [
+        _row("Language",
+             *[repo.get("language") or "N/A" for repo in display],
+             project_lang),
+        _row("License",
+             *[repo.get("license") or "-" for repo in display],
+             "-"),
+        _row("Stars",
+             *[_fmt_stars(repo) for repo in display],
+             "-"),
+        _row("Trend Score",
+             *[_fmt_trend(repo) for repo in display],
+             "-"),
+        _row("RAG Support",
+             *[_bool_cell(_repo_has(repo, "rag", "retrieval")) for repo in display],
+             project_rag),
+        _row("Agent Framework",
+             *[_bool_cell(_repo_has(repo, "agent")) for repo in display],
+             project_agent),
+        _row("Vector Store",
+             *[_bool_cell(_repo_has(repo, "vector", "embedding")) for repo in display],
+             project_vector),
+        _row("Multi-Agent",
+             *[_bool_cell(_repo_has(repo, "multi-agent", "orchestrat")) for repo in display],
+             project_multi_agent),
+        _row("API Server",
+             *[_bool_cell(_repo_has(repo, "api", "server", "rest")) for repo in display],
+             project_api),
+        _row("UI/Dashboard",
+             *[_bool_cell(_repo_has(repo, "ui", "dashboard", "frontend", "web")) for repo in display],
+             project_ui),
+        _row("MCP Support",
+             *[_bool_cell(_repo_has(repo, "mcp", "model context protocol")) for repo in display],
+             project_mcp),
+        _row("Active Development",
+             *[_fmt_activity(repo) for repo in display],
+             "-"),
+        _row("Stack Compatible",
+             *[_fmt_stack_compat(repo, profile) for repo in display],
+             "-"),
+    ]
+
+    header_line = "| Feature | " + col_header + " |"
+    sep_line = "|---------|" + separator
+
+    lines = ["## Feature Comparison", "", header_line, sep_line] + rows + [""]
+    return "\n".join(lines)
+
+
 def generate_recommendations_report(
     date: str,
     profile: dict,
     recommendations: list[dict],
+    candidates: list[dict] | None = None,
 ) -> str:
     """
     Generate a markdown recommendations report.
 
     Each recommendation dict is expected to have at minimum:
       name, url, description, relevance, why, how_to_evaluate, effort
+
+    Parameters
+    ----------
+    date:
+        ISO date string for the report header.
+    profile:
+        Project profile dict as returned by scan_project().
+    recommendations:
+        List of recommendation dicts with relevance classification.
+    candidates:
+        Optional list of pre-filtered candidate repos used to build the
+        feature comparison table.
     """
     lines: list[str] = [
         f"# AI Trend Recommendations — {date}",
@@ -223,6 +452,17 @@ def generate_recommendations_report(
     if profile.get("description"):
         lines += [f"> {profile['description']}", ""]
 
+    # ------------------------------------------------------------------
+    # Recommended categories section
+    # ------------------------------------------------------------------
+    rec_cats = recommend_categories(profile)
+    if rec_cats:
+        lines += [
+            "**Recommended categories for this project:** "
+            + ", ".join(f"`{c}`" for c in rec_cats),
+            "",
+        ]
+
     if not recommendations:
         lines += [
             "No actionable recommendations today. "
@@ -230,6 +470,14 @@ def generate_recommendations_report(
             "",
         ]
         return "\n".join(lines)
+
+    # ------------------------------------------------------------------
+    # Feature comparison table (uses raw candidates for repo metadata)
+    # ------------------------------------------------------------------
+    if candidates:
+        table = generate_comparison_table(candidates, profile)
+        if table:
+            lines += [table]
 
     high = [r for r in recommendations if r.get("relevance") == "high"]
     watch = [r for r in recommendations if r.get("relevance") == "watch"]
@@ -388,7 +636,7 @@ def run_recommendations(date: str = None, project_path: str = ".") -> Path:
     # ------------------------------------------------------------------
     # 6. Generate and save markdown report
     # ------------------------------------------------------------------
-    report_md = generate_recommendations_report(date, profile, recommendations)
+    report_md = generate_recommendations_report(date, profile, recommendations, candidates)
 
     reports_dir = BASE_DIR / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)

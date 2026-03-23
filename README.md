@@ -2,7 +2,7 @@
 
 # 🤖 AI Agent Trend Report v2
 
-### Velocity-based trending of AI agent repositories on GitHub
+### Activity-based trending of AI agent repositories on GitHub
 
 [![GitHub Stars](https://img.shields.io/github/stars/JSLEEKR/ai-trend?style=for-the-badge&logo=github&color=yellow)](https://github.com/JSLEEKR/ai-trend/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
@@ -13,7 +13,7 @@
 
 **Detects what's actually trending — not just popular — in the AI agent ecosystem**
 
-Velocity-based scoring + Project-specific recommendations + Claude Code slash commands
+Activity-based scoring + Project-specific recommendations + Claude Code slash commands
 
 [📊 Latest Report](reports/) · [🔧 Setup Guide](#-quick-start)
 
@@ -21,16 +21,32 @@ Velocity-based scoring + Project-specific recommendations + Claude Code slash co
 
 ---
 
+## Why This Exists
+
+The AI agent ecosystem moves fast. New frameworks, tools, and patterns emerge weekly. Yesterday's best practice is today's legacy code.
+
+The problem isn't finding good tools — it's finding the **right tool at the right time** for **your specific project**. A framework with 100k stars might be mature but stagnant. A repo with 2k stars might be the one that solves your exact problem, and it just launched last month.
+
+**AI Trend** solves this by:
+- **Tracking what's actually active** — not just popular, but actively developed (30-day commit activity)
+- **Filtering noise** — only repos with 1,000+ stars, eliminating toy projects
+- **Matching to your project** — scans your codebase and recommends only what's relevant
+- **Generating integration designs** — not just "check this out", but "here's exactly how to integrate it into your code"
+
+Stop scrolling through GitHub trending. Let the trends come to you — already filtered, analyzed, and matched to your stack.
+
+---
+
 ## 📋 What is this?
 
-An automated system that tracks **velocity** — which AI agent repos are gaining stars *fastest* — and recommends trending tools that are relevant to **your** project.
+An automated system that tracks **development activity** across 12 AI agent categories and recommends trending tools that are relevant to **your** project.
 
-### Why velocity, not just stars?
+### Why activity, not just stars?
 
 | Metric | What it finds | Problem |
 |--------|--------------|---------|
-| ⭐ Total stars | Established projects | Misses new rising tools |
-| 📈 **Velocity** | Tools gaining traction *right now* | Catches trends early |
+| ⭐ Total stars | Established projects | Misses actively developed new tools |
+| 🔥 **30-day commits** | Tools being actively built *right now* | Catches real momentum |
 
 ### Three Pipelines
 
@@ -115,34 +131,19 @@ Design docs are saved to `docs/trend-apply/YYYY-MM-DD-<repo>.md` with:
 
 ## 📊 How Trending Works
 
-### Day 1 (Instant Metrics)
+Repos are ranked by **development activity** — the number of commits in the last 30 days. This surfaces tools that are actively being built and improved, not just popular repos that stopped evolving.
 
-| Metric | Weight | What it measures |
-|--------|--------|-----------------|
-| Stars/day average | 30% | Growth rate over project lifetime |
-| Recent activity | 25% | Commits + push recency (30 days) |
-| Newness boost | 20% | Bonus for repos < 6 months old |
-| Issue velocity | 10% | Community engagement |
-| Commit frequency | 15% | Development pace |
-
-### Day 2+ (Velocity Blending)
-
-Daily snapshots track star counts. Velocity = actual daily star gains.
-
-| Metric | Weight |
-|--------|--------|
-| Daily star delta | 40% |
-| 7-day moving average | 30% |
-| Acceleration (7d vs 30d) | 30% |
-
-Blend: `Day 1 = instant only → Day 7+ = 30% instant + 70% velocity`
+### Filters
+- **Stars > 1,000** — eliminates noise from toy projects
+- **Pushed within 7 days** — must be recently active
+- **30-day commit count** — primary ranking signal
 
 ### Report Format
 
-| # | Repository | Trend | Stars | +1d | +7d avg | Age | Status |
-|---|-----------|-------|-------|-----|---------|-----|--------|
-| 1 | some-repo | 🔥 8.7 | 5,230 | +127 | +95/d | 85d | NEW ENTRY |
-| 2 | other-repo | 📈 7.3 | 45,000 | +89 | +72/d | 2y | TRENDING |
+| # | Repository | Activity | Stars | Commits (30d) | Last Push | Age | Status |
+|---|-----------|----------|-------|---------------|-----------|-----|--------|
+| 1 | some-repo | 🔥 9.2 | 5,230 | 347 | 1d ago | 85d | NEW ENTRY |
+| 2 | other-repo | 📈 6.8 | 45,000 | 189 | 3d ago | 2y | ACTIVE |
 
 ---
 

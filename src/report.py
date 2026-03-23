@@ -57,8 +57,8 @@ def score_bar(score: float) -> str:
     return "█" * filled + "░" * (10 - filled)
 
 
-def _trend_emoji(trend_score: float) -> str:
-    """Return an emoji indicator based on trend score."""
+def _activity_emoji(trend_score: float) -> str:
+    """Return an emoji indicator based on activity score."""
     if trend_score >= 7:
         return "🔥"
     if trend_score >= 4:
@@ -70,9 +70,7 @@ def _status(repo: dict) -> str:
     """Derive status label from repo trending data."""
     if repo.get("is_new_entry"):
         return "NEW ENTRY"
-    if repo.get("days_of_data", 0) == 0:
-        return "DAY 1"
-    return "TRENDING"
+    return "ACTIVE"
 
 
 def _age_label(age_days: int) -> str:
@@ -82,18 +80,22 @@ def _age_label(age_days: int) -> str:
     return f"{age_days}d"
 
 
-def _delta_1d(repo: dict) -> str:
-    """Format 1-day star delta."""
-    if repo.get("days_of_data", 0) == 0:
-        return "N/A"
-    return f"+{repo['star_delta_1d']}"
-
-
-def _delta_7d(repo: dict) -> str:
-    """Format 7-day average star delta."""
-    if repo.get("days_of_data", 0) == 0:
-        return "N/A"
-    return f"+{repo['star_delta_7d_avg']}/d"
+def _last_push_label(repo: dict) -> str:
+    """Format pushed_at as 'X days ago'."""
+    from datetime import datetime, timezone
+    pushed_at = repo.get("pushed_at", "")
+    if not pushed_at:
+        return "unknown"
+    try:
+        dt = datetime.fromisoformat(pushed_at.replace("Z", "+00:00"))
+        days = (datetime.now(timezone.utc) - dt).days
+        if days == 0:
+            return "today"
+        if days == 1:
+            return "1d ago"
+        return f"{days}d ago"
+    except (ValueError, TypeError):
+        return "unknown"
 
 
 def generate_en_report(date: str, trending: dict, analyses: dict) -> str:
@@ -101,7 +103,7 @@ def generate_en_report(date: str, trending: dict, analyses: dict) -> str:
     lines = [
         f"# AI Agent Trend Report — {date}",
         "",
-        f"> Auto-generated on {date}. Velocity-based trending from GitHub Topics. "
+        f"> Auto-generated on {date}. Ranked by development activity (30-day commits) from GitHub Topics. "
         "Qualitative analysis powered by Claude Code.",
         "",
         "## Table of Contents",
@@ -123,22 +125,24 @@ def generate_en_report(date: str, trending: dict, analyses: dict) -> str:
         # Trending table
         lines.append("### Trending Repositories")
         lines.append("")
-        lines.append("| # | Repository | Trend | Stars | +1d | +7d avg | Age | Status |")
-        lines.append("|---|-----------|-------|-------|-----|---------|-----|--------|")
+        lines.append("| # | Repository | Activity | Stars | Commits (30d) | Last Push | Age | Status |")
+        lines.append("|---|-----------|----------|-------|---------------|-----------|-----|--------|")
 
         for i, r in enumerate(repos, 1):
             trend_score = r.get("trend_score", 0)
-            emoji = _trend_emoji(trend_score)
-            trend_cell = f"{emoji} {trend_score}" if emoji else str(trend_score)
+            emoji = _activity_emoji(trend_score)
+            activity_cell = f"{emoji} {trend_score}" if emoji else str(trend_score)
             stars_fmt = f"{r['stars']:,}"
+            commits_30d = r.get("recent_commits_30d", 0)
             age_label = _age_label(r.get("age_days", 0))
+            last_push = _last_push_label(r)
             status = _status(r)
             lines.append(
                 f"| {i} | [{r['name']}]({r['url']}) | "
-                f"{trend_cell} | "
+                f"{activity_cell} | "
                 f"{stars_fmt} | "
-                f"{_delta_1d(r)} | "
-                f"{_delta_7d(r)} | "
+                f"{commits_30d} | "
+                f"{last_push} | "
                 f"{age_label} | "
                 f"{status} |"
             )
@@ -207,14 +211,14 @@ def generate_en_report(date: str, trending: dict, analyses: dict) -> str:
             all_repos.append({**r, "category": cat_name})
     all_repos.sort(key=lambda x: x.get("trend_score", 0), reverse=True)
 
-    lines.append("| Rank | Repository | Category | Trend Score |")
-    lines.append("|------|-----------|----------|-------------|")
+    lines.append("| Rank | Repository | Category | Activity Score |")
+    lines.append("|------|-----------|----------|----------------|")
     for i, r in enumerate(all_repos[:10], 1):
         trend_score = r.get("trend_score", 0)
-        emoji = _trend_emoji(trend_score)
-        trend_cell = f"{emoji} {trend_score}" if emoji else str(trend_score)
+        emoji = _activity_emoji(trend_score)
+        activity_cell = f"{emoji} {trend_score}" if emoji else str(trend_score)
         lines.append(
-            f"| {i} | [{r['name']}]({r['url']}) | {r['category']} | **{trend_cell}** |"
+            f"| {i} | [{r['name']}]({r['url']}) | {r['category']} | **{activity_cell}** |"
         )
     lines.append("")
 

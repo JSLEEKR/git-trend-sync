@@ -4,6 +4,24 @@
 
 > <div align="center">
 
+## Feature Comparison
+
+| Feature | awesome-claude-code | deer-flow | open-webui | langchain | pr-agent | Your Project |
+|---------|-------- | -------- | -------- | -------- | -------- | ------------|
+| Language | Python | Python | Python | Python | Python | Python |
+| License | NOASSERTION | MIT | NOASSERTION | MIT | AGPL-3.0 | - |
+| Stars | 30,299 | 35,694 | 128,300 | 130,632 | 10,630 | - |
+| Trend Score | 🔥 8.5 | 🔥 8.0 | 📈 7.8 | 📈 6.7 | 📈 6.7 | - |
+| RAG Support | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Agent Framework | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ |
+| Vector Store | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Multi-Agent | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| API Server | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| UI/Dashboard | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ |
+| MCP Support | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Active Development | N/A | N/A | N/A | N/A | N/A | - |
+| Stack Compatible | ✅ | ✅ | ✅ | ✅ | ✅ | - |
+
 ## Worth Watching
 
 Interesting but not a direct match — worth keeping an eye on.

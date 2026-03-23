@@ -14,3 +14,35 @@ categories:
   - name: "Coding Assistant"
     topics: ["coding-assistant", "code-generation", "ai-coding"]
     limit: 30
+
+  - name: "AI Infrastructure"
+    topics: ["llm-inference", "llm-serving", "ai-gateway"]
+    limit: 30
+
+  - name: "Browser Agent"
+    topics: ["browser-agent", "web-automation", "browser-use"]
+    limit: 30
+
+  - name: "MCP"
+    topics: ["mcp", "model-context-protocol", "mcp-server"]
+    limit: 30
+
+  - name: "AI Workflow"
+    topics: ["ai-workflow", "llm-workflow", "low-code-ai"]
+    limit: 30
+
+  - name: "Voice Agent"
+    topics: ["voice-agent", "realtime-ai", "voice-ai"]
+    limit: 30
+
+  - name: "Knowledge Management"
+    topics: ["knowledge-graph", "vector-database", "ai-memory"]
+    limit: 30
+
+  - name: "AI Observability"
+    topics: ["llm-ops", "llm-monitoring", "prompt-engineering"]
+    limit: 30
+
+  - name: "Computer Use Agent"
+    topics: ["computer-use", "desktop-agent", "gui-agent"]
+    limit: 30

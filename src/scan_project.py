@@ -521,6 +521,155 @@ def scan_project(project_path: str) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Category recommendation
+# ---------------------------------------------------------------------------
+
+# All known category names (used for fuzzy interest matching)
+_ALL_CATEGORIES = [
+    "RAG Framework",
+    "AI Agent Framework",
+    "Knowledge Management",
+    "AI Workflow",
+    "Browser Agent",
+    "Multi-Agent",
+    "Voice Agent",
+    "MCP",
+    "AI Observability",
+    "Coding Assistant",
+    "AI Infrastructure",
+    "Computer Use Agent",
+]
+
+# LLM framework dependency names
+_LLM_FRAMEWORK_DEPS = {"langchain", "langchain-core", "langchain-community",
+                        "llama-index", "llama_index", "openai", "anthropic"}
+
+# Web framework dependency names
+_WEB_FRAMEWORK_DEPS = {"fastapi", "flask", "django", "starlette", "aiohttp",
+                        "tornado", "express", "next", "nextjs", "nuxt",
+                        "react", "vue", "angular", "svelte", "remix"}
+
+# Agent framework dependency names
+_AGENT_FRAMEWORK_DEPS = {"crewai", "autogen", "metagpt"}
+
+# Infrastructure dependency names
+_INFRA_DEPS = {"docker", "kubernetes", "k8s", "helm", "terraform", "ansible",
+               "celery", "dramatiq", "kafka-python", "confluent-kafka",
+               "prefect", "airflow", "apache-airflow", "dvc"}
+
+
+def recommend_categories(profile: dict) -> list[str]:
+    """
+    Map a project's detected stack and interests to relevant categories.
+
+    Parameters
+    ----------
+    profile:
+        A project profile dict as returned by scan_project().
+
+    Returns
+    -------
+    A unique list of category name strings.
+    """
+    categories: list[str] = []
+    seen: set[str] = set()
+
+    def _add(cat: str) -> None:
+        if cat not in seen:
+            seen.add(cat)
+            categories.append(cat)
+
+    deps: set[str] = set(profile.get("current_dependencies") or [])
+    interests: list[str] = [i.lower() for i in (profile.get("declared_interests") or [])]
+    frameworks: list[str] = [f.lower() for f in (profile.get("detected_frameworks") or [])]
+    hints: list[str] = [h.lower() for h in (profile.get("architecture_hints") or [])]
+
+    # Combined searchable text from interests + framework labels + hints
+    interest_text = " ".join(interests + frameworks + hints)
+
+    # ------------------------------------------------------------------
+    # LLM frameworks
+    # ------------------------------------------------------------------
+    if deps.intersection(_LLM_FRAMEWORK_DEPS):
+        _add("RAG Framework")
+        _add("AI Agent Framework")
+        _add("Knowledge Management")
+
+    # ------------------------------------------------------------------
+    # Web frameworks
+    # ------------------------------------------------------------------
+    if deps.intersection(_WEB_FRAMEWORK_DEPS):
+        _add("AI Workflow")
+        _add("Browser Agent")
+
+    # ------------------------------------------------------------------
+    # Agent frameworks
+    # ------------------------------------------------------------------
+    if deps.intersection(_AGENT_FRAMEWORK_DEPS):
+        _add("Multi-Agent")
+        _add("AI Agent Framework")
+
+    # ------------------------------------------------------------------
+    # Voice / audio / speech interests
+    # ------------------------------------------------------------------
+    voice_keywords = {"voice", "audio", "speech"}
+    if voice_keywords.intersection(interests) or any(kw in interest_text for kw in voice_keywords):
+        _add("Voice Agent")
+
+    # ------------------------------------------------------------------
+    # MCP
+    # ------------------------------------------------------------------
+    mcp_in_deps = any("mcp" in d for d in deps)
+    mcp_in_interests = any("mcp" in i for i in interests)
+    if mcp_in_deps or mcp_in_interests:
+        _add("MCP")
+
+    # ------------------------------------------------------------------
+    # Observability / monitoring / eval
+    # ------------------------------------------------------------------
+    obs_keywords = {"monitoring", "observability", "eval"}
+    if obs_keywords.intersection(interests) or any(kw in interest_text for kw in obs_keywords):
+        _add("AI Observability")
+
+    # ------------------------------------------------------------------
+    # Coding assistant
+    # ------------------------------------------------------------------
+    coding_keywords = {"coding", "code"}
+    if coding_keywords.intersection(interests) or any(kw in interest_text for kw in coding_keywords):
+        _add("Coding Assistant")
+
+    # ------------------------------------------------------------------
+    # Infrastructure
+    # ------------------------------------------------------------------
+    if deps.intersection(_INFRA_DEPS):
+        _add("AI Infrastructure")
+    infra_keywords = {"docker", "kubernetes", "k8s", "infra", "infrastructure", "helm", "terraform"}
+    if infra_keywords.intersection(interests) or any(kw in interest_text for kw in infra_keywords):
+        _add("AI Infrastructure")
+
+    # ------------------------------------------------------------------
+    # Desktop / browser / automation interests
+    # ------------------------------------------------------------------
+    desktop_keywords = {"desktop", "browser", "automation"}
+    if desktop_keywords.intersection(interests) or any(kw in interest_text for kw in desktop_keywords):
+        _add("Computer Use Agent")
+        _add("Browser Agent")
+
+    # ------------------------------------------------------------------
+    # Fuzzy match: check if any declared interest substring matches a
+    # known category name (case-insensitive)
+    # ------------------------------------------------------------------
+    for cat in _ALL_CATEGORIES:
+        cat_lower = cat.lower()
+        for interest in interests:
+            if interest in cat_lower or cat_lower in interest:
+                _add(cat)
+                break
+
+    return categories
+
+
+# ---------------------------------------------------------------------------
 # CLI entry point
 # ---------------------------------------------------------------------------
 

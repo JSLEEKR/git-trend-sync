@@ -1,6 +1,7 @@
 """
-Velocity-based trend scoring.
-Day 1: instant metrics only. Day 2+: blends with snapshot velocity.
+Activity-based trend scoring.
+Sorts repos by recent 30-day commit activity with stars as tiebreaker.
+Minimum 1000 stars enforced at collection time.
 """
 
 import json
@@ -20,132 +21,83 @@ def days_since(date_str: str) -> int:
         return 9999
 
 
-def load_snapshots() -> list[dict]:
-    """Load all available snapshots, sorted by date ascending."""
-    snapshot_dir = BASE_DIR / "data" / "snapshots"
-    if not snapshot_dir.exists():
-        return []
-    snapshots = []
-    for f in sorted(snapshot_dir.glob("*.json")):
-        with open(f, "r", encoding="utf-8") as fh:
-            snapshots.append(json.load(fh))
-    return snapshots
+def compute_activity_scores(raw_data: dict) -> dict:
+    """Score repos by commits_30d (normalized 0-10), sort, take top 10 per category."""
+    # Load previous day's trending.json to detect new entries
+    prev_repo_set: set[str] = set()
+    data_root = BASE_DIR / "data"
+    target_date = raw_data.get("date", "")
+    if target_date and data_root.exists():
+        # Find the most recent date directory before today
+        date_dirs = sorted(
+            [
+                d.name
+                for d in data_root.iterdir()
+                if d.is_dir() and d.name < target_date
+            ],
+            reverse=True,
+        )
+        if date_dirs:
+            prev_trending = data_root / date_dirs[0] / "trending.json"
+            if prev_trending.exists():
+                try:
+                    with open(prev_trending, encoding="utf-8") as f:
+                        prev_data = json.load(f)
+                    for repos in prev_data.get("categories", {}).values():
+                        for r in repos:
+                            prev_repo_set.add(r.get("full_name", ""))
+                except (json.JSONDecodeError, OSError):
+                    pass
 
+    result: dict[str, list[dict]] = {}
 
-def compute_instant_score(repo: dict) -> float:
-    """Compute trend score from single-day data (no history needed)."""
-    age_days = max(days_since(repo["created_at"]), 1)
-    stars = repo["stars"]
-
-    # Stars per day average (0-10 normalized, cap at 50/day = 10)
-    stars_per_day = min(stars / age_days, 50)
-    spd_score = (stars_per_day / 50) * 10
-
-    # Recent activity (commits + recency)
-    commits = repo["recent_commits_30d"]
-    push_recency = max(0, 30 - days_since(repo["pushed_at"]))
-    activity_score = min((commits * 0.1 + push_recency * 0.2), 10)
-
-    # Newness boost (< 6 months old gets bonus)
-    newness = max(0, 1 - age_days / 180) * 10
-
-    # Issue velocity (more recent issues = more active community)
-    issue_score = min(repo["open_issues"] / max(stars / 1000, 1), 10)
-
-    return round(
-        spd_score * 0.3
-        + activity_score * 0.25
-        + newness * 0.2
-        + issue_score * 0.1
-        + min(commits / 30, 10) * 0.15,
-        2,
-    )
-
-
-def compute_velocity_score(full_name: str, snapshots: list[dict]) -> dict:
-    """Compute velocity from snapshot history."""
-    deltas = []
-    prev_stars = None
-    for snap in snapshots:
-        current = snap["repos"].get(full_name)
-        if current is None:
-            prev_stars = None
-            continue
-        if prev_stars is not None:
-            deltas.append(current["stars"] - prev_stars)
-        prev_stars = current["stars"]
-
-    if not deltas:
-        return {"velocity_score": 0, "star_delta_1d": 0, "star_delta_7d_avg": 0, "acceleration": 0, "days_of_data": 0}
-
-    delta_1d = deltas[-1] if deltas else 0
-    avg_7d = sum(deltas[-7:]) / len(deltas[-7:]) if deltas else 0
-    avg_30d = sum(deltas[-30:]) / len(deltas[-30:]) if deltas else 0
-    acceleration = avg_7d - avg_30d
-
-    # Normalize velocity score (cap daily delta at 200 = score 10)
-    delta_norm = min(delta_1d / 200, 1) * 10
-    avg_norm = min(avg_7d / 150, 1) * 10
-    accel_norm = max(min(acceleration / 50, 1), -1) * 5 + 5
-
-    velocity_score = round(delta_norm * 0.4 + avg_norm * 0.3 + accel_norm * 0.3, 2)
-
-    return {
-        "velocity_score": velocity_score,
-        "star_delta_1d": delta_1d,
-        "star_delta_7d_avg": round(avg_7d, 1),
-        "acceleration": round(acceleration, 1),
-        "days_of_data": len(deltas),
-    }
-
-
-def compute_trend_scores(raw_data: dict) -> dict:
-    """Compute blended trend scores for all repos."""
-    snapshots = load_snapshots()
-    prev_repo_set = set()
-    for snap in snapshots[:-1]:
-        prev_repo_set.update(snap["repos"].keys())
-
-    result = {}
     for cat_name, repos in raw_data["categories"].items():
-        scored = []
-        for r in repos:
-            instant = compute_instant_score(r)
-            vel = compute_velocity_score(r["full_name"], snapshots)
+        if not repos:
+            result[cat_name] = []
+            continue
 
-            days = vel["days_of_data"]
-            if days == 0:
-                trend_score = instant
-            elif days < 7:
-                w = days / 7
-                trend_score = instant * (1 - w) + vel["velocity_score"] * w
+        # Sort by commits_30d descending, stars as tiebreaker
+        sorted_repos = sorted(
+            repos,
+            key=lambda r: (r.get("recent_commits_30d", 0), r.get("stars", 0)),
+            reverse=True,
+        )
+
+        # Min-max normalization of commits_30d within category (0-10 scale)
+        commit_values = [r.get("recent_commits_30d", 0) for r in sorted_repos]
+        min_commits = min(commit_values)
+        max_commits = max(commit_values)
+        commit_range = max_commits - min_commits
+
+        scored: list[dict] = []
+        for r in sorted_repos:
+            commits = r.get("recent_commits_30d", 0)
+            if commit_range > 0:
+                trend_score = round((commits - min_commits) / commit_range * 10, 1)
             else:
-                trend_score = instant * 0.3 + vel["velocity_score"] * 0.7
+                trend_score = 10.0 if commits > 0 else 0.0
 
-            is_new = r["full_name"] not in prev_repo_set
+            age_days = days_since(r.get("created_at", ""))
+            stars = r.get("stars", 0)
+            stars_per_day_avg = round(stars / max(age_days, 1), 1)
 
-            scored.append({
-                **r,
-                "trend_score": round(trend_score, 1),
-                "instant_score": instant,
-                "velocity_score": vel["velocity_score"],
-                "star_delta_1d": vel["star_delta_1d"],
-                "star_delta_7d_avg": vel["star_delta_7d_avg"],
-                "acceleration": vel["acceleration"],
-                "days_of_data": vel["days_of_data"],
-                "is_new_entry": is_new,
-                "stars_per_day_avg": round(r["stars"] / max(days_since(r["created_at"]), 1), 1),
-                "age_days": days_since(r["created_at"]),
-            })
+            scored.append(
+                {
+                    **r,
+                    "trend_score": trend_score,
+                    "stars_per_day_avg": stars_per_day_avg,
+                    "age_days": age_days,
+                    "is_new_entry": r.get("full_name", "") not in prev_repo_set,
+                }
+            )
 
-        scored.sort(key=lambda x: x["trend_score"], reverse=True)
         result[cat_name] = scored[:10]
 
     return {"date": raw_data["date"], "categories": result}
 
 
 def run_trending(date: str = None) -> dict:
-    """Load raw data and compute trend scores."""
+    """Load raw data and compute activity-based trend scores."""
     if date is None:
         date = datetime.now().strftime("%Y-%m-%d")
 
@@ -153,7 +105,7 @@ def run_trending(date: str = None) -> dict:
     with open(raw_path, "r", encoding="utf-8") as f:
         raw_data = json.load(f)
 
-    trending = compute_trend_scores(raw_data)
+    trending = compute_activity_scores(raw_data)
 
     output_path = BASE_DIR / "data" / date / "trending.json"
     with open(output_path, "w", encoding="utf-8") as f:

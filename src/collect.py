@@ -168,18 +168,6 @@ def collect_all() -> dict:
 
     print(f"\nData saved to {output_path}")
 
-    # Save snapshot for velocity tracking
-    snapshot_dir = BASE_DIR / "data" / "snapshots"
-    snapshot_dir.mkdir(parents=True, exist_ok=True)
-    snapshot_path = snapshot_dir / f"{today}.json"
-    snapshot = {"date": today, "repos": {}}
-    for cat_repos in result.values():
-        for r in cat_repos:
-            snapshot["repos"][r["full_name"]] = {"stars": r["stars"], "forks": r["forks"]}
-    with open(snapshot_path, "w", encoding="utf-8") as f:
-        json.dump(snapshot, f, ensure_ascii=False, indent=2)
-    print(f"Snapshot saved to {snapshot_path}")
-
     return {"date": today, "categories": result}
 
 
