@@ -7,17 +7,8 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-import yaml
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CONFIG_PATH = BASE_DIR / "config" / "categories.yaml"
-
-
-def load_categories_config() -> dict:
-    """Load category config for Korean names."""
-    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
-        cats = yaml.safe_load(f)["categories"]
-    return {c["name"]: c.get("name_ko", c["name"]) for c in cats}
 
 
 def extract_json_from_text(text: str) -> dict | None:
@@ -66,45 +57,90 @@ def score_bar(score: float) -> str:
     return "█" * filled + "░" * (10 - filled)
 
 
-def generate_en_report(date: str, metrics: dict, analyses: dict) -> str:
-    """Generate English markdown report."""
+def _trend_emoji(trend_score: float) -> str:
+    """Return an emoji indicator based on trend score."""
+    if trend_score >= 7:
+        return "🔥"
+    if trend_score >= 4:
+        return "📈"
+    return ""
+
+
+def _status(repo: dict) -> str:
+    """Derive status label from repo trending data."""
+    if repo.get("is_new_entry"):
+        return "NEW ENTRY"
+    if repo.get("days_of_data", 0) == 0:
+        return "DAY 1"
+    return "TRENDING"
+
+
+def _age_label(age_days: int) -> str:
+    """Format age in days or years."""
+    if age_days >= 365:
+        return f"{age_days // 365}y"
+    return f"{age_days}d"
+
+
+def _delta_1d(repo: dict) -> str:
+    """Format 1-day star delta."""
+    if repo.get("days_of_data", 0) == 0:
+        return "N/A"
+    return f"+{repo['star_delta_1d']}"
+
+
+def _delta_7d(repo: dict) -> str:
+    """Format 7-day average star delta."""
+    if repo.get("days_of_data", 0) == 0:
+        return "N/A"
+    return f"+{repo['star_delta_7d_avg']}/d"
+
+
+def generate_en_report(date: str, trending: dict, analyses: dict) -> str:
+    """Generate English markdown report from trending data."""
     lines = [
         f"# AI Agent Trend Report — {date}",
         "",
-        f"> Auto-generated on {date}. Repositories sourced from GitHub Topics, "
-        "ranked by stars. Qualitative analysis powered by Claude Code.",
+        f"> Auto-generated on {date}. Velocity-based trending from GitHub Topics. "
+        "Qualitative analysis powered by Claude Code.",
         "",
         "## Table of Contents",
         "",
     ]
 
     # TOC
-    for cat_name in metrics["categories"]:
+    for cat_name in trending["categories"]:
         anchor = cat_name.lower().replace(" ", "-")
         lines.append(f"- [{cat_name}](#{anchor})")
     lines.append("- [Cross-Category Insights](#cross-category-insights)")
     lines.append("")
 
     # Per-category sections
-    for cat_name, repos in metrics["categories"].items():
+    for cat_name, repos in trending["categories"].items():
         lines.append(f"## {cat_name}")
         lines.append("")
 
-        # Metrics table
-        lines.append("### Quantitative Metrics")
+        # Trending table
+        lines.append("### Trending Repositories")
         lines.append("")
-        lines.append("| Rank | Repository | Stars | Activity | Community | Growth | Overall |")
-        lines.append("|------|-----------|-------|----------|-----------|--------|---------|")
+        lines.append("| # | Repository | Trend | Stars | +1d | +7d avg | Age | Status |")
+        lines.append("|---|-----------|-------|-------|-----|---------|-----|--------|")
 
         for i, r in enumerate(repos, 1):
-            s = r["scores"]
+            trend_score = r.get("trend_score", 0)
+            emoji = _trend_emoji(trend_score)
+            trend_cell = f"{emoji} {trend_score}" if emoji else str(trend_score)
+            stars_fmt = f"{r['stars']:,}"
+            age_label = _age_label(r.get("age_days", 0))
+            status = _status(r)
             lines.append(
                 f"| {i} | [{r['name']}]({r['url']}) | "
-                f"{score_bar(s['popularity'])} {s['popularity']} | "
-                f"{score_bar(s['activity'])} {s['activity']} | "
-                f"{score_bar(s['community_health'])} {s['community_health']} | "
-                f"{score_bar(s['growth'])} {s['growth']} | "
-                f"**{s['overall']}** |"
+                f"{trend_cell} | "
+                f"{stars_fmt} | "
+                f"{_delta_1d(r)} | "
+                f"{_delta_7d(r)} | "
+                f"{age_label} | "
+                f"{status} |"
             )
         lines.append("")
 
@@ -166,15 +202,20 @@ def generate_en_report(date: str, metrics: dict, analyses: dict) -> str:
     lines.append("")
 
     all_repos = []
-    for cat_name, repos in metrics["categories"].items():
+    for cat_name, repos in trending["categories"].items():
         for r in repos:
             all_repos.append({**r, "category": cat_name})
-    all_repos.sort(key=lambda x: x["scores"]["overall"], reverse=True)
+    all_repos.sort(key=lambda x: x.get("trend_score", 0), reverse=True)
 
-    lines.append("| Rank | Repository | Category | Overall Score |")
-    lines.append("|------|-----------|----------|---------------|")
+    lines.append("| Rank | Repository | Category | Trend Score |")
+    lines.append("|------|-----------|----------|-------------|")
     for i, r in enumerate(all_repos[:10], 1):
-        lines.append(f"| {i} | [{r['name']}]({r['url']}) | {r['category']} | **{r['scores']['overall']}** |")
+        trend_score = r.get("trend_score", 0)
+        emoji = _trend_emoji(trend_score)
+        trend_cell = f"{emoji} {trend_score}" if emoji else str(trend_score)
+        lines.append(
+            f"| {i} | [{r['name']}]({r['url']}) | {r['category']} | **{trend_cell}** |"
+        )
     lines.append("")
 
     return "\n".join(lines)
@@ -186,21 +227,27 @@ def generate_reports(date: str = None) -> Path:
         date = datetime.now().strftime("%Y-%m-%d")
 
     data_dir = BASE_DIR / "data" / date
+    trending_path = data_dir / "trending.json"
     metrics_path = data_dir / "metrics.json"
     analysis_dir = data_dir / "analysis"
 
-    with open(metrics_path, "r", encoding="utf-8") as f:
-        metrics = json.load(f)
+    # Prefer trending.json; fall back to metrics.json
+    if trending_path.exists():
+        with open(trending_path, "r", encoding="utf-8") as f:
+            trending = json.load(f)
+    else:
+        with open(metrics_path, "r", encoding="utf-8") as f:
+            trending = json.load(f)
 
     # Load analyses
     analyses = {}
-    for cat_name in metrics["categories"]:
+    for cat_name in trending["categories"]:
         analysis = load_analysis(analysis_dir, cat_name)
         if analysis:
             analyses[cat_name] = analysis
 
     # Generate report
-    en_report = generate_en_report(date, metrics, analyses)
+    en_report = generate_en_report(date, trending, analyses)
 
     # Save
     report_dir = BASE_DIR / "reports"

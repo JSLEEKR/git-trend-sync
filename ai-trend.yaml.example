@@ -1,0 +1,9 @@
+# Place this file as ai-trend.yaml in your project root
+# for targeted trend recommendations.
+
+project:
+  name: "My AI App"
+  description: "A conversational AI assistant with RAG pipeline"
+  tech_stack: ["python", "fastapi", "langchain"]
+  interests: ["better RAG", "agent orchestration", "code generation", "multi-agent"]
+  exclude: ["java", "go"]  # ecosystems you're not interested in

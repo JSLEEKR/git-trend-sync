@@ -5,7 +5,7 @@ GitHub Topics에서 카테고리별 상위 레포지토리를 수집합니다.
 import json
 import os
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -30,28 +30,12 @@ def get_headers() -> dict:
     return headers
 
 
-def search_repos(topic: str, limit: int, headers: dict, mode: str = "trending") -> list[dict]:
-    """Search repositories by topic.
-
-    mode:
-        'trending' - recently active repos sorted by stars (last 30 days push)
-        'top' - all-time top repos sorted by stars
-    """
+def search_repos(topic: str, limit: int, headers: dict) -> list[dict]:
+    """Search trending repositories by topic. Only repos with 1000+ stars."""
     url = f"{GITHUB_API}/search/repositories"
-
-    if mode == "trending":
-        from datetime import timedelta
-        since = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
-        q = f"topic:{topic} pushed:>{since}"
-    else:
-        q = f"topic:{topic}"
-
-    params = {
-        "q": q,
-        "sort": "stars",
-        "order": "desc",
-        "per_page": limit,
-    }
+    since = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
+    q = f"topic:{topic} stars:>1000 pushed:>{since}"
+    params = {"q": q, "sort": "stars", "order": "desc", "per_page": limit}
     resp = requests.get(url, headers=headers, params=params, timeout=30)
     resp.raise_for_status()
     return resp.json().get("items", [])
@@ -73,7 +57,6 @@ def get_readme(owner: str, repo: str, headers: dict) -> str:
 
 def get_recent_commits_count(owner: str, repo: str, headers: dict) -> int:
     """Get number of commits in the last 30 days."""
-    from datetime import timedelta
     since = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
     url = f"{GITHUB_API}/repos/{owner}/{repo}/commits"
     params = {"since": since, "per_page": 1}
@@ -184,6 +167,19 @@ def collect_all() -> dict:
         json.dump({"date": today, "categories": result}, f, ensure_ascii=False, indent=2)
 
     print(f"\nData saved to {output_path}")
+
+    # Save snapshot for velocity tracking
+    snapshot_dir = BASE_DIR / "data" / "snapshots"
+    snapshot_dir.mkdir(parents=True, exist_ok=True)
+    snapshot_path = snapshot_dir / f"{today}.json"
+    snapshot = {"date": today, "repos": {}}
+    for cat_repos in result.values():
+        for r in cat_repos:
+            snapshot["repos"][r["full_name"]] = {"stars": r["stars"], "forks": r["forks"]}
+    with open(snapshot_path, "w", encoding="utf-8") as f:
+        json.dump(snapshot, f, ensure_ascii=False, indent=2)
+    print(f"Snapshot saved to {snapshot_path}")
+
     return {"date": today, "categories": result}
 
 

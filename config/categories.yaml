@@ -1,16 +1,16 @@
 categories:
   - name: "AI Agent Framework"
     topics: ["ai-agent", "ai-agents", "autonomous-agent"]
-    limit: 10
+    limit: 30
 
   - name: "RAG Framework"
     topics: ["rag", "retrieval-augmented-generation"]
-    limit: 10
+    limit: 30
 
   - name: "Multi-Agent"
     topics: ["multi-agent", "multi-agent-systems", "agent-orchestration"]
-    limit: 10
+    limit: 30
 
   - name: "Coding Assistant"
     topics: ["coding-assistant", "code-generation", "ai-coding"]
-    limit: 10
+    limit: 30

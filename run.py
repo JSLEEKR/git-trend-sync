@@ -1,16 +1,20 @@
 """
-AI Agent Trend Report — 메인 오케스트레이터
+AI Agent Trend Report v2 — Main Orchestrator
 
-전체 파이프라인을 순서대로 실행합니다:
-1. GitHub Topics에서 카테고리별 레포 수집
-2. 정량 메트릭 계산
-3. Claude Code CLI로 정성적 분석
-4. 한국어/영어 마크다운 리포트 생성
+Pipeline:
+1. Collect trending repos from GitHub Topics (stars>1000, active in 7d)
+2. Compute velocity-based trend scores
+3. Qualitative analysis (optional)
+4. Generate trend report
+5. Project-specific recommendations (optional)
 
 Usage:
-    python run.py              # 전체 파이프라인
-    python run.py --skip-analysis  # Claude Code 분석 건너뛰기 (메트릭만)
-    python run.py --date 2026-03-23  # 특정 날짜 데이터로 리포트 재생성
+    python run.py                           # Full pipeline
+    python run.py --skip-analysis           # Skip qualitative analysis
+    python run.py --no-recommend            # Skip recommendations
+    python run.py --project /path/to/proj   # Recommendations for specific project
+    python run.py --report-only             # Regenerate from existing data
+    python run.py --no-push                 # Skip git push
 """
 
 import argparse
@@ -69,8 +73,20 @@ def step_report(date: str):
     return generate_reports(date)
 
 
+def step_trending(date: str):
+    """Step 2b: Compute trend scores."""
+    from src.trending import run_trending
+    return run_trending(date)
+
+
+def step_recommend(date: str, project_path: str):
+    """Step 5: Generate project recommendations."""
+    from src.recommend import run_recommendations
+    return run_recommendations(date, project_path)
+
+
 def step_publish(date: str):
-    """Step 5: Git commit & push."""
+    """Step 6: Git commit & push."""
     script = BASE_DIR / "src" / "publish.sh"
     result = subprocess.run(
         ["bash", str(script), date],
@@ -103,6 +119,16 @@ def main():
         action="store_true",
         help="Skip git commit & push step",
     )
+    parser.add_argument(
+        "--project",
+        default=".",
+        help="Path to your project for recommendations",
+    )
+    parser.add_argument(
+        "--no-recommend",
+        action="store_true",
+        help="Skip project recommendation step",
+    )
     args = parser.parse_args()
 
     print(f"AI Agent Trend Report — {args.date}")
@@ -115,6 +141,8 @@ def main():
         raw_data = run_step("Collect Repositories", step_collect)
         date = raw_data["date"]
 
+        run_step("Compute Trend Scores", step_trending, date)
+
         run_step("Compute Metrics", step_metrics, date)
 
         if not args.skip_analysis:
@@ -124,6 +152,11 @@ def main():
 
         run_step("Generate Reports", step_report, date)
 
+        if not args.no_recommend:
+            run_step("Project Recommendations", step_recommend, date, args.project)
+        else:
+            print("\n  Skipping recommendations (--no-recommend)")
+
     # Git commit & push
     if not args.no_push:
         run_step("Git Publish", step_publish, args.date)
@@ -132,7 +165,7 @@ def main():
 
     print(f"\n{'='*50}")
     print(f"  Pipeline complete!")
-    print(f"  Reports: reports/ko/{args.date}.md, reports/en/{args.date}.md")
+    print(f"  Report: reports/{args.date}.md")
     print(f"{'='*50}")
 
 
