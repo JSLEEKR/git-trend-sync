@@ -1,4 +1,4 @@
-# Place this file as ai-trend.yaml in your project root
+# Place this file as git-trend-sync.yaml in your project root
 # for targeted trend recommendations.
 
 project:

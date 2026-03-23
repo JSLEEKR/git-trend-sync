@@ -51,7 +51,7 @@ if git diff --cached --quiet; then
 fi
 
 # 커밋
-git commit -m "report: AI Agent Trend Report $DATE"
+git commit -m "report: git-trend-sync $DATE"
 
 # 푸시
 if [ "$HAS_REMOTE" = true ]; then

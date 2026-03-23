@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🤖 AI Agent Trend Report v2
+# 🔄 git-trend-sync
 
-### Activity-based trending of AI agent repositories on GitHub
+### Sync AI trends to your project
 
-[![GitHub Stars](https://img.shields.io/github/stars/JSLEEKR/ai-trend?style=for-the-badge&logo=github&color=yellow)](https://github.com/JSLEEKR/ai-trend/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/JSLEEKR/git-trend-sync?style=for-the-badge&logo=github&color=yellow)](https://github.com/JSLEEKR/git-trend-sync/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Claude](https://img.shields.io/badge/powered%20by-Claude%20Code-D4A574?style=for-the-badge)](https://claude.ai)
@@ -23,17 +23,18 @@ Activity-based scoring + Project-specific recommendations + Claude Code slash co
 
 ## Why This Exists
 
-The AI agent ecosystem moves fast. New frameworks, tools, and patterns emerge weekly. Yesterday's best practice is today's legacy code.
+The AI ecosystem moves fast. New frameworks, tools, and patterns emerge weekly. Yesterday's best practice is today's legacy code.
 
-The problem isn't finding good tools — it's finding the **right tool at the right time** for **your specific project**. A framework with 100k stars might be mature but stagnant. A repo with 2k stars might be the one that solves your exact problem, and it just launched last month.
+**git-trend-sync** keeps your project in sync with what matters. It scans 12 categories of AI repositories, ranks them by real development activity, and tells you — specifically for YOUR codebase — what's worth adopting and what's noise.
 
-**AI Trend** solves this by:
-- **Tracking what's actually active** — not just popular, but actively developed (30-day commit activity)
-- **Filtering noise** — only repos with 1,000+ stars, eliminating toy projects
-- **Matching to your project** — scans your codebase and recommends only what's relevant
-- **Generating integration designs** — not just "check this out", but "here's exactly how to integrate it into your code"
+Think of it as a daily briefing: "Here's what's actively being built in the AI world, and here's what actually applies to your project."
 
-Stop scrolling through GitHub trending. Let the trends come to you — already filtered, analyzed, and matched to your stack.
+- **12 categories tracked** — from AI agents to MCP servers, browser automation to voice AI
+- **Activity-ranked** — sorted by 30-day commits, not just stars
+- **Project-aware** — scans your code and only recommends what fits your stack
+- **Design docs on demand** — `/trend-apply` generates integration plans, not just links
+
+Stop manually browsing GitHub. Let the trends sync to you.
 
 ---
 
@@ -52,7 +53,7 @@ An automated system that tracks **development activity** across 12 AI agent cate
 
 | Pipeline | When | What |
 |----------|------|------|
-| 🔍 **Trend Collection** | Daily (automated) | Collects repos, computes velocity scores, generates report |
+| 🔍 **Trend Collection** | Daily (automated) | Collects repos, computes activity scores, generates report |
 | 🎯 **Recommendations** | After collection | Scans your project, matches with trends, suggests what's relevant |
 | 🔬 **Deep Analysis** | On-demand | Detailed integration design doc for a specific trending repo |
 
@@ -64,6 +65,14 @@ An automated system that tracks **development activity** across 12 AI agent cate
 | 🔍 **RAG Framework** | Retrieval-augmented generation |
 | 🤝 **Multi-Agent** | Multi-agent orchestration |
 | 💻 **Coding Assistant** | AI coding tools |
+| ⚙️ **AI Infrastructure** | LLM serving, gateways, inference |
+| 🌐 **Browser Agent** | Web browser automation agents |
+| 🔌 **MCP** | Model Context Protocol ecosystem |
+| 🔄 **AI Workflow** | Visual AI workflow builders |
+| 🎙️ **Voice Agent** | Voice/realtime AI agents |
+| 🧩 **Knowledge Management** | Knowledge graphs, vector DBs, memory |
+| 📊 **AI Observability** | LLM monitoring, evaluation, prompts |
+| 🖥️ **Computer Use Agent** | Desktop/OS automation agents |
 
 ---
 
@@ -77,8 +86,8 @@ An automated system that tracks **development activity** across 12 AI agent cate
 ### Setup
 
 ```bash
-git clone https://github.com/JSLEEKR/ai-trend.git
-cd ai-trend
+git clone https://github.com/JSLEEKR/git-trend-sync.git
+cd git-trend-sync
 pip install -r requirements.txt
 echo "GITHUB_TOKEN=ghp_your_token_here" > .env
 ```
@@ -149,7 +158,7 @@ Repos are ranked by **development activity** — the number of commits in the la
 
 ## 🎯 Project Recommendations
 
-Add `ai-trend.yaml` to your project root for targeted recommendations:
+Add `git-trend-sync.yaml` to your project root for targeted recommendations:
 
 ```yaml
 project:
@@ -167,27 +176,27 @@ Without config, the scanner auto-detects your stack from `requirements.txt`, `pa
 ## 📁 Project Structure
 
 ```
-ai-trend/
+git-trend-sync/
 ├── src/
 │   ├── collect.py        # GitHub data collection (stars>1000, 7d active)
-│   ├── trending.py       # Velocity-based trend scoring
+│   ├── trending.py       # Activity-based trend scoring
 │   ├── metrics.py        # Legacy quantitative metrics
 │   ├── analyze.py        # Qualitative analysis engine
 │   ├── report.py         # Trend report generation
 │   ├── scan_project.py   # Project context scanner
 │   ├── recommend.py      # Project-trend matcher
 │   ├── apply.py          # Deep integration analysis
+│   ├── history.py        # Trend history tracking
 │   └── publish.sh        # Git commit & push
 ├── config/
 │   ├── categories.yaml   # Category & topic config
 │   └── prompts/          # Analysis prompt templates
 ├── data/
-│   ├── snapshots/        # Daily star count snapshots
 │   └── YYYY-MM-DD/       # Daily analysis data
 ├── reports/              # Generated reports
 ├── .claude/commands/     # /trend and /trend-apply
 ├── run.py                # Main orchestrator
-└── ai-trend.yaml.example
+└── git-trend-sync.yaml.example
 ```
 
 ---
@@ -197,11 +206,11 @@ ai-trend/
 ### Windows Task Scheduler
 
 1. Open Task Scheduler
-2. Create Basic Task → Name: `AI Trend Report`
+2. Create Basic Task → Name: `git-trend-sync`
 3. Trigger: Daily at your preferred time
 4. Action: Start a program
    - Program: `python`
-   - Arguments: `C:\path\to\ai-trend\run.py`
+   - Arguments: `C:\path\to\git-trend-sync\run.py`
 5. Done
 
 ---

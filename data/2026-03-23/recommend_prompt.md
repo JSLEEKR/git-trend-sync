@@ -23,27 +23,99 @@ determine which trending repos are relevant to this project.
 ## Trending Repositories
 [
   {
-    "name": "awesome-claude-code",
-    "full_name": "hesreallyhim/awesome-claude-code",
-    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+    "name": "browser-use",
+    "full_name": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "language": "Python",
+    "license": "MIT",
+    "scores": {
+      "popularity": 10.0,
+      "activity": 10.0,
+      "community_health": 9.6,
+      "growth": 10.0,
+      "maturity": 1.0,
+      "overall": 8.6
+    },
+    "raw_metrics": {
+      "stars": 82768,
+      "forks": 9685,
+      "open_issues": 218,
+      "recent_commits_30d": 275,
+      "created_at": "2024-10-31T16:00:56Z",
+      "pushed_at": "2026-03-22T21:21:40Z"
+    }
+  },
+  {
+    "name": "open-webui",
+    "full_name": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "language": "Python",
     "license": "NOASSERTION",
     "scores": {
-      "popularity": 9.3,
-      "activity": 10.0,
-      "community_health": 9.4,
-      "growth": 9.2,
-      "maturity": 2.6,
-      "overall": 8.5
+      "popularity": 9.4,
+      "activity": 8.3,
+      "community_health": 9.5,
+      "growth": 9.1,
+      "maturity": 3.0,
+      "overall": 8.1
     },
     "raw_metrics": {
-      "stars": 30299,
-      "forks": 2108,
-      "open_issues": 95,
-      "recent_commits_30d": 0,
-      "created_at": "2025-04-19T20:55:59Z",
-      "pushed_at": "2026-03-23T00:37:41Z"
+      "stars": 128310,
+      "forks": 18130,
+      "open_issues": 273,
+      "recent_commits_30d": 444,
+      "created_at": "2023-10-06T22:08:27Z",
+      "pushed_at": "2026-03-23T03:10:05Z"
+    }
+  },
+  {
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "The agent engineering platform",
+    "language": "Python",
+    "license": "MIT",
+    "scores": {
+      "popularity": 9.8,
+      "activity": 3.3,
+      "community_health": 9.1,
+      "growth": 7.7,
+      "maturity": 4.3,
+      "overall": 6.9
+    },
+    "raw_metrics": {
+      "stars": 130645,
+      "forks": 21524,
+      "open_issues": 489,
+      "recent_commits_30d": 181,
+      "created_at": "2022-10-17T02:58:36Z",
+      "pushed_at": "2026-03-23T03:29:21Z"
+    }
+  },
+  {
+    "name": "litellm",
+    "full_name": "BerriAI/litellm",
+    "url": "https://github.com/BerriAI/litellm",
+    "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
+    "language": "Python",
+    "license": "NOASSERTION",
+    "scores": {
+      "popularity": 5.2,
+      "activity": 10.0,
+      "community_health": 5.0,
+      "growth": 10.0,
+      "maturity": 2.6,
+      "overall": 6.7
+    },
+    "raw_metrics": {
+      "stars": 39971,
+      "forks": 6630,
+      "open_issues": 1987,
+      "recent_commits_30d": 2914,
+      "created_at": "2023-07-27T00:09:52Z",
+      "pushed_at": "2026-03-23T00:49:33Z"
     }
   },
   {
@@ -55,91 +127,91 @@ determine which trending repos are relevant to this project.
     "license": "MIT",
     "scores": {
       "popularity": 10.0,
-      "activity": 6.3,
+      "activity": 2.2,
       "community_health": 9.2,
-      "growth": 10.0,
-      "maturity": 3.8,
-      "overall": 8.0
+      "growth": 7.9,
+      "maturity": 1.5,
+      "overall": 6.3
     },
     "raw_metrics": {
-      "stars": 35694,
-      "forks": 4282,
-      "open_issues": 275,
+      "stars": 35920,
+      "forks": 4309,
+      "open_issues": 276,
       "recent_commits_30d": 137,
       "created_at": "2025-05-07T02:50:19Z",
       "pushed_at": "2026-03-23T00:21:54Z"
     }
   },
   {
-    "name": "open-webui",
-    "full_name": "open-webui/open-webui",
-    "url": "https://github.com/open-webui/open-webui",
-    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "name": "vllm",
+    "full_name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "language": "Python",
-    "license": "NOASSERTION",
+    "license": "Apache-2.0",
     "scores": {
-      "popularity": 9.1,
-      "activity": 8.4,
-      "community_health": 9.5,
-      "growth": 8.9,
-      "maturity": 1.4,
-      "overall": 7.8
+      "popularity": 10.0,
+      "activity": 3.7,
+      "community_health": 4.8,
+      "growth": 5.4,
+      "maturity": 3.1,
+      "overall": 5.7
     },
     "raw_metrics": {
-      "stars": 128300,
-      "forks": 18129,
-      "open_issues": 273,
-      "recent_commits_30d": 444,
-      "created_at": "2023-10-06T22:08:27Z",
-      "pushed_at": "2026-03-23T02:36:46Z"
+      "stars": 73990,
+      "forks": 14638,
+      "open_issues": 3821,
+      "recent_commits_30d": 1064,
+      "created_at": "2023-02-09T11:23:20Z",
+      "pushed_at": "2026-03-23T03:10:57Z"
     }
   },
   {
-    "name": "langchain",
-    "full_name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "description": "The agent engineering platform",
-    "language": "Python",
+    "name": "generative-ai-for-beginners",
+    "full_name": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "description": "21 Lessons, Get Started Building with Generative AI ",
+    "language": "Jupyter Notebook",
     "license": "MIT",
     "scores": {
-      "popularity": 9.7,
-      "activity": 3.4,
-      "community_health": 9.1,
-      "growth": 7.0,
-      "maturity": 3.9,
-      "overall": 6.7
+      "popularity": 9.6,
+      "activity": 0.3,
+      "community_health": 10.0,
+      "growth": 4.9,
+      "maturity": 3.3,
+      "overall": 5.7
     },
     "raw_metrics": {
-      "stars": 130632,
-      "forks": 21525,
-      "open_issues": 490,
-      "recent_commits_30d": 181,
-      "created_at": "2022-10-17T02:58:36Z",
-      "pushed_at": "2026-03-23T02:35:38Z"
+      "stars": 108378,
+      "forks": 58093,
+      "open_issues": 13,
+      "recent_commits_30d": 39,
+      "created_at": "2023-06-19T16:28:59Z",
+      "pushed_at": "2026-03-19T03:47:42Z"
     }
   },
   {
-    "name": "pr-agent",
-    "full_name": "qodo-ai/pr-agent",
-    "url": "https://github.com/qodo-ai/pr-agent",
-    "description": "🚀 PR Agent - The Original Open-Source PR Reviewer. This repo is not the Qodo free tier! Try the free version on our website. ",
-    "language": "Python",
-    "license": "AGPL-3.0",
+    "name": "WFGY",
+    "full_name": "onestardao/WFGY",
+    "url": "https://github.com/onestardao/WFGY",
+    "description": "WFGY is an open-source AI Troubleshooting Atlas for RAG, agents, and real-world AI workflows. Includes the 16-problem map, Global Debug Card, and WFGY 3.0. ⭐ Star to help more builders find this repo.",
+    "language": "Jupyter Notebook",
+    "license": "NOASSERTION",
     "scores": {
-      "popularity": 3.4,
+      "popularity": 0.1,
       "activity": 10.0,
-      "community_health": 7.8,
-      "growth": 3.1,
-      "maturity": 8.9,
-      "overall": 6.7
+      "community_health": 9.4,
+      "growth": 7.4,
+      "maturity": 0.7,
+      "overall": 5.6
     },
     "raw_metrics": {
-      "stars": 10630,
-      "forks": 1364,
-      "open_issues": 108,
-      "recent_commits_30d": 0,
-      "created_at": "2023-07-05T21:02:15Z",
-      "pushed_at": "2026-03-22T18:34:08Z"
+      "stars": 1673,
+      "forks": 153,
+      "open_issues": 11,
+      "recent_commits_30d": 902,
+      "created_at": "2025-06-04T13:45:14Z",
+      "pushed_at": "2026-03-22T06:56:48Z"
     }
   },
   {
@@ -151,91 +223,19 @@ determine which trending repos are relevant to this project.
     "license": "MIT",
     "scores": {
       "popularity": 10.0,
-      "activity": 0.6,
-      "community_health": 8.4,
-      "growth": 1.9,
-      "maturity": 10.0,
-      "overall": 6.1
+      "activity": 0.7,
+      "community_health": 8.1,
+      "growth": 2.3,
+      "maturity": 4.4,
+      "overall": 5.3
     },
     "raw_metrics": {
-      "stars": 42390,
-      "forks": 9846,
+      "stars": 42393,
+      "forks": 9847,
       "open_issues": 350,
-      "recent_commits_30d": 151,
+      "recent_commits_30d": 150,
       "created_at": "2022-08-07T08:33:41Z",
       "pushed_at": "2026-03-22T17:18:41Z"
-    }
-  },
-  {
-    "name": "adk-python",
-    "full_name": "google/adk-python",
-    "url": "https://github.com/google/adk-python",
-    "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
-    "language": "Python",
-    "license": "Apache-2.0",
-    "scores": {
-      "popularity": 4.0,
-      "activity": 8.1,
-      "community_health": 6.3,
-      "growth": 6.6,
-      "maturity": 4.2,
-      "overall": 5.9
-    },
-    "raw_metrics": {
-      "stars": 18537,
-      "forks": 3112,
-      "open_issues": 624,
-      "recent_commits_30d": 175,
-      "created_at": "2025-04-01T20:44:40Z",
-      "pushed_at": "2026-03-20T19:41:12Z"
-    }
-  },
-  {
-    "name": "agentscope",
-    "full_name": "agentscope-ai/agentscope",
-    "url": "https://github.com/agentscope-ai/agentscope",
-    "description": "Build and run agents you can see, understand and trust.",
-    "language": "Python",
-    "license": "Apache-2.0",
-    "scores": {
-      "popularity": 3.5,
-      "activity": 0.9,
-      "community_health": 9.2,
-      "growth": 2.6,
-      "maturity": 10.0,
-      "overall": 4.8
-    },
-    "raw_metrics": {
-      "stars": 18586,
-      "forks": 1668,
-      "open_issues": 147,
-      "recent_commits_30d": 19,
-      "created_at": "2024-01-12T03:41:59Z",
-      "pushed_at": "2026-03-20T07:57:33Z"
-    }
-  },
-  {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "language": "Python",
-    "license": "MIT",
-    "scores": {
-      "popularity": 0.0,
-      "activity": 10.0,
-      "community_health": 0.0,
-      "growth": 10.0,
-      "maturity": 1.7,
-      "overall": 4.3
-    },
-    "raw_metrics": {
-      "stars": 10381,
-      "forks": 1301,
-      "open_issues": 449,
-      "recent_commits_30d": 2311,
-      "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-03-23T01:20:30Z"
     }
   },
   {
@@ -246,17 +246,17 @@ determine which trending repos are relevant to this project.
     "language": "Python",
     "license": "Apache-2.0",
     "scores": {
-      "popularity": 6.3,
-      "activity": 0.7,
+      "popularity": 7.3,
+      "activity": 0.6,
       "community_health": 10.0,
-      "growth": 3.7,
-      "maturity": 0.0,
-      "overall": 4.3
+      "growth": 5.2,
+      "maturity": 2.3,
+      "overall": 5.1
     },
     "raw_metrics": {
-      "stars": 103173,
-      "forks": 15057,
-      "open_issues": 3,
+      "stars": 103181,
+      "forks": 15058,
+      "open_issues": 4,
       "recent_commits_30d": 37,
       "created_at": "2024-04-29T05:30:25Z",
       "pushed_at": "2026-03-17T00:09:29Z"
@@ -270,15 +270,15 @@ determine which trending repos are relevant to this project.
     "language": "Python",
     "license": "Apache-2.0",
     "scores": {
-      "popularity": 2.7,
-      "activity": 0.5,
+      "popularity": 4.7,
+      "activity": 0.4,
       "community_health": 9.2,
-      "growth": 1.3,
-      "maturity": 10.0,
-      "overall": 4.3
+      "growth": 3.4,
+      "maturity": 7.6,
+      "overall": 4.8
     },
     "raw_metrics": {
-      "stars": 72827,
+      "stars": 72830,
       "forks": 10013,
       "open_issues": 252,
       "recent_commits_30d": 26,
@@ -287,99 +287,99 @@ determine which trending repos are relevant to this project.
     }
   },
   {
-    "name": "owl",
-    "full_name": "camel-ai/owl",
-    "url": "https://github.com/camel-ai/owl",
-    "description": "🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
-    "language": "Python",
-    "license": "Unknown",
-    "scores": {
-      "popularity": 3.9,
-      "activity": 0.0,
-      "community_health": 9.5,
-      "growth": 2.3,
-      "maturity": 4.6,
-      "overall": 3.9
-    },
-    "raw_metrics": {
-      "stars": 19245,
-      "forks": 2245,
-      "open_issues": 102,
-      "recent_commits_30d": 0,
-      "created_at": "2025-03-03T15:42:51Z",
-      "pushed_at": "2026-03-20T14:35:10Z"
-    }
-  },
-  {
-    "name": "agents-towards-production",
-    "full_name": "NirDiamant/agents-towards-production",
-    "url": "https://github.com/NirDiamant/agents-towards-production",
-    "description": " This repository delivers end-to-end, code-first tutorials covering every layer of production-grade GenAI agents, guiding you from spark to scale with proven patterns and reusable blueprints for real-world launches.",
-    "language": "Jupyter Notebook",
-    "license": "NOASSERTION",
-    "scores": {
-      "popularity": 3.7,
-      "activity": 0.3,
-      "community_health": 10.0,
-      "growth": 2.2,
-      "maturity": 3.3,
-      "overall": 3.8
-    },
-    "raw_metrics": {
-      "stars": 18414,
-      "forks": 2438,
-      "open_issues": 10,
-      "recent_commits_30d": 7,
-      "created_at": "2025-06-16T17:33:44Z",
-      "pushed_at": "2026-03-17T15:52:59Z"
-    }
-  },
-  {
-    "name": "agent-framework",
-    "full_name": "microsoft/agent-framework",
-    "url": "https://github.com/microsoft/agent-framework",
-    "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+    "name": "LightRAG",
+    "full_name": "HKUDS/LightRAG",
+    "url": "https://github.com/HKUDS/LightRAG",
+    "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
     "language": "Python",
     "license": "MIT",
     "scores": {
-      "popularity": 0.0,
+      "popularity": 1.1,
+      "activity": 7.9,
+      "community_health": 8.5,
+      "growth": 3.2,
+      "maturity": 1.7,
+      "overall": 4.7
+    },
+    "raw_metrics": {
+      "stars": 30108,
+      "forks": 4319,
+      "open_issues": 190,
+      "recent_commits_30d": 419,
+      "created_at": "2024-10-02T11:57:54Z",
+      "pushed_at": "2026-03-22T19:03:50Z"
+    }
+  },
+  {
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "language": "Python",
+    "license": "MIT",
+    "scores": {
+      "popularity": 1.8,
       "activity": 10.0,
       "community_health": 0.0,
-      "growth": 5.0,
-      "maturity": 3.9,
-      "overall": 3.8
+      "growth": 10.0,
+      "maturity": 0.8,
+      "overall": 4.6
     },
     "raw_metrics": {
-      "stars": 8131,
-      "forks": 1349,
-      "open_issues": 733,
-      "recent_commits_30d": 217,
-      "created_at": "2025-04-28T19:40:42Z",
-      "pushed_at": "2026-03-22T14:32:40Z"
+      "stars": 10413,
+      "forks": 1303,
+      "open_issues": 451,
+      "recent_commits_30d": 2311,
+      "created_at": "2025-07-22T22:22:28Z",
+      "pushed_at": "2026-03-23T01:20:30Z"
     }
   },
   {
-    "name": "edict",
-    "full_name": "cft0808/edict",
-    "url": "https://github.com/cft0808/edict",
-    "description": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
+    "name": "awesome-claude-code",
+    "full_name": "hesreallyhim/awesome-claude-code",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+    "language": "Python",
+    "license": "NOASSERTION",
+    "scores": {
+      "popularity": 8.7,
+      "activity": 0.7,
+      "community_health": 9.7,
+      "growth": 1.8,
+      "maturity": 0.6,
+      "overall": 4.6
+    },
+    "raw_metrics": {
+      "stars": 30316,
+      "forks": 2111,
+      "open_issues": 95,
+      "recent_commits_30d": 164,
+      "created_at": "2025-04-19T20:55:59Z",
+      "pushed_at": "2026-03-23T00:37:41Z"
+    }
+  },
+  {
+    "name": "SeleniumBase",
+    "full_name": "seleniumbase/SeleniumBase",
+    "url": "https://github.com/seleniumbase/SeleniumBase",
+    "description": "APIs for browser automation, testing, and bypassing bot-detection.",
     "language": "Python",
     "license": "MIT",
     "scores": {
-      "popularity": 1.2,
-      "activity": 3.5,
-      "community_health": 8.7,
-      "growth": 2.4,
-      "maturity": 0.0,
-      "overall": 3.3
+      "popularity": 1.4,
+      "activity": 2.2,
+      "community_health": 9.9,
+      "growth": 1.5,
+      "maturity": 10.0,
+      "overall": 4.6
     },
     "raw_metrics": {
-      "stars": 12060,
-      "forks": 1167,
-      "open_issues": 151,
-      "recent_commits_30d": 76,
-      "created_at": "2026-02-23T14:35:04Z",
-      "pushed_at": "2026-03-17T23:02:02Z"
+      "stars": 12508,
+      "forks": 1534,
+      "open_issues": 14,
+      "recent_commits_30d": 61,
+      "created_at": "2014-03-04T23:07:33Z",
+      "pushed_at": "2026-03-23T01:06:16Z"
     }
   }
 ]
