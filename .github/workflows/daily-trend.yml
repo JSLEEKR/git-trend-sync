@@ -1,0 +1,108 @@
+name: Daily Trend Sync
+
+on:
+  schedule:
+    # Run daily at 09:00 UTC (18:00 KST)
+    - cron: '0 9 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync-trends:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline (collect + trending + report)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: python run.py --skip-analysis --no-push --no-recommend
+
+      - name: Update README with trending data
+        run: python -c "from src.readme_update import update_readme; update_readme()"
+
+      - name: Generate badges
+        run: python -c "from src.badge import generate_badges_file; generate_badges_file()"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "report: daily trend sync $(date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Create/update notification issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+
+          # Check if today's report exists
+          if [ ! -f "reports/${DATE}.md" ]; then
+            echo "No report generated for today"
+            exit 0
+          fi
+
+          # Extract top 5 repos across categories from trending.json
+          TOP_REPOS=$(python3 -c "
+          import json
+          from pathlib import Path
+          date = '${DATE}'
+          p = Path(f'data/{date}/trending.json')
+          if not p.exists():
+              print('No data')
+              exit()
+          with open(p) as f:
+              d = json.load(f)
+          all_repos = []
+          for cat, repos in d['categories'].items():
+              for r in repos:
+                  all_repos.append((r.get('trend_score',0), r['name'], cat, r.get('stars',0), r.get('recent_commits_30d',0), r.get('url','')))
+          all_repos.sort(reverse=True)
+          print('| # | Repo | Category | Activity | Stars | Commits |')
+          print('|---|------|----------|----------|-------|---------|')
+          for i, (score, name, cat, stars, commits, url) in enumerate(all_repos[:10], 1):
+              emoji = '🔥' if score >= 7 else '📈' if score >= 4 else ''
+              print(f'| {i} | [{name}]({url}) | {cat} | {emoji} {score} | {stars:,} | {commits} |')
+          ")
+
+          # Find or create the notification issue
+          ISSUE_NUM=$(gh issue list --label "daily-trend" --state open --limit 1 --json number --jq '.[0].number // empty')
+
+          BODY="## 🔄 Daily Trend Report — ${DATE}
+
+          ${TOP_REPOS}
+
+          📊 [Full Report](reports/${DATE}.md)
+          "
+
+          if [ -z "$ISSUE_NUM" ]; then
+            gh issue create \
+              --title "🔄 Daily Trend Notifications" \
+              --label "daily-trend" \
+              --body "Subscribe to this issue to receive daily trend notifications."
+            ISSUE_NUM=$(gh issue list --label "daily-trend" --state open --limit 1 --json number --jq '.[0].number')
+          fi
+
+          gh issue comment "$ISSUE_NUM" --body "$BODY"
+          echo "Notification posted to issue #${ISSUE_NUM}"

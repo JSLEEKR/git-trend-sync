@@ -1,0 +1,18 @@
+name: Setup Labels
+
+on:
+  workflow_dispatch:
+
+jobs:
+  create-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create daily-trend label
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create "daily-trend" \
+            --repo ${{ github.repository }} \
+            --color "0075ca" \
+            --description "Daily trend notification issue" \
+            || echo "Label already exists"

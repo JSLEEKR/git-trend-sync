@@ -36,6 +36,25 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 
 Stop manually browsing GitHub. Let the trends sync to you.
 
+<!-- TREND-START -->
+### 🔥 Today's Top Trending (2026-03-23)
+
+| # | Repository | Category | Activity | Stars | Commits (30d) |
+|---|-----------|----------|----------|-------|---------------|
+| 1 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | AI Agent Framework | 🔥 10.0 | 10,413 | 2311 |
+| 2 | [dify](https://github.com/langgenius/dify) | RAG Framework | 🔥 10.0 | 133,997 | 531 |
+| 3 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 🔥 10.0 | 1,051 | 612 |
+| 4 | [kilocode](https://github.com/Kilo-Org/kilocode) | Coding Assistant | 🔥 10.0 | 17,067 | 2353 |
+| 5 | [litellm](https://github.com/BerriAI/litellm) | AI Infrastructure | 🔥 10.0 | 39,971 | 2914 |
+| 6 | [browser-use](https://github.com/browser-use/browser-use) | Browser Agent | 🔥 10.0 | 82,768 | 275 |
+| 7 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | 🔥 10.0 | 83,849 | 1063 |
+| 8 | [dagu](https://github.com/dagu-org/dagu) | AI Workflow | 🔥 10.0 | 3,192 | 196 |
+| 9 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 🔥 10.0 | 14,014 | 258 |
+| 10 | [WFGY](https://github.com/onestardao/WFGY) | Knowledge Management | 🔥 10.0 | 1,673 | 902 |
+
+> Last updated: 2026-03-23 — [Full Report](reports/2026-03-23.md)
+<!-- TREND-END -->
+
 ---
 
 ## 📋 What is this?
