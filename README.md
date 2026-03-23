@@ -41,15 +41,15 @@ Stop manually browsing GitHub. Let the trends sync to you.
 
 | # | Repository | Category | Activity | Stars | Commits (30d) |
 |---|-----------|----------|----------|-------|---------------|
-| 1 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | AI Agent Framework | 🔥 10.0 | 10,413 | 2311 |
-| 2 | [dify](https://github.com/langgenius/dify) | RAG Framework | 🔥 10.0 | 133,997 | 531 |
-| 3 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 🔥 10.0 | 1,051 | 612 |
-| 4 | [kilocode](https://github.com/Kilo-Org/kilocode) | Coding Assistant | 🔥 10.0 | 17,067 | 2353 |
-| 5 | [litellm](https://github.com/BerriAI/litellm) | AI Infrastructure | 🔥 10.0 | 39,971 | 2914 |
-| 6 | [browser-use](https://github.com/browser-use/browser-use) | Browser Agent | 🔥 10.0 | 82,768 | 275 |
-| 7 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | 🔥 10.0 | 83,849 | 1063 |
-| 8 | [dagu](https://github.com/dagu-org/dagu) | AI Workflow | 🔥 10.0 | 3,192 | 196 |
-| 9 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 🔥 10.0 | 14,014 | 258 |
+| 1 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | AI Agent Framework | 🔥 10.0 | 10,796 | 2293 |
+| 2 | [dify](https://github.com/langgenius/dify) | RAG Framework | 🔥 10.0 | 134,087 | 563 |
+| 3 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 🔥 10.0 | 1,067 | 634 |
+| 4 | [kilocode](https://github.com/Kilo-Org/kilocode) | Coding Assistant | 🔥 10.0 | 17,083 | 2392 |
+| 5 | [litellm](https://github.com/BerriAI/litellm) | AI Infrastructure | 🔥 10.0 | 40,032 | 2892 |
+| 6 | [browser-use](https://github.com/browser-use/browser-use) | Browser Agent | 🔥 10.0 | 83,168 | 270 |
+| 7 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | 🔥 10.0 | 83,883 | 1255 |
+| 8 | [dagu](https://github.com/dagu-org/dagu) | AI Workflow | 🔥 10.0 | 3,193 | 196 |
+| 9 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 🔥 10.0 | 14,030 | 258 |
 | 10 | [WFGY](https://github.com/onestardao/WFGY) | Knowledge Management | 🔥 10.0 | 1,673 | 902 |
 
 > Last updated: 2026-03-23 — [Full Report](reports/2026-03-23.md)
