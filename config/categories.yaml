@@ -1,20 +1,16 @@
 categories:
   - name: "AI Agent Framework"
-    name_ko: "AI 에이전트 프레임워크"
     topics: ["ai-agent", "ai-agents", "autonomous-agent"]
     limit: 10
 
   - name: "RAG Framework"
-    name_ko: "RAG 프레임워크"
     topics: ["rag", "retrieval-augmented-generation"]
     limit: 10
 
   - name: "Multi-Agent"
-    name_ko: "멀티 에이전트"
     topics: ["multi-agent", "multi-agent-systems", "agent-orchestration"]
     limit: 10
 
   - name: "Coding Assistant"
-    name_ko: "AI 코딩 도구"
     topics: ["coding-assistant", "code-generation", "ai-coding"]
     limit: 10
