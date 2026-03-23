@@ -1,0 +1,238 @@
+{
+  "individual_analysis": [
+    {
+      "name": "awesome-claude-code",
+      "pros": [
+        "Highest overall score (8.5) with strong popularity (9.3), perfect activity (10.0), and excellent growth (9.2)",
+        "30k stars as the leading curated hub for Claude Code extensions, plugins, tips, and configurations",
+        "Excellent community health (9.4) indicates active curation and quality contributor engagement",
+        "Network effect: as Claude Code adoption grows, this resource becomes increasingly valuable as a discovery layer"
+      ],
+      "cons": [
+        "Curated awesome-list, not a tool itself -- value is derivative of the projects it links to",
+        "Tightly coupled to Claude Code ecosystem; limited utility if developers use other AI coding platforms",
+        "Zero commits in last 30 days despite high activity score suggests the score may reflect earlier periods",
+        "Low maturity (2.6) for a reference project indicates relatively recent creation"
+      ]
+    },
+    {
+      "name": "tabby",
+      "pros": [
+        "Self-hosted AI code completion server -- the leading open-source alternative to GitHub Copilot for enterprises with data sovereignty needs",
+        "Highest star count in category (33k) with perfect maturity (10.0) and popularity (10.0)",
+        "Supports multiple model backends and IDE integrations (VS Code, JetBrains, Vim/Neovim)",
+        "Good community health (8.1) with established contributor base and documentation"
+      ],
+      "cons": [
+        "Zero commits in last 30 days raises serious concerns about ongoing maintenance and development",
+        "299 open issues is the highest in the category, suggesting accumulated unresolved bugs or feature requests",
+        "Self-hosting complexity (GPU requirements, model management) can be a barrier for smaller teams",
+        "The dichotomy of perfect maturity but zero activity suggests possible project transition or abandonment"
+      ]
+    },
+    {
+      "name": "pr-agent",
+      "pros": [
+        "Targets a specific, high-ROI workflow -- automated PR review with AI-generated suggestions, descriptions, and issue detection",
+        "Strong maturity (8.9) and good community health (7.8) indicate a battle-tested, production-ready tool",
+        "Perfect activity score (10.0) shows the project maintains strong development momentum",
+        "10.6k stars with 1.4k forks demonstrate active enterprise adoption and community customization"
+      ],
+      "cons": [
+        "Zero commits in last 30 days despite high activity score -- similar data anomaly as other repos in this category",
+        "108 open issues may indicate prioritization challenges in the plugin/integration surface",
+        "Competes directly with GitHub Copilot PR review, GitLab Duo, and other first-party vendor integrations",
+        "Moderate popularity (3.4) relative to other category members limits its ecosystem influence"
+      ]
+    },
+    {
+      "name": "vibe-vibe",
+      "pros": [
+        "Active development momentum with high activity score (8.0) and good community health (10.0 -- perfect score)",
+        "Very low issue count (3) suggests either excellent code quality or very tight scope management",
+        "4k stars and 327 forks show organic growing interest in the project's approach"
+      ],
+      "cons": [
+        "Very low maturity (0.4) indicates an extremely early-stage project with no stability guarantees",
+        "Small community size means fewer contributors and limited third-party documentation or tutorials",
+        "Low popularity (1.1) and growth (1.1) scores suggest limited visibility beyond its niche",
+        "Zero commits in last 30 days despite activity score; actual current development state unclear"
+      ]
+    },
+    {
+      "name": "claude-code-ultimate-guide",
+      "pros": [
+        "High activity score (9.0) indicating strong content development and curation momentum",
+        "Fills a critical educational gap with in-depth practical guidance for Claude Code power users",
+        "Excellent community health (9.6) suggests well-maintained, quality-reviewed content",
+        "Low issue count (5) confirms content is well-maintained and community-validated"
+      ],
+      "cons": [
+        "Only 2.1k stars -- smallest documentation-focused project in the category by adoption",
+        "Documentation repo with inherently limited ceiling for sustained community growth compared to tool repos",
+        "Entirely dependent on Claude Code platform -- API changes or product pivots can invalidate content rapidly",
+        "Zero maturity (0.0) indicates very recent creation with no established track record"
+      ]
+    },
+    {
+      "name": "oh-my-pi",
+      "pros": [
+        "Perfect activity score (10.0) -- the highest development velocity signal in the category",
+        "Addresses the niche of AI-assisted development on Raspberry Pi and edge devices",
+        "2.3k stars show meaningful interest in the AI-on-edge-hardware space"
+      ],
+      "cons": [
+        "Low community health (5.7) suggests contributor engagement or documentation issues",
+        "Very low maturity (0.1) and popularity (0.6) indicate a very early-stage, niche project",
+        "44 open issues for a small project is relatively high, suggesting scope or quality challenges",
+        "The activity-to-adoption gap (high activity, low stars) may indicate automated commits or internal development patterns"
+      ]
+    },
+    {
+      "name": "design2code",
+      "pros": [
+        "Addresses the high-value design-to-code conversion use case -- directly translates UI designs into functional code",
+        "Good community health (9.1) indicates quality documentation and approachable contribution process",
+        "High maturity (7.6) for a specialized tool suggests a stable, well-tested codebase"
+      ],
+      "cons": [
+        "Only 665 stars and 102 forks -- the smallest community in the category by far",
+        "Very low activity (0.5), popularity (0.1), and growth (0.1) scores indicate minimal momentum",
+        "3 open issues could indicate either good maintenance or very low usage generating reports",
+        "Competes with well-funded commercial tools (v0, Vercel, Bolt) and GitHub Copilot design features"
+      ]
+    },
+    {
+      "name": "kodus-ai",
+      "pros": [
+        "High activity score (9.0) suggests strong active development and iteration",
+        "AI-powered code review and analysis tool targeting developer productivity workflows",
+        "1k stars for a newer project shows early traction in a competitive space"
+      ],
+      "cons": [
+        "Very low community health (1.4) -- the worst in the category -- suggesting poor documentation, hostile contributor dynamics, or closed development",
+        "38 open issues relative to 1k stars is a high ratio indicating quality or scope problems",
+        "Low maturity (2.8) and popularity (0.2) reflect a project still proving its value proposition",
+        "Zero commits in last 30 days despite activity score raises questions about current development status"
+      ]
+    },
+    {
+      "name": "talkcody",
+      "pros": [
+        "High activity score (8.0) indicates development momentum in the conversational coding assistant space",
+        "Conversational code assistant approach differentiates from completion-focused tools"
+      ],
+      "cons": [
+        "Only 423 stars -- second-lowest in the category -- reflecting very limited adoption",
+        "Low community health (4.6) suggests documentation gaps or unwelcoming contributor experience",
+        "Zero popularity (0.0) and growth (0.0) scores indicate the project has not gained meaningful traction",
+        "Very low maturity (0.6) means no stability guarantees for any adopters"
+      ]
+    },
+    {
+      "name": "zeroshot",
+      "pros": [
+        "High activity score (9.0) and the zero-shot code generation concept addresses an interesting technical paradigm",
+        "1.4k stars and 107 forks show some community experimentation with the approach"
+      ],
+      "cons": [
+        "Zero community health (0.0) -- the absolute worst possible score -- indicates fundamental project governance problems",
+        "59 open issues with zero community engagement signals likely abandonment of community support",
+        "Lowest overall score (2.4) in the category with minimal growth (0.3) and maturity (0.1)",
+        "Zero commits in last 30 days confirms stalled development despite the activity score"
+      ]
+    }
+  ],
+  "good_combinations": [
+    {
+      "repos": ["tabby", "pr-agent"],
+      "reason": "Tabby provides self-hosted AI code completion during development while pr-agent automates AI-powered code review at PR time. Together they form a fully self-hosted, end-to-end AI-assisted development pipeline covering both authoring and review stages, ideal for enterprises with data sovereignty requirements."
+    },
+    {
+      "repos": ["awesome-claude-code", "claude-code-ultimate-guide"],
+      "reason": "The curated resource list provides breadth (discovery of extensions, tools, and configurations) while the ultimate guide provides depth (best practices, workflows, and advanced techniques). Combined, they create a complete onboarding and mastery path for Claude Code adoption."
+    },
+    {
+      "repos": ["pr-agent", "design2code"],
+      "reason": "design2code generates initial code from UI designs, and pr-agent reviews the generated code for quality, security, and best practices. This creates a design-to-reviewed-code pipeline where AI handles both generation and quality assurance."
+    },
+    {
+      "repos": ["tabby", "kodus-ai"],
+      "reason": "Tabby handles real-time code completion in the IDE while kodus-ai provides deeper code analysis and review. The combination covers both inline assistance during coding and post-hoc code quality analysis, without functional overlap."
+    }
+  ],
+  "bad_combinations": [
+    {
+      "repos": ["awesome-claude-code", "zeroshot"],
+      "reason": "awesome-claude-code is tightly coupled to the Claude ecosystem while zeroshot targets a different, model-agnostic generation paradigm with zero community health. Pairing a stalled project with an actively curated ecosystem hub provides no synergy and creates confusion."
+    },
+    {
+      "repos": ["talkcody", "zeroshot"],
+      "reason": "Both have near-zero community health and growth, zero recent commits, and minimal adoption. Combining two effectively abandoned projects compounds maintenance risk with no active community to resolve integration issues or provide support."
+    },
+    {
+      "repos": ["oh-my-pi", "tabby"],
+      "reason": "oh-my-pi targets edge/Raspberry Pi hardware while tabby requires GPU resources for self-hosted model inference. The hardware requirements are fundamentally incompatible -- tabby's model serving cannot run on the resource-constrained devices that oh-my-pi targets."
+    },
+    {
+      "repos": ["claude-code-ultimate-guide", "design2code"],
+      "reason": "A Claude Code documentation guide and a design-to-code converter serve entirely different workflows with no technical integration surface. One is static educational content, the other is an executable tool -- combining them adds no value to either."
+    },
+    {
+      "repos": ["kodus-ai", "pr-agent"],
+      "reason": "Both target automated code review and analysis with significant functional overlap. Running both creates competing review feedback, duplicate CI/CD pipeline steps, and developer confusion about which tool's suggestions to follow."
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "name": "tabby",
+      "justification": "Highest star count (33k), perfect maturity (10.0) and popularity (10.0) as the leading open-source self-hosted code completion server. Despite zero recent commits raising maintenance concerns, its unique self-hosting value proposition and established IDE integration ecosystem make it the most practically useful tool in the category for enterprise adoption."
+    },
+    {
+      "rank": 2,
+      "name": "pr-agent",
+      "justification": "Best balance of practical utility and project health: high maturity (8.9), focused PR review scope with clear ROI, and strong community engagement (7.8 health, 1.4k forks). Targets a specific, high-value workflow that directly reduces engineering review burden with measurable impact."
+    },
+    {
+      "rank": 3,
+      "name": "awesome-claude-code",
+      "justification": "Highest overall score (8.5) as the leading Claude Code ecosystem hub with 30k stars and perfect activity. While a curated list rather than a tool, its network effect and discovery value make it essential for the rapidly growing Claude Code user base."
+    },
+    {
+      "rank": 4,
+      "name": "vibe-vibe",
+      "justification": "Perfect community health (10.0) with zero issue debt and active development momentum. Small but healthy project that demonstrates good engineering discipline. Best suited as a lightweight, well-maintained coding assistant for developers who value simplicity."
+    },
+    {
+      "rank": 5,
+      "name": "claude-code-ultimate-guide",
+      "justification": "Strong activity (9.0) and excellent community health (9.6) for a documentation project. Fills a critical educational gap for Claude Code power users. Limited by its documentation-only nature, but high quality content with active maintenance."
+    },
+    {
+      "rank": 6,
+      "name": "design2code",
+      "justification": "High maturity (7.6) for a specialized design-to-code tool with good community health (9.1). Addresses a valuable use case but faces stiff commercial competition and has very limited adoption (665 stars). Best for teams specifically needing open-source design-to-code conversion."
+    },
+    {
+      "rank": 7,
+      "name": "oh-my-pi",
+      "justification": "Perfect activity score (10.0) signals strong development investment, and the edge AI development niche is underserved. However, very low maturity (0.1), mediocre community health (5.7), and the activity-to-adoption gap warrant caution until the project matures."
+    },
+    {
+      "rank": 8,
+      "name": "kodus-ai",
+      "justification": "High activity (9.0) shows development momentum, but the worst community health in the category (1.4) is a critical red flag. The project needs to invest in documentation, contributor experience, and community building before it can compete with established alternatives."
+    },
+    {
+      "rank": 9,
+      "name": "talkcody",
+      "justification": "Interesting conversational coding assistant concept, but near-zero adoption (423 stars), poor community health (4.6), and no growth trajectory make it unsuitable for serious consideration. Needs significant maturation and visibility improvement."
+    },
+    {
+      "rank": 10,
+      "name": "zeroshot",
+      "justification": "Zero community health, minimal growth, and the lowest overall score (2.4) in the category. The project appears effectively abandoned with no community engagement despite having 59 open issues. Not recommended for any use case."
+    }
+  ]
+}

@@ -14,12 +14,18 @@ Usage:
 """
 
 import argparse
+import io
+import os
 import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
+
+# Fix Windows console encoding
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
 BASE_DIR = Path(__file__).resolve().parent
 load_dotenv(BASE_DIR / ".env")
@@ -53,14 +59,8 @@ def step_metrics(date: str):
 
 def step_analyze(date: str):
     """Step 3: Run Claude Code analysis."""
-    script = BASE_DIR / "src" / "analyze.sh"
-    result = subprocess.run(
-        ["bash", str(script), date],
-        cwd=str(BASE_DIR),
-        capture_output=False,
-    )
-    if result.returncode != 0:
-        print("  Warning: Some analyses may have failed")
+    from src.analyze import run_analysis
+    return run_analysis(date)
 
 
 def step_report(date: str):

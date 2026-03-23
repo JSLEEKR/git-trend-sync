@@ -1,0 +1,247 @@
+{
+  "individual_analysis": [
+    {
+      "name": "deer-flow",
+      "pros": [
+        "Highest overall score (8.0) with perfect popularity (10.0) and growth (10.0) -- the clear leader in the category",
+        "Strong development velocity (137 commits/30d) with excellent community health (9.2)",
+        "36k stars with 4.3k forks demonstrate rapid and broad adoption for multi-agent workflows",
+        "Research-oriented multi-agent workflow engine that bridges academic innovation and production utility"
+      ],
+      "cons": [
+        "275 open issues suggest backlog management challenges as adoption outpaces issue resolution",
+        "Relatively low maturity (3.8) indicates the architecture is still evolving and may introduce breaking changes",
+        "Fast iteration pace could destabilize downstream integrations that depend on stable APIs",
+        "Documentation may lag behind the rapid development velocity"
+      ]
+    },
+    {
+      "name": "adk-python",
+      "pros": [
+        "Google-backed Agent Development Kit provides long-term support assurance and enterprise credibility",
+        "High development activity (175 commits/30d, 8.1 activity score) shows strong engineering investment",
+        "Official SDK status ensures tight integration with Google Cloud AI services, Vertex AI, and Gemini models",
+        "18.5k stars and 3.1k forks indicate broad developer interest and active community experimentation"
+      ],
+      "cons": [
+        "624 open issues -- highest in the category -- signals quality or scope management challenges",
+        "Potential vendor lock-in to Google Cloud ecosystem and Gemini model family limits portability",
+        "High fork-to-star ratio (16.8%) may indicate fragmentation rather than coordinated upstream contribution",
+        "Moderate maturity (4.2) suggests the SDK surface is still stabilizing"
+      ]
+    },
+    {
+      "name": "ruflo",
+      "pros": [
+        "Strong star count (22.5k) with good fork engagement (2.4k) indicates solid community awareness",
+        "Moderate development activity (69 commits/30d) shows ongoing active maintenance",
+        "Good community health (8.2) suggests healthy contributor dynamics and documentation"
+      ],
+      "cons": [
+        "383 open issues relative to commit rate suggests bug resolution is not keeping pace with reports",
+        "Overall score (5.0) is mid-range despite high star count, indicating declining momentum",
+        "Mid-tier positioning makes it less compelling than either the top leaders or fast-rising newcomers",
+        "Moderate maturity (3.4) leaves it in an awkward position between stable and cutting-edge"
+      ]
+    },
+    {
+      "name": "astron-agent",
+      "pros": [
+        "Strong commit velocity (166/30d, 7.7 activity score) demonstrates highly active and disciplined development",
+        "Low issue count (57) relative to activity suggests effective issue triage and resolution practices",
+        "Excellent community health (9.5) -- highest in the category -- indicates welcoming contributor ecosystem",
+        "Good overall score (4.9) driven primarily by strong development momentum"
+      ],
+      "cons": [
+        "Smaller community (10.5k stars) compared to top-tier projects may limit ecosystem of plugins and integrations",
+        "Low maturity (2.0) indicates a young project with limited production deployment track record",
+        "High commit rate on a smaller project could indicate frequent architectural pivots",
+        "Lower star count may reflect limited enterprise adoption or visibility outside its niche"
+      ]
+    },
+    {
+      "name": "agentscope",
+      "pros": [
+        "Alibaba-backed with the highest maturity score in the category (10.0) -- production-grade architecture",
+        "18.6k stars with good community health (9.2) indicate stable, well-maintained enterprise tooling",
+        "Designed specifically for distributed multi-agent systems with fault tolerance and scalability built in",
+        "Moderate issue count (147) relative to project maturity suggests stable, well-tested codebase"
+      ],
+      "cons": [
+        "Only 19 commits/30d (0.9 activity) suggests reduced development investment or maintenance-mode status",
+        "Documentation and community resources are primarily Chinese-language, limiting global accessibility",
+        "Potential dependency on Alibaba Cloud services may limit portability to other cloud providers",
+        "Growth score (2.6) indicates plateauing adoption despite the strong technical foundation"
+      ]
+    },
+    {
+      "name": "owl",
+      "pros": [
+        "Part of the CAMEL-AI research ecosystem providing novel multi-agent communication protocols",
+        "19.2k stars with excellent community health (9.5) show strong engagement in the research community",
+        "Academic origins enable cutting-edge agent interaction patterns not found in commercially-driven frameworks",
+        "Moderate maturity (4.6) suggests a reasonably stable codebase relative to research projects"
+      ],
+      "cons": [
+        "Zero commits in last 30 days (0.0 activity) raises serious concerns about project continuity",
+        "Overall score (3.9) reflects declining momentum despite reasonable community size",
+        "Research-first orientation may prioritize experimentation over production reliability and documentation",
+        "CAMEL-AI ecosystem dependency adds complexity for standalone usage outside the research context"
+      ]
+    },
+    {
+      "name": "agents-towards-production",
+      "pros": [
+        "Extremely low issue count (only 10) suggests a focused, well-scoped, and high-quality project",
+        "Perfect community health (10.0) indicates excellent documentation, contributor experience, and governance",
+        "18.4k stars and 2.4k forks show developers actively using it as a reference for production agent patterns",
+        "Production-focused differentiation fills a real gap in a space dominated by research-oriented frameworks"
+      ],
+      "cons": [
+        "Only 7 commits/30d (0.3 activity) suggests the project is in maintenance-only mode or effectively complete",
+        "Functions more as educational reference material than an actively maintained and evolving framework",
+        "Low maturity (3.3) despite production focus suggests the patterns may not cover the full production lifecycle",
+        "Limited recent development reduces confidence in compatibility with evolving LLM provider APIs"
+      ]
+    },
+    {
+      "name": "agent-framework",
+      "pros": [
+        "Microsoft-backed framework provides enterprise credibility and integration with Azure AI ecosystem",
+        "Highest activity score in the category (10.0) with 217 commits/30d showing intense development investment",
+        "Good maturity (3.9) for an actively evolving framework backed by a major tech company"
+      ],
+      "cons": [
+        "Zero community health (0.0) indicates closed development with minimal external contributor engagement",
+        "733 open issues is extremely high, suggesting the project is overwhelmed by its scope or user demands",
+        "Low popularity (0.0) and star count (8.1k) relative to Microsoft's brand suggests limited organic adoption",
+        "Potential vendor lock-in to Azure ecosystem limits portability"
+      ]
+    },
+    {
+      "name": "edict",
+      "pros": [
+        "Reasonable development activity (76 commits/30d, 3.5 activity) shows active ongoing maintenance",
+        "12k stars indicate viable recognition and a non-trivial user base",
+        "Good community health (8.7) suggests healthy contributor dynamics"
+      ],
+      "cons": [
+        "Low maturity (0.0) -- extremely young or recently restructured project with no stability track record",
+        "151 open issues relative to the project's age indicates accumulating technical debt early",
+        "Overall score (3.3) places it in the lower tier of the category",
+        "Limited differentiation from better-established multi-agent frameworks in the space"
+      ]
+    },
+    {
+      "name": "spring-ai-alibaba",
+      "pros": [
+        "Spring ecosystem integration provides immediate value for the massive Java/Spring Boot developer community",
+        "Good maturity (6.9) -- highest after agentscope -- indicating a stable, well-architected codebase",
+        "Alibaba backing ensures integration with Alibaba Cloud AI services and Chinese LLM providers"
+      ],
+      "cons": [
+        "Lowest overall score (2.4) in the category with low popularity (0.4) and zero growth",
+        "Only 16 commits/30d (0.7 activity) indicates minimal development momentum",
+        "Low community health (5.4) suggests limited external contributor engagement or documentation gaps",
+        "373 open issues for a low-activity project signals significant unresolved technical debt",
+        "Java/Spring lock-in excludes the Python-dominant AI/ML community"
+      ]
+    }
+  ],
+  "good_combinations": [
+    {
+      "repos": ["deer-flow", "agentscope"],
+      "reason": "deer-flow's rapidly evolving multi-agent workflow engine can leverage agentscope's mature (10.0 maturity) distributed agent runtime for production deployment. deer-flow handles workflow design and orchestration while agentscope provides the battle-tested distributed execution layer with fault tolerance."
+    },
+    {
+      "repos": ["adk-python", "astron-agent"],
+      "reason": "ADK-python's Google Cloud infrastructure, Vertex AI, and Gemini model access combined with astron-agent's rapidly evolving agent capabilities and excellent community health (9.5) creates a well-supported development path for production multi-agent systems on Google Cloud."
+    },
+    {
+      "repos": ["deer-flow", "agents-towards-production"],
+      "reason": "deer-flow provides the active multi-agent orchestration framework while agents-towards-production supplies production hardening patterns for error handling, observability, retry logic, and deployment. The combination addresses deer-flow's maturity gap with production best practices."
+    },
+    {
+      "repos": ["agent-framework", "spring-ai-alibaba"],
+      "reason": "Microsoft's agent-framework can handle complex agent orchestration while spring-ai-alibaba provides the Java/Spring integration layer for enterprise backends. This enables multi-agent systems that bridge Python-based AI orchestration with Java-based enterprise service layers."
+    },
+    {
+      "repos": ["owl", "deer-flow"],
+      "reason": "OWL's CAMEL-AI research-driven communication protocols provide novel agent interaction patterns that can be implemented within deer-flow's production workflow engine, combining academic innovation in agent communication with a practical, actively-maintained orchestration layer."
+    }
+  ],
+  "bad_combinations": [
+    {
+      "repos": ["adk-python", "agentscope"],
+      "reason": "Both are vendor-backed platforms (Google vs Alibaba) with overlapping multi-agent orchestration capabilities. Combining them creates conflicting abstraction layers, competing dependency trees, and cloud vendor lock-in conflicts with no clear architectural boundary."
+    },
+    {
+      "repos": ["agent-framework", "adk-python"],
+      "reason": "Microsoft and Google multi-agent frameworks compete at every layer: cloud services, model access, orchestration patterns, and deployment targets. Integrating both creates an incoherent architecture with doubled complexity and conflicting vendor assumptions."
+    },
+    {
+      "repos": ["ruflo", "edict"],
+      "reason": "Both have high issue-to-activity ratios indicating unresolved quality problems (383 and 151 issues respectively). Stacking two frameworks with significant bug backlogs multiplies integration surface area for defects with no reliability guarantee."
+    },
+    {
+      "repos": ["owl", "agents-towards-production"],
+      "reason": "Both have near-zero recent development activity (0 and 7 commits respectively). Building a multi-agent system on two effectively stalled projects creates severe risk of incompatibility with evolving LLM provider APIs and no path for bug fixes."
+    },
+    {
+      "repos": ["spring-ai-alibaba", "agentscope"],
+      "reason": "Both are Alibaba-backed with overlapping goals in the multi-agent space. spring-ai-alibaba targets Java/Spring while agentscope targets Python, creating a split-language architecture with duplicated concepts and no clear integration benefit beyond shared Alibaba branding."
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "name": "deer-flow",
+      "justification": "Clear category leader with highest overall score (8.0), perfect popularity and growth scores, strong development velocity (137 commits/30d), and excellent community health (9.2). Best balance of adoption, momentum, and active maintenance in the multi-agent space."
+    },
+    {
+      "rank": 2,
+      "name": "adk-python",
+      "justification": "Google backing provides enterprise credibility and cloud integration advantages. High activity (175 commits/30d, 8.1 score) shows serious engineering investment. The 624 open issues are concerning, but Google's resources should address them. Best choice for teams already invested in Google Cloud."
+    },
+    {
+      "rank": 3,
+      "name": "agentscope",
+      "justification": "Perfect maturity score (10.0) makes it the most production-stable framework in the category. Alibaba backing and distributed system design provide enterprise-grade reliability. Low recent activity suggests it has reached a stable plateau rather than declining."
+    },
+    {
+      "rank": 4,
+      "name": "astron-agent",
+      "justification": "Highest community health (9.5) with strong development velocity (166 commits/30d) and clean issue management (57 issues). A well-run rising project that compensates for its smaller community with engineering discipline and rapid iteration."
+    },
+    {
+      "rank": 5,
+      "name": "ruflo",
+      "justification": "Good star count (22.5k) and community health (8.2) provide a solid foundation, but the high issue backlog (383) and declining momentum place it below more actively improving alternatives. Stable but not exciting."
+    },
+    {
+      "rank": 6,
+      "name": "agent-framework",
+      "justification": "Microsoft backing and highest activity (10.0) indicate serious investment, but zero community health, 733 open issues, and low organic adoption raise red flags about developer experience. Worth monitoring but risky for current adoption."
+    },
+    {
+      "rank": 7,
+      "name": "owl",
+      "justification": "Strong community health (9.5) and research-driven innovation from CAMEL-AI, but zero recent commits indicate the project may be paused or transitioning. Valuable for research insights but unreliable as an active dependency."
+    },
+    {
+      "rank": 8,
+      "name": "agents-towards-production",
+      "justification": "Perfect community health (10.0) and only 10 open issues reflect exceptional quality, but minimal activity (7 commits/30d) positions it as a static reference rather than an evolving framework. Best used for learning production patterns, not as a runtime dependency."
+    },
+    {
+      "rank": 9,
+      "name": "edict",
+      "justification": "Reasonable activity (76 commits/30d) and good community health (8.7), but zero maturity and limited differentiation place it below more established alternatives. Needs more time to prove its value proposition."
+    },
+    {
+      "rank": 10,
+      "name": "spring-ai-alibaba",
+      "justification": "Lowest overall score (2.4) with zero growth, low activity, and 373 open issues. The Spring/Java ecosystem niche is valuable but the project appears understaffed relative to its scope and issue backlog. Only recommended for teams deeply committed to Spring Boot."
+    }
+  ]
+}

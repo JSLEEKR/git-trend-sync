@@ -30,11 +30,24 @@ def get_headers() -> dict:
     return headers
 
 
-def search_repos(topic: str, limit: int, headers: dict) -> list[dict]:
-    """Search repositories by topic, sorted by stars."""
+def search_repos(topic: str, limit: int, headers: dict, mode: str = "trending") -> list[dict]:
+    """Search repositories by topic.
+
+    mode:
+        'trending' - recently active repos sorted by stars (last 30 days push)
+        'top' - all-time top repos sorted by stars
+    """
     url = f"{GITHUB_API}/search/repositories"
+
+    if mode == "trending":
+        from datetime import timedelta
+        since = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+        q = f"topic:{topic} pushed:>{since}"
+    else:
+        q = f"topic:{topic}"
+
     params = {
-        "q": f"topic:{topic}",
+        "q": q,
         "sort": "stars",
         "order": "desc",
         "per_page": limit,

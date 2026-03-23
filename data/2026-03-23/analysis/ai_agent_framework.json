@@ -1,0 +1,247 @@
+{
+  "individual_analysis": [
+    {
+      "name": "chatgpt-on-wechat",
+      "pros": [
+        "Highest popularity (42k stars) and maturity (10.0) in the category -- battle-tested over nearly 4 years since Aug 2022",
+        "Broadest multi-channel deployment: WeChat, Feishu, DingTalk, Enterprise WeChat, QQ, public accounts, and web",
+        "Full agent capabilities including autonomous task planning, long-term memory with vector retrieval, and a Skills creation engine",
+        "Supports all major LLM providers (OpenAI, Claude, Gemini, DeepSeek, Qwen, GLM, Kimi) with hot-swappable model switching",
+        "MIT license maximizes commercial adoption potential"
+      ],
+      "cons": [
+        "Low activity score (0.6) despite 151 recent commits -- development momentum declining relative to repo scale",
+        "350 open issues indicate accumulating maintenance debt",
+        "Heavily China-market focused with predominantly Chinese documentation, limiting global adoption",
+        "Agent mode has high token consumption; operating system access in agent mode introduces security risks if deployed carelessly"
+      ]
+    },
+    {
+      "name": "cherry-studio",
+      "pros": [
+        "Very active development (220 commits/30d) with strong growth score (2.2) -- fastest-growing desktop AI studio",
+        "300+ pre-built assistant presets provide immediate out-of-box productivity value",
+        "Unified interface accessing frontier LLMs with built-in autonomous agent capabilities",
+        "TypeScript/Electron stack lowers the barrier for web developers to contribute"
+      ],
+      "cons": [
+        "AGPL-3.0 license creates significant restrictions for commercial SaaS integrations requiring copyleft compliance",
+        "785 open issues -- highest in category -- signals quality control challenges during rapid feature development",
+        "Community health score (5.9) is below average, suggesting contributor diversity or documentation gaps",
+        "Desktop-only Electron architecture limits server-side, headless, and mobile deployment scenarios"
+      ]
+    },
+    {
+      "name": "learn-claude-code",
+      "pros": [
+        "Perfect community health score (10.0) with a remarkably clean issue tracker (only 65 open issues)",
+        "Teaches agent harness engineering from scratch -- demystifies how Claude Code-style agents work internally",
+        "36k stars demonstrate massive developer interest in understanding agentic coding tool internals",
+        "MIT license and lean TypeScript codebase makes it easy to fork and experiment with"
+      ],
+      "cons": [
+        "Near-zero activity (12 commits in 30 days, score 0.0) -- development is essentially stalled",
+        "Low maturity (1.9) as a relatively young project created June 2025",
+        "Educational reference project, not a production-ready agent framework",
+        "Narrow scope limited to Bash-based agent harness patterns; not generalizable to other agent architectures"
+      ]
+    },
+    {
+      "name": "CopilotKit",
+      "pros": [
+        "Highest commit velocity in the category (390 commits/30d) showing intense, sustained active development",
+        "Unique market position as the only frontend-specific agent framework with React and Angular support",
+        "Creator and maintainer of the AG-UI Protocol for standardized agent-to-UI communication",
+        "Strong maturity (7.6) built over nearly 3 years of continuous development since June 2023"
+      ],
+      "cons": [
+        "601 open issues suggest rapid feature development outpaces issue resolution capacity",
+        "Tightly coupled to React/Angular ecosystems -- unusable for non-web or backend-only agent deployments",
+        "Community health (5.5) is below average, possibly reflecting steep contributor onboarding curve",
+        "Frontend-only scope requires pairing with separate backend agent infrastructure for a complete solution"
+      ]
+    },
+    {
+      "name": "hermes-agent",
+      "pros": [
+        "Explosive growth (10.0 growth score) and extreme activity (2311 commits/30d, perfect 10.0 activity score)",
+        "Rapidly scaling development effort signals strong organizational or VC investment backing",
+        "10k+ stars achieved quickly indicates strong market demand for the project's approach"
+      ],
+      "cons": [
+        "Zero community health score (0.0) indicates closed development with minimal external contributor engagement",
+        "449 open issues with very low maturity (1.7) -- moving fast but potentially breaking things",
+        "2311 commits/month is suspiciously high and may include automated commits, CI artifacts, or monorepo churn",
+        "Young and unproven in production environments; high risk of architectural instability"
+      ]
+    },
+    {
+      "name": "AionUi",
+      "pros": [
+        "Strong activity (931 commits/30d) and high growth (4.3) show rapid iteration cycle",
+        "Good community health (7.0) indicates healthy external contributor engagement",
+        "Nearly 20k stars in a short timeframe demonstrates genuine market traction"
+      ],
+      "cons": [
+        "Very low maturity (1.6) -- early-stage project with limited production deployment track record",
+        "279 open issues relative to project age suggest many features still incomplete",
+        "Limited ecosystem documentation and unclear differentiation from competing agent UIs",
+        "High commit volume relative to maturity may indicate frequent architectural pivots"
+      ]
+    },
+    {
+      "name": "activepieces",
+      "pros": [
+        "Second-highest maturity in category (9.1) -- stable, well-architected open-source Zapier/Make alternative",
+        "353 commits/30d shows active and sustained development with a proven automation product category",
+        "21k+ stars with 3.4k forks demonstrate solid adoption for workflow automation use cases",
+        "Extensive connector ecosystem enables AI agents to trigger real-world actions across hundreds of SaaS tools"
+      ],
+      "cons": [
+        "Low community health (3.5) suggests contributor engagement lags behind project scale",
+        "618 open issues reflect the inherent complexity of maintaining a broad integration platform",
+        "Not specifically an AI agent framework -- more of a general automation tool with AI capabilities bolted on",
+        "Crowded market segment competing with well-funded commercial players (Zapier, Make, n8n)"
+      ]
+    },
+    {
+      "name": "cli",
+      "pros": [
+        "Excellent community health (9.5) with very clean issue tracker (87 open issues for 22k stars)",
+        "Google Workspace CLI with strong institutional backing and integration potential",
+        "Active development (234 commits/30d) with healthy commit-to-issue ratio"
+      ],
+      "cons": [
+        "Maturity score of 0.0 -- extremely new project with unproven long-term viability",
+        "Low fork count (1045) relative to stars suggests limited community extension and customization",
+        "Narrow scope tied specifically to Google Workspace ecosystem -- not a general AI agent framework",
+        "Growth (1.4) and popularity (2.8) scores are modest despite star count"
+      ]
+    },
+    {
+      "name": "E2B",
+      "pros": [
+        "High maturity (8.4) and excellent community health (8.8) -- well-maintained critical infrastructure",
+        "Provides sandboxed cloud environments for AI agent code execution -- foundational safety layer",
+        "Clean issue tracker (76 open) with MIT license demonstrates disciplined engineering and open governance",
+        "Infrastructure-layer positioning makes it complementary to virtually every other agent framework"
+      ],
+      "cons": [
+        "Very low activity (0.1) and zero growth score suggest the project has plateaued or entered maintenance mode",
+        "Only 35 commits in 30 days -- minimal feature development momentum",
+        "Cloud-dependent execution model means vendor lock-in and is unsuitable for air-gapped deployments",
+        "Low popularity score (0.1) relative to 11k stars reflects niche infrastructure positioning"
+      ]
+    },
+    {
+      "name": "cua",
+      "pros": [
+        "Computer-Use Agent addresses the emerging high-value use case of AI-driven GUI and desktop automation",
+        "13k+ stars demonstrate strong community interest in the computer-use paradigm",
+        "Good community health (7.8) with a manageable issue count (146)"
+      ],
+      "cons": [
+        "Lowest overall score (2.3) in the category across nearly all dimensions",
+        "Low maturity (3.0) and minimal growth (0.4) indicate early-stage with uncertain trajectory",
+        "Computer-use agents remain fundamentally unreliable in production due to visual understanding limitations",
+        "111 commits/30d yields only a 0.4 activity score -- low output relative to the difficulty of the problem space"
+      ]
+    }
+  ],
+  "good_combinations": [
+    {
+      "repos": ["CopilotKit", "E2B"],
+      "reason": "CopilotKit provides the frontend agent-UI layer (React/Angular copilot components with AG-UI Protocol) while E2B supplies secure sandboxed cloud runtimes for agent-generated code execution. Together they form a complete stack: user-facing copilot interface with safe backend execution, addressing both the interaction and safety layers."
+    },
+    {
+      "repos": ["chatgpt-on-wechat", "activepieces"],
+      "reason": "chatgpt-on-wechat handles multi-channel messaging input/output across WeChat, DingTalk, and Feishu, while activepieces manages workflow automation and third-party integrations via its 200+ connectors. An agent receiving requests via messaging can trigger complex multi-step business workflows through activepieces."
+    },
+    {
+      "repos": ["CopilotKit", "cua"],
+      "reason": "CopilotKit's AG-UI protocol handles structured in-app agent interactions while cua extends to unstructured GUI-level automation. Combined, they cover both programmatic copilot UX and visual desktop automation for tasks that require screen-level interaction."
+    },
+    {
+      "repos": ["cherry-studio", "E2B"],
+      "reason": "Cherry Studio's desktop AI assistant with autonomous agents can leverage E2B's sandboxed environments for safe code execution, allowing agents within Cherry Studio to write and run code without risking the host system's integrity."
+    },
+    {
+      "repos": ["activepieces", "hermes-agent"],
+      "reason": "If hermes-agent matures as an autonomous agent orchestrator, activepieces can serve as its action layer -- translating agent decisions into real-world workflow executions across SaaS platforms, bridging the gap between agent reasoning and external system automation."
+    }
+  ],
+  "bad_combinations": [
+    {
+      "repos": ["chatgpt-on-wechat", "cherry-studio"],
+      "reason": "Both are end-user-facing AI assistant platforms with overlapping LLM integration, chat, and agent features. Running both creates redundant infrastructure with no clear integration boundary, and AGPL-3.0 vs MIT license mixing creates legal complications."
+    },
+    {
+      "repos": ["hermes-agent", "AionUi"],
+      "reason": "Both are early-stage projects with very low maturity (1.7 and 1.6 respectively). Combining two unstable, rapidly-changing dependencies multiplies integration risk and maintenance burden with no complementary architectural benefit."
+    },
+    {
+      "repos": ["learn-claude-code", "CopilotKit"],
+      "reason": "learn-claude-code is an educational reference implementation with stalled development, not a production backend. Attempting to use it as the agent backend for CopilotKit's frontend would create an unreliable system with no maintenance guarantees."
+    },
+    {
+      "repos": ["activepieces", "cli"],
+      "reason": "Both serve as automation/tooling integration layers with overlapping concerns. Activepieces already covers Google Workspace automation through its connector ecosystem, making the standalone Google Workspace CLI redundant in a combined stack."
+    },
+    {
+      "repos": ["E2B", "cua"],
+      "reason": "E2B provides headless sandboxed code execution while cua operates through GUI-level visual interaction. Their execution paradigms are fundamentally incompatible -- sandboxed code execution has no GUI to interact with, and cua's screen-based approach does not benefit from E2B's containerized isolation."
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "name": "CopilotKit",
+      "justification": "Best combination of high sustained activity (390 commits/30d), strong maturity (7.6), and a unique value proposition as the only frontend-specific agent framework with the AG-UI Protocol. Fills a critical gap in the agent stack that no other tool in this category addresses, with MIT licensing and broad framework support."
+    },
+    {
+      "rank": 2,
+      "name": "chatgpt-on-wechat",
+      "justification": "Highest maturity (10.0) and popularity (10.0) with the broadest multi-channel deployment support across Chinese messaging platforms. Production-proven over nearly 4 years with full agent capabilities including memory, skills, and multi-model support. Ideal for enterprises needing messaging-integrated AI agents."
+    },
+    {
+      "rank": 3,
+      "name": "activepieces",
+      "justification": "Second-highest maturity (9.1) with a proven product category as an open-source workflow automation platform. The extensive connector ecosystem makes it essential infrastructure for AI agents that need to trigger real-world actions. Sustained 353 commits/30d development pace."
+    },
+    {
+      "rank": 4,
+      "name": "E2B",
+      "justification": "Critical infrastructure for agent safety with high maturity (8.4) and excellent community health (8.8). Sandboxed code execution is a foundational requirement for production AI agents. Low growth is expected for mature infrastructure; stability is the priority here."
+    },
+    {
+      "rank": 5,
+      "name": "cherry-studio",
+      "justification": "Most active desktop AI studio with strong growth trajectory and 300+ assistant presets. Immediately useful for individual productivity, though AGPL licensing, 785 open issues, and desktop-only architecture limit enterprise and server-side deployment scenarios."
+    },
+    {
+      "rank": 6,
+      "name": "hermes-agent",
+      "justification": "Explosive growth and extreme development velocity indicate serious investment, but zero community health and low maturity make it a high-risk, high-potential bet. The 2311 commits/month warrants scrutiny for commit quality before adoption."
+    },
+    {
+      "rank": 7,
+      "name": "AionUi",
+      "justification": "Good growth (4.3) and community health (7.0) with rapid iteration, but very low maturity (1.6) and limited documentation. Promising early-stage project that needs 6-12 months more stabilization before production consideration."
+    },
+    {
+      "rank": 8,
+      "name": "cli",
+      "justification": "Clean community health (9.5) and active development, but zero maturity and narrow Google Workspace scope severely limit its utility as a general AI agent framework. Best suited as a complementary tool within Google-centric environments."
+    },
+    {
+      "rank": 9,
+      "name": "cua",
+      "justification": "Addresses an important emerging use case in computer-use automation, but lowest overall score (2.3) reflects the nascent and unreliable state of GUI-based AI agents. Technical challenges in visual understanding and cross-platform reliability limit current production readiness."
+    },
+    {
+      "rank": 10,
+      "name": "learn-claude-code",
+      "justification": "Excellent educational resource with massive star count (36k), but near-zero development activity and educational-only scope mean it has no production utility as a framework. Valuable for learning agent internals, not for building systems."
+    }
+  ]
+}
