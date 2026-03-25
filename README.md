@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### 🔥 Today's Top Trending (2026-03-24)
+### 🔥 Today's Top Trending (2026-03-25)
 
 | # | Repository | Category | Activity | Stars | Commits (30d) |
 |---|-----------|----------|----------|-------|---------------|
-| 1 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | AI Agent Framework | 🔥 10.0 | 12,034 | 2292 |
-| 2 | [dify](https://github.com/langgenius/dify) | RAG Framework | 🔥 10.0 | 134,238 | 601 |
-| 3 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 🔥 10.0 | 1,102 | 654 |
-| 4 | [kilocode](https://github.com/Kilo-Org/kilocode) | Coding Assistant | 🔥 10.0 | 17,129 | 2482 |
-| 5 | [vllm](https://github.com/vllm-project/vllm) | AI Infrastructure | 🔥 10.0 | 74,148 | 1069 |
-| 6 | [browser-use](https://github.com/browser-use/browser-use) | Browser Agent | 🔥 10.0 | 84,122 | 279 |
-| 7 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | 🔥 10.0 | 83,965 | 1366 |
-| 8 | [dagu](https://github.com/dagu-org/dagu) | AI Workflow | 🔥 10.0 | 3,201 | 199 |
-| 9 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 🔥 10.0 | 14,086 | 252 |
-| 10 | [WFGY](https://github.com/onestardao/WFGY) | Knowledge Management | 🔥 10.0 | 1,676 | 912 |
+| 1 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | AI Agent Framework | 🔥 10.0 | 12,925 | 2320 |
+| 2 | [dify](https://github.com/langgenius/dify) | RAG Framework | 🔥 10.0 | 134,393 | 630 |
+| 3 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 🔥 10.0 | 1,137 | 708 |
+| 4 | [kilocode](https://github.com/Kilo-Org/kilocode) | Coding Assistant | 🔥 10.0 | 17,177 | 2494 |
+| 5 | [vllm](https://github.com/vllm-project/vllm) | AI Infrastructure | 🔥 10.0 | 74,267 | 1097 |
+| 6 | [browser-use](https://github.com/browser-use/browser-use) | Browser Agent | 🔥 10.0 | 84,348 | 284 |
+| 7 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | 🔥 10.0 | 84,047 | 1354 |
+| 8 | [dagu](https://github.com/dagu-org/dagu) | AI Workflow | 🔥 10.0 | 3,205 | 200 |
+| 9 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 🔥 10.0 | 14,131 | 252 |
+| 10 | [WFGY](https://github.com/onestardao/WFGY) | Knowledge Management | 🔥 10.0 | 1,679 | 932 |
 
-> Last updated: 2026-03-24 — [Full Report](reports/2026-03-24.md)
+> Last updated: 2026-03-25 — [Full Report](reports/2026-03-25.md)
 <!-- TREND-END -->
 
 ---
