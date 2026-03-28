@@ -10,18 +10,6 @@ TREND_START = "<!-- TREND-START -->"
 TREND_END = "<!-- TREND-END -->"
 
 
-def _activity_emoji(score: float) -> str:
-    """Return an activity emoji label based on trend score."""
-    if score >= 9.0:
-        return f"🔥 {score:.1f}"
-    elif score >= 7.0:
-        return f"⚡ {score:.1f}"
-    elif score >= 5.0:
-        return f"📈 {score:.1f}"
-    else:
-        return f"➡️ {score:.1f}"
-
-
 def _format_stars(stars: int) -> str:
     """Format star count with comma separators."""
     return f"{stars:,}"
@@ -45,23 +33,45 @@ def _get_top_repos(categories: dict, top_n: int = 10) -> list:
     return sorted_repos[:top_n]
 
 
+def _signal_emoji(signal_type: str) -> str:
+    """Return emoji for a signal type."""
+    return {"surge": "🔥", "newcomer": "🆕", "momentum": "📈"}.get(signal_type, "➡️")
+
+
+def _signal_detail(repo: dict) -> str:
+    """Return context-specific detail string based on signal_type."""
+    signal = repo.get("signal_type", "")
+    if signal == "surge":
+        ratio = repo.get("surge_ratio", 0)
+        return f"x{ratio:.1f} this week"
+    elif signal == "newcomer":
+        age = repo.get("age_days", 0)
+        spd = repo.get("stars_per_day_avg", 0)
+        return f"{age}d, {spd:.1f}/day"
+    elif signal == "momentum":
+        commits = repo.get("recent_commits_7d", 0)
+        return f"{commits} commits/7d"
+    return "—"
+
+
 def _build_trend_section(date: str, repos: list) -> str:
     """Build the markdown content to insert between the trend markers."""
-    header = f"### 🔥 Today's Top Trending ({date})\n"
+    header = f"### Today's Top Trending ({date})\n"
 
     table_rows = [
-        "| # | Repository | Category | Activity | Stars | Commits (30d) |",
-        "|---|-----------|----------|----------|-------|---------------|",
+        "| # | Repository | Category | Score | Signal | Detail |",
+        "|---|-----------|----------|-------|--------|--------|",
     ]
     for rank, repo in enumerate(repos, 1):
         name = repo["name"]
         url = repo.get("url", f"https://github.com/{repo.get('full_name', name)}")
         category = repo.get("_category", "—")
-        activity = _activity_emoji(repo.get("trend_score", 0))
-        stars = _format_stars(repo.get("stars", 0))
-        commits = repo.get("recent_commits_30d", "—")
+        score = repo.get("trend_score", 0)
+        signal_type = repo.get("signal_type", "")
+        signal = f"{_signal_emoji(signal_type)} {signal_type}" if signal_type else "—"
+        detail = _signal_detail(repo)
         table_rows.append(
-            f"| {rank} | [{name}]({url}) | {category} | {activity} | {stars} | {commits} |"
+            f"| {rank} | [{name}]({url}) | {category} | {score:.1f} | {signal} | {detail} |"
         )
 
     table = "\n".join(table_rows)

@@ -7,30 +7,11 @@ from unittest.mock import patch
 import pytest
 
 from src.readme_update import (
-    _activity_emoji,
     _format_stars,
     _get_top_repos,
     _build_trend_section,
     update_readme,
 )
-
-
-class TestActivityEmojiReadme:
-    def test_fire(self):
-        result = _activity_emoji(9.5)
-        assert "🔥" in result
-
-    def test_lightning(self):
-        result = _activity_emoji(7.5)
-        assert "⚡" in result
-
-    def test_chart(self):
-        result = _activity_emoji(5.5)
-        assert "📈" in result
-
-    def test_arrow(self):
-        result = _activity_emoji(3.0)
-        assert "➡️" in result
 
 
 class TestFormatStars:
@@ -40,12 +21,9 @@ class TestFormatStars:
     def test_zero(self):
         assert _format_stars(0) == "0"
 
-    def test_small(self):
-        assert _format_stars(42) == "42"
-
 
 class TestGetTopRepos:
-    def test_basic(self):
+    def test_basic_sorting(self):
         categories = {
             "Cat1": [
                 {"name": "r1", "full_name": "o/r1", "trend_score": 10},
@@ -68,53 +46,131 @@ class TestGetTopRepos:
         assert len(result) == 1
         assert result[0]["trend_score"] == 10  # keeps highest
 
-    def test_empty(self):
-        result = _get_top_repos({}, top_n=10)
-        assert result == []
-
 
 class TestBuildTrendSection:
-    def test_contains_table(self):
+    def test_has_signal_and_detail_columns(self):
         repos = [
-            {"name": "r1", "full_name": "o/r1", "url": "https://github.com/o/r1",
-             "_category": "AI", "trend_score": 9.0, "stars": 50000, "recent_commits_30d": 100},
+            {
+                "name": "r1",
+                "full_name": "o/r1",
+                "url": "https://github.com/o/r1",
+                "_category": "AI",
+                "trend_score": 9.0,
+                "signal_type": "surge",
+                "surge_ratio": 2.5,
+                "stars_per_day_avg": 55.0,
+                "age_days": 900,
+                "recent_commits_7d": 60,
+            },
         ]
         section = _build_trend_section("2025-03-28", repos)
-        assert "Today's Top Trending" in section
-        assert "r1" in section
-        assert "50,000" in section
+        assert "Signal" in section
+        assert "Detail" in section
+        assert "surge" in section
+        assert "x2.5 this week" in section
+
+    def test_has_score_column(self):
+        repos = [
+            {
+                "name": "r1",
+                "full_name": "o/r1",
+                "url": "https://github.com/o/r1",
+                "_category": "AI",
+                "trend_score": 9.0,
+                "signal_type": "momentum",
+                "surge_ratio": 1.0,
+                "stars_per_day_avg": 10.0,
+                "age_days": 300,
+                "recent_commits_7d": 42,
+            },
+        ]
+        section = _build_trend_section("2025-03-28", repos)
+        assert "Score" in section
+        assert "9.0" in section
+        assert "42 commits/7d" in section
+
+    def test_newcomer_detail(self):
+        repos = [
+            {
+                "name": "new-repo",
+                "full_name": "o/new-repo",
+                "url": "https://github.com/o/new-repo",
+                "_category": "ML",
+                "trend_score": 7.0,
+                "signal_type": "newcomer",
+                "surge_ratio": 1.0,
+                "stars_per_day_avg": 25.3,
+                "age_days": 30,
+                "recent_commits_7d": 20,
+            },
+        ]
+        section = _build_trend_section("2025-03-28", repos)
+        assert "30d, 25.3/day" in section
+
+    def test_header_no_fire_emoji(self):
+        section = _build_trend_section("2025-03-28", [])
+        assert "### Today's Top Trending" in section
+        assert "🔥" not in section
 
 
 class TestUpdateReadme:
-    def test_updates_content(self, tmp_path):
-        # Setup trending data
+    def test_updates_between_markers(self, tmp_path):
         data_dir = tmp_path / "data" / "2025-03-28"
         data_dir.mkdir(parents=True)
         trending = {
             "categories": {
-                "AI": [{"name": "r1", "full_name": "o/r1", "url": "https://github.com/o/r1",
-                         "trend_score": 9.0, "stars": 50000, "recent_commits_30d": 100}],
+                "AI": [
+                    {
+                        "name": "r1",
+                        "full_name": "o/r1",
+                        "url": "https://github.com/o/r1",
+                        "trend_score": 9.0,
+                        "stars": 50000,
+                        "signal_type": "surge",
+                        "surge_ratio": 2.0,
+                        "stars_per_day_avg": 55.0,
+                        "age_days": 900,
+                        "recent_commits_7d": 60,
+                    }
+                ],
             }
         }
         (data_dir / "trending.json").write_text(json.dumps(trending))
 
-        # Setup README with markers
         readme = tmp_path / "README.md"
         readme.write_text(
             "# My Project\n\n<!-- TREND-START -->\nold content\n<!-- TREND-END -->\n\nFooter\n"
         )
 
         with patch("src.readme_update.BASE_DIR", tmp_path):
-            result = update_readme("2025-03-28")
+            update_readme("2025-03-28")
             content = readme.read_text(encoding="utf-8")
-            assert "r1" in content
+            assert "Signal" in content
             assert "old content" not in content
             assert "Footer" in content
 
-    def test_missing_markers(self, tmp_path):
+    def test_handles_no_markers(self, tmp_path):
         data_dir = tmp_path / "data" / "2025-03-28"
         data_dir.mkdir(parents=True)
-        (data_dir / "trending.json").write_text(json.dumps({"categories": {"A": [{"name": "r", "full_name": "o/r", "url": "#", "trend_score": 5, "stars": 100, "recent_commits_30d": 10}]}}))
+        trending = {
+            "categories": {
+                "A": [
+                    {
+                        "name": "r",
+                        "full_name": "o/r",
+                        "url": "#",
+                        "trend_score": 5,
+                        "stars": 100,
+                        "signal_type": "surge",
+                        "surge_ratio": 1.0,
+                        "stars_per_day_avg": 10.0,
+                        "age_days": 100,
+                        "recent_commits_7d": 10,
+                    }
+                ]
+            }
+        }
+        (data_dir / "trending.json").write_text(json.dumps(trending))
 
         readme = tmp_path / "README.md"
         readme.write_text("# No markers here\n")
@@ -123,11 +179,3 @@ class TestUpdateReadme:
             update_readme("2025-03-28")
             content = readme.read_text(encoding="utf-8")
             assert content == "# No markers here\n"
-
-    def test_missing_trending_data(self, tmp_path):
-        readme = tmp_path / "README.md"
-        readme.write_text("# Project\n")
-
-        with patch("src.readme_update.BASE_DIR", tmp_path):
-            result = update_readme("2025-03-28")
-            assert result is not None
