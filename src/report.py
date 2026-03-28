@@ -1,5 +1,5 @@
 """
-Generate English markdown trend reports from analysis data.
+Generate English markdown trend reports from multi-signal analysis data.
 """
 
 import json
@@ -57,20 +57,30 @@ def score_bar(score: float) -> str:
     return "█" * filled + "░" * (10 - filled)
 
 
-def _activity_emoji(trend_score: float) -> str:
-    """Return an emoji indicator based on activity score."""
-    if trend_score >= 7:
-        return "🔥"
-    if trend_score >= 4:
-        return "📈"
+def _signal_emoji(signal_type: str) -> str:
+    """Return an emoji indicator based on signal type."""
+    mapping = {
+        "surge": "🔥",
+        "newcomer": "🌱",
+        "momentum": "📈",
+    }
+    return mapping.get(signal_type, "")
+
+
+def _signal_detail(repo: dict) -> str:
+    """Return detail string based on signal_type."""
+    signal_type = repo.get("signal_type", "")
+    if signal_type == "surge":
+        ratio = repo.get("surge_ratio", 0)
+        return f"x{ratio} this week"
+    if signal_type == "newcomer":
+        age = repo.get("age_days", 0)
+        spd = repo.get("stars_per_day_avg", 0)
+        return f"{age}d, {spd}/day"
+    if signal_type == "momentum":
+        commits = repo.get("recent_commits_7d", 0)
+        return f"{commits} commits/7d"
     return ""
-
-
-def _status(repo: dict) -> str:
-    """Derive status label from repo trending data."""
-    if repo.get("is_new_entry"):
-        return "NEW ENTRY"
-    return "ACTIVE"
 
 
 def _age_label(age_days: int) -> str:
@@ -98,96 +108,139 @@ def _last_push_label(repo: dict) -> str:
         return "unknown"
 
 
+def _collect_all_repos(trending: dict) -> list[dict]:
+    """Flatten repos across categories, adding _category field."""
+    all_repos = []
+    for cat_name, repos in trending.get("categories", {}).items():
+        for r in repos:
+            all_repos.append({**r, "_category": cat_name})
+    return all_repos
+
+
+def _render_signal_table(title: str, repos: list[dict], score_key: str, limit: int) -> list[str]:
+    """Render a ranked signal table."""
+    lines = [f"### {title}", ""]
+    lines.append("| # | Repository | Category | Signal | Score | Detail |")
+    lines.append("|---|-----------|----------|--------|-------|--------|")
+    for i, r in enumerate(repos[:limit], 1):
+        emoji = _signal_emoji(r.get("signal_type", ""))
+        detail = _signal_detail(r)
+        score = r.get(score_key, 0)
+        cat = r.get("_category", "")
+        lines.append(
+            f"| {i} | [{r['name']}]({r['url']}) | {cat} | {emoji} | {score} | {detail} |"
+        )
+    lines.append("")
+    return lines
+
+
 def generate_en_report(date: str, trending: dict, analyses: dict) -> str:
     """Generate English markdown report from trending data."""
     lines = [
         f"# AI Agent Trend Report — {date}",
         "",
-        f"> Auto-generated on {date}. Ranked by development activity (30-day commits) from GitHub Topics. "
+        f"> Auto-generated on {date}. Multi-signal scoring (surge, newcomer, momentum) from GitHub Topics. "
         "Qualitative analysis powered by Claude Code.",
-        "",
-        "## Table of Contents",
         "",
     ]
 
-    # TOC
-    for cat_name in trending["categories"]:
-        anchor = cat_name.lower().replace(" ", "-")
-        lines.append(f"- [{cat_name}](#{anchor})")
-    lines.append("- [Cross-Category Insights](#cross-category-insights)")
+    # --- Cross-Category Highlights ---
+    all_repos = _collect_all_repos(trending)
+
+    lines.append("## Cross-Category Highlights")
     lines.append("")
 
-    # Per-category sections
+    # Top 10 Surging
+    surging = sorted(all_repos, key=lambda x: x.get("surge_score", 0), reverse=True)
+    lines.extend(_render_signal_table("Top 10 Surging", surging, "surge_score", 10))
+
+    # Top 10 Rising Stars
+    rising = [r for r in all_repos if r.get("newcomer_score", 0) > 0]
+    rising.sort(key=lambda x: x.get("newcomer_score", 0), reverse=True)
+    if rising:
+        lines.extend(_render_signal_table("Top 10 Rising Stars", rising, "newcomer_score", 10))
+
+    # Top 10 Momentum
+    momentum = sorted(all_repos, key=lambda x: x.get("momentum_score", 0), reverse=True)
+    lines.extend(_render_signal_table("Top 10 Momentum", momentum, "momentum_score", 10))
+
+    # Top 10 Overall
+    overall = sorted(all_repos, key=lambda x: x.get("trend_score", 0), reverse=True)
+    lines.extend(_render_signal_table("Top 10 Overall", overall, "trend_score", 10))
+
+    lines.append("---")
+    lines.append("")
+
+    # --- Per-Category Sections ---
     for cat_name, repos in trending["categories"].items():
         lines.append(f"## {cat_name}")
         lines.append("")
 
-        # Trending table
-        lines.append("### Trending Repositories")
-        lines.append("")
-        lines.append("| # | Repository | Activity | Stars | Commits (30d) | Last Push | Age | Status |")
-        lines.append("|---|-----------|----------|-------|---------------|-----------|-----|--------|")
+        # Surging top 3
+        cat_surging = sorted(repos, key=lambda x: x.get("surge_score", 0), reverse=True)[:3]
+        if cat_surging:
+            lines.append("### Surging")
+            lines.append("")
+            lines.append("| # | Repository | Score | Detail |")
+            lines.append("|---|-----------|-------|--------|")
+            for i, r in enumerate(cat_surging, 1):
+                lines.append(
+                    f"| {i} | [{r['name']}]({r['url']}) | {r.get('surge_score', 0)} | {_signal_detail({**r, 'signal_type': 'surge'})} |"
+                )
+            lines.append("")
 
-        for i, r in enumerate(repos, 1):
-            trend_score = r.get("trend_score", 0)
-            emoji = _activity_emoji(trend_score)
-            activity_cell = f"{emoji} {trend_score}" if emoji else str(trend_score)
-            stars_fmt = f"{r['stars']:,}"
-            commits_30d = r.get("recent_commits_30d", 0)
-            age_label = _age_label(r.get("age_days", 0))
-            last_push = _last_push_label(r)
-            status = _status(r)
-            lines.append(
-                f"| {i} | [{r['name']}]({r['url']}) | "
-                f"{activity_cell} | "
-                f"{stars_fmt} | "
-                f"{commits_30d} | "
-                f"{last_push} | "
-                f"{age_label} | "
-                f"{status} |"
-            )
-        lines.append("")
+        # Rising Stars top 3
+        cat_rising = [r for r in repos if r.get("newcomer_score", 0) > 0]
+        cat_rising.sort(key=lambda x: x.get("newcomer_score", 0), reverse=True)
+        cat_rising = cat_rising[:3]
+        if cat_rising:
+            lines.append("### Rising Stars")
+            lines.append("")
+            lines.append("| # | Repository | Score | Detail |")
+            lines.append("|---|-----------|-------|--------|")
+            for i, r in enumerate(cat_rising, 1):
+                lines.append(
+                    f"| {i} | [{r['name']}]({r['url']}) | {r.get('newcomer_score', 0)} | {_signal_detail({**r, 'signal_type': 'newcomer'})} |"
+                )
+            lines.append("")
 
-        # Qualitative analysis
+        # Gaining Momentum top 3
+        cat_momentum = sorted(repos, key=lambda x: x.get("momentum_score", 0), reverse=True)[:3]
+        if cat_momentum:
+            lines.append("### Gaining Momentum")
+            lines.append("")
+            lines.append("| # | Repository | Score | Detail |")
+            lines.append("|---|-----------|-------|--------|")
+            for i, r in enumerate(cat_momentum, 1):
+                lines.append(
+                    f"| {i} | [{r['name']}]({r['url']}) | {r.get('momentum_score', 0)} | {_signal_detail({**r, 'signal_type': 'momentum'})} |"
+                )
+            lines.append("")
+
+        # Overall Top 5
+        cat_overall = sorted(repos, key=lambda x: x.get("trend_score", 0), reverse=True)[:5]
+        if cat_overall:
+            lines.append("### Overall Top 5")
+            lines.append("")
+            lines.append("| # | Repository | Trend | Surge | Newcomer | Momentum | Signal |")
+            lines.append("|---|-----------|-------|-------|----------|----------|--------|")
+            for i, r in enumerate(cat_overall, 1):
+                emoji = _signal_emoji(r.get("signal_type", ""))
+                lines.append(
+                    f"| {i} | [{r['name']}]({r['url']}) | "
+                    f"{r.get('trend_score', 0)} | "
+                    f"{r.get('surge_score', 0)} | "
+                    f"{r.get('newcomer_score', 0)} | "
+                    f"{r.get('momentum_score', 0)} | "
+                    f"{emoji} |"
+                )
+            lines.append("")
+
+        # AI Analysis Ranking
         analysis = analyses.get(cat_name)
         if analysis and "error" not in analysis:
-            # Individual analysis
-            if "individual_analysis" in analysis:
-                lines.append("### Individual Analysis")
-                lines.append("")
-                for item in analysis["individual_analysis"]:
-                    lines.append(f"#### {item['name']}")
-                    lines.append("")
-                    lines.append("**Pros:**")
-                    for pro in item.get("pros", []):
-                        lines.append(f"- {pro}")
-                    lines.append("")
-                    lines.append("**Cons:**")
-                    for con in item.get("cons", []):
-                        lines.append(f"- {con}")
-                    lines.append("")
-
-            # Good combinations
-            if "good_combinations" in analysis:
-                lines.append("### Recommended Combinations")
-                lines.append("")
-                for combo in analysis["good_combinations"]:
-                    repos_str = " + ".join(combo["repos"])
-                    lines.append(f"- **{repos_str}**: {combo['reason']}")
-                lines.append("")
-
-            # Bad combinations
-            if "bad_combinations" in analysis:
-                lines.append("### Avoid Combining")
-                lines.append("")
-                for combo in analysis["bad_combinations"]:
-                    repos_str = " + ".join(combo["repos"])
-                    lines.append(f"- **{repos_str}**: {combo['reason']}")
-                lines.append("")
-
-            # Ranking
             if "ranking" in analysis:
-                lines.append("### Ranking")
+                lines.append("### AI Analysis Ranking")
                 lines.append("")
                 for item in analysis["ranking"]:
                     lines.append(f"{item['rank']}. **{item['name']}** — {item['justification']}")
@@ -198,29 +251,6 @@ def generate_en_report(date: str, trending: dict, analyses: dict) -> str:
 
         lines.append("---")
         lines.append("")
-
-    # Cross-category insights
-    lines.append("## Cross-Category Insights")
-    lines.append("")
-    lines.append("### Top Repositories Across All Categories")
-    lines.append("")
-
-    all_repos = []
-    for cat_name, repos in trending["categories"].items():
-        for r in repos:
-            all_repos.append({**r, "category": cat_name})
-    all_repos.sort(key=lambda x: x.get("trend_score", 0), reverse=True)
-
-    lines.append("| Rank | Repository | Category | Activity Score |")
-    lines.append("|------|-----------|----------|----------------|")
-    for i, r in enumerate(all_repos[:10], 1):
-        trend_score = r.get("trend_score", 0)
-        emoji = _activity_emoji(trend_score)
-        activity_cell = f"{emoji} {trend_score}" if emoji else str(trend_score)
-        lines.append(
-            f"| {i} | [{r['name']}]({r['url']}) | {r['category']} | **{activity_cell}** |"
-        )
-    lines.append("")
 
     return "\n".join(lines)
 
