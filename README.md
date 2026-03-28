@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### 🔥 Today's Top Trending (2026-03-27)
+### 🔥 Today's Top Trending (2026-03-28)
 
 | # | Repository | Category | Activity | Stars | Commits (30d) |
 |---|-----------|----------|----------|-------|---------------|
-| 1 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | AI Agent Framework | 🔥 10.0 | 14,157 | 2387 |
-| 2 | [dify](https://github.com/langgenius/dify) | RAG Framework | 🔥 10.0 | 134,713 | 627 |
-| 3 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 🔥 10.0 | 1,229 | 745 |
-| 4 | [kilocode](https://github.com/Kilo-Org/kilocode) | Coding Assistant | 🔥 10.0 | 17,246 | 2396 |
-| 5 | [vllm](https://github.com/vllm-project/vllm) | AI Infrastructure | 🔥 10.0 | 74,502 | 1101 |
-| 6 | [browser-use](https://github.com/browser-use/browser-use) | Browser Agent | 🔥 10.0 | 84,704 | 311 |
-| 7 | [composio](https://github.com/ComposioHQ/composio) | MCP | 🔥 10.0 | 27,541 | 670 |
-| 8 | [dagu](https://github.com/dagu-org/dagu) | AI Workflow | 🔥 10.0 | 3,219 | 202 |
-| 9 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 🔥 10.0 | 14,191 | 251 |
-| 10 | [WFGY](https://github.com/onestardao/WFGY) | Knowledge Management | 🔥 10.0 | 1,682 | 962 |
+| 1 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | AI Agent Framework | 🔥 10.0 | 14,829 | 2344 |
+| 2 | [dify](https://github.com/langgenius/dify) | RAG Framework | 🔥 10.0 | 134,790 | 623 |
+| 3 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 🔥 10.0 | 1,287 | 768 |
+| 4 | [kilocode](https://github.com/Kilo-Org/kilocode) | Coding Assistant | 🔥 10.0 | 17,281 | 2355 |
+| 5 | [vllm](https://github.com/vllm-project/vllm) | AI Infrastructure | 🔥 10.0 | 74,542 | 1087 |
+| 6 | [browser-use](https://github.com/browser-use/browser-use) | Browser Agent | 🔥 10.0 | 84,801 | 303 |
+| 7 | [composio](https://github.com/ComposioHQ/composio) | MCP | 🔥 10.0 | 27,556 | 619 |
+| 8 | [dagu](https://github.com/dagu-org/dagu) | AI Workflow | 🔥 10.0 | 3,222 | 202 |
+| 9 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 🔥 10.0 | 14,226 | 251 |
+| 10 | [WFGY](https://github.com/onestardao/WFGY) | Knowledge Management | 🔥 10.0 | 1,685 | 936 |
 
-> Last updated: 2026-03-27 — [Full Report](reports/2026-03-27.md)
+> Last updated: 2026-03-28 — [Full Report](reports/2026-03-28.md)
 <!-- TREND-END -->
 
 ---
