@@ -12,6 +12,7 @@ from src.collect import (
     search_repos,
     get_readme,
     get_recent_commits_count,
+    get_weekly_commits,
     extract_repo_data,
 )
 
@@ -141,10 +142,11 @@ class TestGetRecentCommitsCount:
 
 
 class TestExtractRepoData:
+    @patch("src.collect.get_weekly_commits", return_value=12)
     @patch("src.collect.get_recent_commits_count", return_value=50)
     @patch("src.collect.get_readme", return_value="# Test README content")
     @patch("src.collect.time")
-    def test_extracts_all_fields(self, mock_time, mock_readme, mock_commits, sample_repo):
+    def test_extracts_all_fields(self, mock_time, mock_readme, mock_commits, mock_weekly, sample_repo):
         item = {
             "name": "langchain",
             "full_name": "langchain-ai/langchain",
@@ -167,10 +169,11 @@ class TestExtractRepoData:
         assert result["recent_commits_30d"] == 50
         assert result["readme_excerpt"] == "# Test README content"
 
+    @patch("src.collect.get_weekly_commits", return_value=None)
     @patch("src.collect.get_recent_commits_count", return_value=0)
     @patch("src.collect.get_readme", return_value="")
     @patch("src.collect.time")
-    def test_missing_optional_fields(self, mock_time, mock_readme, mock_commits):
+    def test_missing_optional_fields(self, mock_time, mock_readme, mock_commits, mock_weekly):
         item = {
             "name": "test",
             "full_name": "owner/test",
@@ -183,10 +186,11 @@ class TestExtractRepoData:
         assert result["license"] == "Unknown"
         assert result["stars"] == 0
 
+    @patch("src.collect.get_weekly_commits", return_value=None)
     @patch("src.collect.get_recent_commits_count", return_value=0)
     @patch("src.collect.get_readme", return_value="x" * 5000)
     @patch("src.collect.time")
-    def test_readme_truncation(self, mock_time, mock_readme, mock_commits):
+    def test_readme_truncation(self, mock_time, mock_readme, mock_commits, mock_weekly):
         item = {
             "name": "test",
             "full_name": "o/t",
@@ -195,3 +199,42 @@ class TestExtractRepoData:
         }
         result = extract_repo_data(item, {})
         assert len(result["readme_excerpt"]) == 3000
+
+
+class TestGetWeeklyCommits:
+    def test_successful_fetch(self):
+        mock_response = MagicMock()
+        mock_response.status_code = 200
+        mock_response.json.return_value = [
+            {"total": 10, "week": 1711065600},
+            {"total": 25, "week": 1711670400},
+        ]
+        with patch("src.collect.requests.get", return_value=mock_response):
+            result = get_weekly_commits("owner", "repo", {})
+            assert result == 25
+
+    def test_202_retry(self):
+        mock_202 = MagicMock()
+        mock_202.status_code = 202
+        mock_200 = MagicMock()
+        mock_200.status_code = 200
+        mock_200.json.return_value = [{"total": 15, "week": 1711670400}]
+        with patch("src.collect.requests.get", side_effect=[mock_202, mock_200]):
+            with patch("src.collect.time.sleep"):
+                result = get_weekly_commits("owner", "repo", {})
+                assert result == 15
+
+    def test_failure_returns_none(self):
+        mock_response = MagicMock()
+        mock_response.status_code = 404
+        with patch("src.collect.requests.get", return_value=mock_response):
+            result = get_weekly_commits("owner", "repo", {})
+            assert result is None
+
+    def test_empty_data(self):
+        mock_response = MagicMock()
+        mock_response.status_code = 200
+        mock_response.json.return_value = []
+        with patch("src.collect.requests.get", return_value=mock_response):
+            result = get_weekly_commits("owner", "repo", {})
+            assert result is None

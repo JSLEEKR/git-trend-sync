@@ -77,6 +77,21 @@ def get_recent_commits_count(owner: str, repo: str, headers: dict) -> int:
     return len(resp.json())
 
 
+def get_weekly_commits(owner: str, repo: str, headers: dict) -> int | None:
+    """Get commit count for the most recent week via /stats/commit_activity."""
+    url = f"{GITHUB_API}/repos/{owner}/{repo}/stats/commit_activity"
+    resp = requests.get(url, headers=headers, timeout=30)
+    if resp.status_code == 202:
+        time.sleep(2)
+        resp = requests.get(url, headers=headers, timeout=30)
+    if resp.status_code != 200:
+        return None
+    weeks = resp.json()
+    if not weeks:
+        return None
+    return weeks[-1]["total"]
+
+
 def extract_repo_data(item: dict, headers: dict) -> dict:
     """Extract relevant data from a GitHub API repo item."""
     owner = item["owner"]["login"]
@@ -89,6 +104,7 @@ def extract_repo_data(item: dict, headers: dict) -> dict:
     readme_truncated = readme[:3000] if readme else ""
 
     recent_commits = get_recent_commits_count(owner, name, headers)
+    weekly_commits = get_weekly_commits(owner, name, headers)
     # Brief pause to respect rate limits
     time.sleep(0.5)
 
@@ -107,6 +123,7 @@ def extract_repo_data(item: dict, headers: dict) -> dict:
         "pushed_at": item.get("pushed_at", ""),
         "topics": item.get("topics", []),
         "recent_commits_30d": recent_commits,
+        "recent_commits_7d": weekly_commits if weekly_commits is not None else recent_commits // 4,
         "readme_excerpt": readme_truncated,
     }
 
