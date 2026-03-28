@@ -41,7 +41,7 @@ class TestComputeActivityScores:
         assert "date" in result
         assert "categories" in result
         repos = result["categories"]["AI Agent Framework"]
-        assert len(repos) == 2
+        assert len(repos) == 3
         # Higher commits should have higher trend_score
         assert repos[0]["trend_score"] >= repos[1]["trend_score"]
 

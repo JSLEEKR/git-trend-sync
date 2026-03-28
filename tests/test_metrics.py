@@ -49,7 +49,7 @@ class TestComputeMetrics:
         assert "date" in result
         assert "categories" in result
         repos = result["categories"]["AI Agent Framework"]
-        assert len(repos) == 2
+        assert len(repos) == 3
         for r in repos:
             assert "scores" in r
             scores = r["scores"]
