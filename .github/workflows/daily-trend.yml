@@ -33,6 +33,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: python run.py --skip-analysis --no-push --no-recommend
 
+      - name: Scan tool gaps
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: python -c "from src.gaps import run_gaps; run_gaps()"
+
+      - name: Generate opportunity report
+        run: python -c "from src.opportunities import run_opportunities; run_opportunities()"
+
       - name: Update README with trending data
         run: python -c "from src.readme_update import update_readme; update_readme()"
 

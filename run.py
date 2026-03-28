@@ -79,8 +79,20 @@ def step_trending(date: str):
     return run_scoring(date)
 
 
+def step_gaps(date: str):
+    """Step 5: Scan GitHub Issues for tool demand."""
+    from src.gaps import run_gaps
+    return run_gaps(date)
+
+
+def step_opportunities(date: str):
+    """Step 6: Generate opportunity report."""
+    from src.opportunities import run_opportunities
+    return run_opportunities(date)
+
+
 def step_recommend(date: str, project_path: str):
-    """Step 5: Generate project recommendations."""
+    """Step 7: Generate project recommendations."""
     from src.recommend import run_recommendations
     return run_recommendations(date, project_path)
 
@@ -151,6 +163,10 @@ def main():
             print("\n  Skipping Claude Code analysis (--skip-analysis)")
 
         run_step("Generate Reports", step_report, date)
+
+        run_step("Scan Tool Gaps", step_gaps, date)
+
+        run_step("Generate Opportunities", step_opportunities, date)
 
         if not args.no_recommend:
             run_step("Project Recommendations", step_recommend, date, args.project)
