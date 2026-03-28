@@ -42,7 +42,6 @@ fi
 
 # 변경사항 스테이징
 git add reports/ data/ .gitignore
-git add -A
 
 # 변경사항이 있는지 확인
 if git diff --cached --quiet; then

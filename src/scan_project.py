@@ -1,15 +1,65 @@
 """
-scan_project.py — project context scanner for ai-trend
+scan_project.py — project context scanner for git-trend-sync
 
 Scans a project directory to detect its tech stack, frameworks, dependencies,
-and architecture patterns. Optionally reads an ai-trend.yaml config file.
+and architecture patterns. Optionally reads a git-trend-sync.yaml config file.
 """
 
 import json
+import re as _re
 import sys
 from pathlib import Path
 
 import yaml
+
+# TOML parsing: use tomllib (3.11+) or fall back to regex-based extraction
+try:
+    import tomllib as _tomllib  # Python 3.11+
+except ModuleNotFoundError:
+    _tomllib = None  # type: ignore[assignment]
+
+
+def _parse_toml(text: str) -> dict:
+    """Parse TOML text using tomllib if available, else a minimal regex parser."""
+    if _tomllib is not None:
+        return _tomllib.loads(text)
+    # Minimal fallback: extract top-level tables and key-value pairs.
+    # Sufficient for pyproject.toml / Cargo.toml dependency extraction.
+    result: dict = {}
+    current_section: dict = result
+    section_path: list[str] = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        # Table header: [section] or [section.sub]
+        header_match = _re.match(r'^\[([^\[\]]+)\]\s*$', stripped)
+        if header_match:
+            section_path = [p.strip().strip('"').strip("'") for p in header_match.group(1).split(".")]
+            current_section = result
+            for part in section_path:
+                current_section = current_section.setdefault(part, {})
+            continue
+        # Key = value
+        kv_match = _re.match(r'^([A-Za-z0-9_\-]+)\s*=\s*(.+)$', stripped)
+        if kv_match:
+            key = kv_match.group(1).strip()
+            val_str = kv_match.group(2).strip()
+            # Parse arrays: ["a", "b"]
+            arr_match = _re.match(r'^\[(.+)\]$', val_str)
+            if arr_match:
+                items = _re.findall(r'"([^"]*)"', arr_match.group(1))
+                if not items:
+                    items = _re.findall(r"'([^']*)'", arr_match.group(1))
+                current_section[key] = items
+            # Parse inline tables or version strings -> store as dict
+            elif val_str.startswith("{"):
+                current_section[key] = {}
+            elif val_str.startswith('"') or val_str.startswith("'"):
+                current_section[key] = val_str.strip('"').strip("'")
+            else:
+                current_section[key] = val_str
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -202,7 +252,7 @@ def _extract_python_deps_from_pyproject(path: Path) -> list[str]:
     """Parse pyproject.toml (PEP 621 or poetry) and return dependency names."""
     deps = []
     try:
-        data = yaml.safe_load(path.read_text(encoding="utf-8", errors="ignore"))
+        data = _parse_toml(path.read_text(encoding="utf-8", errors="ignore"))
         if not isinstance(data, dict):
             return deps
         # PEP 621: project.dependencies
@@ -269,7 +319,7 @@ def _extract_rust_deps_from_cargo_toml(path: Path) -> list[str]:
     """Parse Cargo.toml and return crate names (lowercased)."""
     deps = []
     try:
-        data = yaml.safe_load(path.read_text(encoding="utf-8", errors="ignore"))
+        data = _parse_toml(path.read_text(encoding="utf-8", errors="ignore"))
         if not isinstance(data, dict):
             return deps
         for section in ("dependencies", "dev-dependencies", "build-dependencies"):
@@ -465,7 +515,7 @@ def scan_project(project_path: str) -> dict:
     # Try pyproject.toml project.name
     if pyproject.exists():
         try:
-            pdata = yaml.safe_load(pyproject.read_text(encoding="utf-8", errors="ignore"))
+            pdata = _parse_toml(pyproject.read_text(encoding="utf-8", errors="ignore"))
             if isinstance(pdata, dict):
                 proj_name = (pdata.get("project") or {}).get("name")
                 if not proj_name:
@@ -476,31 +526,58 @@ def scan_project(project_path: str) -> dict:
             pass
 
     # ------------------------------------------------------------------
-    # 6. Load optional ai-trend.yaml config
+    # 6. Load optional git-trend-sync.yaml config
     # ------------------------------------------------------------------
     declared_interests: list[str] = []
     exclude: list[str] = []
     tech_stack_override: list[str] = []
 
-    ai_trend_config_path = root / "ai-trend.yaml"
-    if not ai_trend_config_path.exists():
-        ai_trend_config_path = root / "ai-trend.yml"
+    config_path = None
+    for candidate in (
+        "git-trend-sync.yaml",
+        "git-trend-sync.yml",
+        "ai-trend.yaml",       # legacy fallback
+        "ai-trend.yml",        # legacy fallback
+    ):
+        p = root / candidate
+        if p.exists():
+            config_path = p
+            break
 
-    if ai_trend_config_path.exists():
+    if config_path is not None:
         try:
             config_data = yaml.safe_load(
-                ai_trend_config_path.read_text(encoding="utf-8", errors="ignore")
+                config_path.read_text(encoding="utf-8", errors="ignore")
             )
             if isinstance(config_data, dict):
-                declared_interests = list(config_data.get("interests", []) or [])
-                exclude = list(config_data.get("exclude", []) or [])
-                tech_stack_override = list(config_data.get("tech_stack_override", []) or [])
+                # Support nested project: structure (as documented in README)
+                project_section = config_data.get("project", {}) or {}
+                if project_section:
+                    # Nested structure: project.interests, project.exclude, etc.
+                    declared_interests = list(project_section.get("interests", []) or [])
+                    exclude = list(project_section.get("exclude", []) or [])
+                    # Map tech_stack -> tech_stack_override
+                    tech_stack_override = list(
+                        project_section.get("tech_stack", [])
+                        or project_section.get("tech_stack_override", [])
+                        or []
+                    )
+                    if project_section.get("name"):
+                        name = str(project_section["name"])
+                    if project_section.get("description"):
+                        description = str(project_section["description"])
+                else:
+                    # Flat structure (backwards compatibility)
+                    declared_interests = list(config_data.get("interests", []) or [])
+                    exclude = list(config_data.get("exclude", []) or [])
+                    tech_stack_override = list(config_data.get("tech_stack_override", []) or [])
 
-                # Allow config to override name / description
-                if config_data.get("name"):
-                    name = str(config_data["name"])
-                if config_data.get("description"):
-                    description = str(config_data["description"])
+                # Allow top-level name/description to override (flat config)
+                if not project_section:
+                    if config_data.get("name"):
+                        name = str(config_data["name"])
+                    if config_data.get("description"):
+                        description = str(config_data["description"])
         except Exception:
             pass
 

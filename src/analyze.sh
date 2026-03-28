@@ -8,7 +8,12 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 BASE_DIR="$(dirname "$SCRIPT_DIR")"
+# Sanitize date input to prevent path injection
 DATE="${1:-$(date +%Y-%m-%d)}"
+if [[ ! "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+    echo "Error: Invalid date format. Expected YYYY-MM-DD, got: $DATE"
+    exit 1
+fi
 DATA_DIR="$BASE_DIR/data/$DATE"
 METRICS_FILE="$DATA_DIR/metrics.json"
 PROMPT_TEMPLATE="$BASE_DIR/config/prompts/analyze.md"

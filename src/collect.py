@@ -4,6 +4,7 @@ GitHub Topics에서 카테고리별 상위 레포지토리를 수집합니다.
 
 import json
 import os
+import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -27,6 +28,8 @@ def get_headers() -> dict:
     token = os.environ.get("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token}"
+    else:
+        print("Warning: GITHUB_TOKEN not set. API rate limit will be 60 requests/hour.", file=sys.stderr)
     return headers
 
 
@@ -72,17 +75,6 @@ def get_recent_commits_count(owner: str, repo: str, headers: dict) -> int:
             if match:
                 return int(match.group(1))
     return len(resp.json())
-
-
-def get_closed_issues_count(owner: str, repo: str, headers: dict) -> int:
-    """Get total closed issues count."""
-    url = f"{GITHUB_API}/repos/{owner}/{repo}"
-    resp = requests.get(url, headers=headers, timeout=30)
-    if resp.status_code != 200:
-        return 0
-    data = resp.json()
-    # open_issues_count includes PRs, so we approximate
-    return data.get("open_issues_count", 0)
 
 
 def extract_repo_data(item: dict, headers: dict) -> dict:

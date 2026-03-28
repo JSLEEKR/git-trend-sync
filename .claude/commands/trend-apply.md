@@ -4,7 +4,7 @@ Analyze the current project against the latest AI agent trend data and generate 
 
 1. **Scan this project**: Read README.md, requirements.txt/package.json/pyproject.toml, and directory structure to understand the tech stack, architecture, and purpose.
 
-2. **Load trend data**: Read the latest `data/YYYY-MM-DD/trending.json` from the git-trend-sync project (located at the path configured in git-trend-sync.yaml, or default `~/OneDrive/Documents/git-git-trend-sync/`).
+2. **Load trend data**: Read the latest `data/YYYY-MM-DD/trending.json` from the git-trend-sync project (located at the path configured in git-trend-sync.yaml, or default `~/OneDrive/Documents/git-trend-sync/`).
 
 3. **Match and filter**: For each trending repo:
    - Does the tech stack match this project?
