@@ -74,9 +74,9 @@ def step_report(date: str):
 
 
 def step_trending(date: str):
-    """Step 2b: Compute trend scores."""
-    from src.trending import run_trending
-    return run_trending(date)
+    """Step 2b: Compute multi-signal trend scores."""
+    from src.scoring import run_scoring
+    return run_scoring(date)
 
 
 def step_recommend(date: str, project_path: str):
