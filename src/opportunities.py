@@ -66,7 +66,13 @@ def detect_cross_category_patterns(gaps: dict) -> list[dict]:
     # keyword -> {category -> count}
     keyword_cats: dict[str, dict[str, int]] = {}
 
-    for category, gap_list in gaps.items():
+    for category, cat_data in gaps.items():
+        if isinstance(cat_data, dict):
+            gap_list = cat_data.get("top_gaps", [])
+        elif isinstance(cat_data, list):
+            gap_list = cat_data
+        else:
+            continue
         for gap in gap_list:
             for kw in gap.get("keywords", []):
                 kw_lower = kw.lower()
@@ -303,7 +309,14 @@ def run_opportunities(
     # Collect all demand scores for normalization
     all_demands: list[float] = []
     gap_entries: list[tuple[str, dict]] = []
-    for cat, gap_list in gap_categories.items():
+    for cat, cat_data in gap_categories.items():
+        # Support both {"top_gaps": [...]} and plain list formats
+        if isinstance(cat_data, dict):
+            gap_list = cat_data.get("top_gaps", [])
+        elif isinstance(cat_data, list):
+            gap_list = cat_data
+        else:
+            continue
         for gap in gap_list:
             demand = float(gap.get("demand_score", 0))
             all_demands.append(demand)
