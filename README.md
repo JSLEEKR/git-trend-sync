@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-03-30)
+### Today's Top Trending (2026-03-31)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [dagu](https://github.com/dagu-org/dagu) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.3 | 🆕 newcomer | 15d, 471.9/day |
-| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.9 | 📈 momentum | 59 commits/7d |
-| 4 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | AI Observability | 8.9 | 🆕 newcomer | 162d, 49.7/day |
-| 5 | [awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) | AI Observability | 8.8 | 🆕 newcomer | 127d, 80.4/day |
-| 6 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent Framework | 8.7 | 📈 momentum | 21 commits/7d |
-| 7 | [opencli](https://github.com/jackwener/opencli) | AI Agent Framework | 8.6 | 🆕 newcomer | 15d, 603.6/day |
-| 8 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.6 | 🆕 newcomer | 74d, 388.0/day |
-| 9 | [cli](https://github.com/googleworkspace/cli) | AI Agent Framework | 8.5 | 🆕 newcomer | 27d, 857.1/day |
-| 10 | [workany](https://github.com/workany-ai/workany) | Computer Use Agent | 8.5 | 🔥 surge | x0.9 this week |
+| 1 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 9.5 | 🔥 surge | x1.0 this week |
+| 2 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.0 | 🆕 newcomer | 81d, 222.8/day |
+| 3 | [cli](https://github.com/googleworkspace/cli) | AI Agent Framework | 8.9 | 🆕 newcomer | 28d, 831.6/day |
+| 4 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | AI Observability | 8.9 | 📈 momentum | 84 commits/7d |
+| 5 | [prompt-master](https://github.com/nidhinjs/prompt-master) | AI Observability | 8.9 | 🆕 newcomer | 19d, 216.1/day |
+| 6 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 8.6 | 🆕 newcomer | 80d, 341.0/day |
+| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.6 | 🆕 newcomer | 75d, 388.6/day |
+| 8 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.6 | 🆕 newcomer | 67d, 237.9/day |
+| 9 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 8.3 | 🆕 newcomer | 32d, 120.8/day |
+| 10 | [godogen](https://github.com/htdt/godogen) | Coding Assistant | 8.2 | 🆕 newcomer | 52d, 45.9/day |
 
-> Last updated: 2026-03-30 — [Full Report](reports/2026-03-30.md)
+> Last updated: 2026-03-31 — [Full Report](reports/2026-03-31.md)
 <!-- TREND-END -->
 
 ---
