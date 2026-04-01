@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-03-31)
+### Today's Top Trending (2026-04-01)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 9.5 | 🔥 surge | x1.0 this week |
-| 2 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.0 | 🆕 newcomer | 81d, 222.8/day |
-| 3 | [cli](https://github.com/googleworkspace/cli) | AI Agent Framework | 8.9 | 🆕 newcomer | 28d, 831.6/day |
-| 4 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | AI Observability | 8.9 | 📈 momentum | 84 commits/7d |
-| 5 | [prompt-master](https://github.com/nidhinjs/prompt-master) | AI Observability | 8.9 | 🆕 newcomer | 19d, 216.1/day |
-| 6 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 8.6 | 🆕 newcomer | 80d, 341.0/day |
-| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.6 | 🆕 newcomer | 75d, 388.6/day |
-| 8 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.6 | 🆕 newcomer | 67d, 237.9/day |
-| 9 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 8.3 | 🆕 newcomer | 32d, 120.8/day |
-| 10 | [godogen](https://github.com/htdt/godogen) | Coding Assistant | 8.2 | 🆕 newcomer | 52d, 45.9/day |
+| 1 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🔥 surge | x1.0 this week |
+| 2 | [opencli](https://github.com/jackwener/opencli) | AI Agent Framework | 8.9 | 🆕 newcomer | 17d, 593.5/day |
+| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.9 | 🆕 newcomer | 68d, 239.5/day |
+| 4 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 8.8 | 🆕 newcomer | 33d, 118.9/day |
+| 5 | [godogen](https://github.com/htdt/godogen) | Coding Assistant | 8.7 | 🔥 surge | x1.6 this week |
+| 6 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 8.6 | 🆕 newcomer | 81d, 339.2/day |
+| 7 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.6 | 📈 momentum | 164 commits/7d |
+| 8 | [cli](https://github.com/googleworkspace/cli) | AI Agent Framework | 8.5 | 🆕 newcomer | 29d, 807.8/day |
+| 9 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.3 | 🆕 newcomer | 68d, 20.6/day |
+| 10 | [prompt-master](https://github.com/nidhinjs/prompt-master) | AI Observability | 8.2 | 🆕 newcomer | 20d, 212.6/day |
 
-> Last updated: 2026-03-31 — [Full Report](reports/2026-03-31.md)
+> Last updated: 2026-04-01 — [Full Report](reports/2026-04-01.md)
 <!-- TREND-END -->
 
 ---
