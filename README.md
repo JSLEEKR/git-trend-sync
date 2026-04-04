@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-03)
+### Today's Top Trending (2026-04-04)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [workany](https://github.com/workany-ai/workany) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [MiroFish](https://github.com/666ghj/MiroFish) | Knowledge Management | 9.9 | 🔥 surge | x22.8 this week |
-| 3 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.3 | 🆕 newcomer | 75d, 1801.1/day |
-| 4 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.1 | 📈 momentum | 150 commits/7d |
-| 5 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.9 | 🆕 newcomer | 19d, 404.5/day |
-| 6 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 8.8 | 🆕 newcomer | 88d, 235.5/day |
-| 7 | [prompt-master](https://github.com/nidhinjs/prompt-master) | AI Observability | 8.7 | 🆕 newcomer | 22d, 202.5/day |
-| 8 | [opencli](https://github.com/jackwener/opencli) | AI Agent Framework | 8.5 | 🆕 newcomer | 19d, 641.8/day |
-| 9 | [awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) | AI Observability | 8.2 | 🆕 newcomer | 131d, 80.4/day |
-| 10 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | AI Observability | 8.1 | 🆕 newcomer | 166d, 54.7/day |
+| 1 | [MiroFish](https://github.com/666ghj/MiroFish) | Knowledge Management | 9.8 | 🔥 surge | x22.8 this week |
+| 2 | [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) | Multi-Agent | 9.3 | 🆕 newcomer | 3d, 1167.3/day |
+| 3 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.9 | 🆕 newcomer | 76d, 1800.1/day |
+| 4 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.7 | 🆕 newcomer | 85d, 276.1/day |
+| 5 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 8.7 | 🆕 newcomer | 68d, 212.5/day |
+| 6 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.6 | 🆕 newcomer | 71d, 243.7/day |
+| 7 | [prompt-master](https://github.com/nidhinjs/prompt-master) | AI Observability | 8.5 | 🆕 newcomer | 23d, 196.7/day |
+| 8 | [workany](https://github.com/workany-ai/workany) | Computer Use Agent | 8.5 | 🔥 surge | x0.9 this week |
+| 9 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | Knowledge Management | 8.3 | 🆕 newcomer | 96d, 114.4/day |
+| 10 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 8.2 | 📈 momentum | 87 commits/7d |
 
-> Last updated: 2026-04-03 — [Full Report](reports/2026-04-03.md)
+> Last updated: 2026-04-04 — [Full Report](reports/2026-04-04.md)
 <!-- TREND-END -->
 
 ---
