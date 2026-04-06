@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-05)
+### Today's Top Trending (2026-04-06)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 9.4 | 🆕 newcomer | 85d, 330.1/day |
-| 3 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 9.2 | 🔥 surge | x1.0 this week |
-| 4 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent Framework | 8.9 | 🆕 newcomer | 40d, 378.4/day |
-| 5 | [MiroFish](https://github.com/666ghj/MiroFish) | Knowledge Management | 8.7 | 🆕 newcomer | 130d, 381.3/day |
-| 6 | [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) | Multi-Agent | 8.6 | 🆕 newcomer | 4d, 1121.5/day |
-| 7 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.4 | 📈 momentum | 131 commits/7d |
-| 8 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.4 | 🆕 newcomer | 72d, 248.8/day |
-| 9 | [ppt-master](https://github.com/hugohe3/ppt-master) | AI Agent Framework | 8.3 | 🔥 surge | x1.0 this week |
-| 10 | [awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) | AI Observability | 8.2 | 🆕 newcomer | 133d, 79.8/day |
+| 1 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.0 | 🆕 newcomer | 78d, 1815.1/day |
+| 2 | [opencli](https://github.com/jackwener/opencli) | AI Agent Framework | 8.9 | 📈 momentum | 181 commits/7d |
+| 3 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.9 | 🆕 newcomer | 87d, 284.8/day |
+| 4 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 8.6 | 🔥 surge | x1.0 this week |
+| 5 | [MiroFish](https://github.com/666ghj/MiroFish) | Knowledge Management | 8.6 | 📈 momentum | 10 commits/7d |
+| 6 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.5 | 🔥 surge | x1.0 this week |
+| 7 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 8.2 | 📈 momentum | 102 commits/7d |
+| 8 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 8.1 | 🆕 newcomer | 38d, 134.3/day |
+| 9 | [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) | Multi-Agent | 7.8 | 🆕 newcomer | 5d, 1005.4/day |
+| 10 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 7.8 | 📈 momentum | 33 commits/7d |
 
-> Last updated: 2026-04-05 — [Full Report](reports/2026-04-05.md)
+> Last updated: 2026-04-06 — [Full Report](reports/2026-04-06.md)
 <!-- TREND-END -->
 
 ---
