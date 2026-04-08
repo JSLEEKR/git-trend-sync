@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-07)
+### Today's Top Trending (2026-04-08)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.6 | 🆕 newcomer | 79d, 1822.4/day |
-| 2 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.6 | 🆕 newcomer | 3d, 1696.0/day |
-| 3 | [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) | Multi-Agent | 9.2 | 🆕 newcomer | 6d, 881.2/day |
-| 4 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.2 | 📈 momentum | 133 commits/7d |
-| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.0 | 🆕 newcomer | 2d, 7029.5/day |
-| 6 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 9.0 | 🔥 surge | x1.0 this week |
-| 7 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.8 | 🆕 newcomer | 139d, 27.0/day |
-| 8 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | AI Observability | 8.7 | 🆕 newcomer | 170d, 58.0/day |
-| 9 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.6 | 📈 momentum | 87 commits/7d |
-| 10 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.3 | 🆕 newcomer | 82d, 381.0/day |
+| 1 | [edgequake](https://github.com/raphaelmansuy/edgequake) | Knowledge Management | 9.3 | 🔥 surge | x1.2 this week |
+| 2 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 8.9 | 🆕 newcomer | 93d, 232.2/day |
+| 3 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.8 | 📈 momentum | 157 commits/7d |
+| 4 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 8.8 | 📈 momentum | 37 commits/7d |
+| 5 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.8 | 🆕 newcomer | 4d, 2433.5/day |
+| 6 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.7 | 🆕 newcomer | 4d, 1700.5/day |
+| 7 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.6 | 🆕 newcomer | 75d, 267.8/day |
+| 8 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | AI Observability | 8.6 | 🆕 newcomer | 171d, 58.6/day |
+| 9 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.5 | 🔥 surge | x1.0 this week |
+| 10 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 8.5 | 🔥 surge | x1.0 this week |
 
-> Last updated: 2026-04-07 — [Full Report](reports/2026-04-07.md)
+> Last updated: 2026-04-08 — [Full Report](reports/2026-04-08.md)
 <!-- TREND-END -->
 
 ---
