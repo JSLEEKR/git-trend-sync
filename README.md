@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-10)
+### Today's Top Trending (2026-04-11)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [mempalace](https://github.com/milla-jovovich/mempalace) | MCP | 10.0 | 🔥 surge | x6.8 this week |
-| 2 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.1 | 🆕 newcomer | 5d, 5709.0/day |
-| 3 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 9.0 | 🔥 surge | x1.0 this week |
-| 4 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 8.7 | 🆕 newcomer | 90d, 323.1/day |
-| 5 | [agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) | Multi-Agent | 8.5 | 📈 momentum | 146 commits/7d |
-| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.5 | 🆕 newcomer | 91d, 298.9/day |
-| 7 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.4 | 🆕 newcomer | 6d, 3222.0/day |
-| 8 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.4 | 🆕 newcomer | 26d, 310.7/day |
-| 9 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.3 | 🆕 newcomer | 82d, 1823.3/day |
-| 10 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 8.1 | 🆕 newcomer | 42d, 179.8/day |
+| 1 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.7 | 🔥 surge | x1.6 this week |
+| 2 | [mempalace](https://github.com/milla-jovovich/mempalace) | MCP | 9.3 | 🆕 newcomer | 6d, 6808.0/day |
+| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.0 | 🆕 newcomer | 78d, 297.8/day |
+| 4 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.9 | 🆕 newcomer | 27d, 300.7/day |
+| 5 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.8 | 📈 momentum | 180 commits/7d |
+| 6 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.6 | 🆕 newcomer | 45d, 31.3/day |
+| 7 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.4 | 🆕 newcomer | 6d, 4988.5/day |
+| 8 | [ppt-master](https://github.com/hugohe3/ppt-master) | AI Agent Framework | 8.4 | 🔥 surge | x1.4 this week |
+| 9 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 8.4 | 🆕 newcomer | 91d, 321.5/day |
+| 10 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.4 | 🆕 newcomer | 7d, 3012.0/day |
 
-> Last updated: 2026-04-10 — [Full Report](reports/2026-04-10.md)
+> Last updated: 2026-04-11 — [Full Report](reports/2026-04-11.md)
 <!-- TREND-END -->
 
 ---
