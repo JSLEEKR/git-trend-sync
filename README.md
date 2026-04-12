@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-11)
+### Today's Top Trending (2026-04-12)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.7 | 🔥 surge | x1.6 this week |
-| 2 | [mempalace](https://github.com/milla-jovovich/mempalace) | MCP | 9.3 | 🆕 newcomer | 6d, 6808.0/day |
-| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.0 | 🆕 newcomer | 78d, 297.8/day |
-| 4 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.9 | 🆕 newcomer | 27d, 300.7/day |
-| 5 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.8 | 📈 momentum | 180 commits/7d |
-| 6 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.6 | 🆕 newcomer | 45d, 31.3/day |
-| 7 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.4 | 🆕 newcomer | 6d, 4988.5/day |
-| 8 | [ppt-master](https://github.com/hugohe3/ppt-master) | AI Agent Framework | 8.4 | 🔥 surge | x1.4 this week |
-| 9 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 8.4 | 🆕 newcomer | 91d, 321.5/day |
-| 10 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.4 | 🆕 newcomer | 7d, 3012.0/day |
+| 1 | [eigent](https://github.com/eigent-ai/eigent) | Computer Use Agent | 10.0 | 🔥 surge | x0.9 this week |
+| 2 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.4 | 🆕 newcomer | 28d, 291.5/day |
+| 3 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.1 | 📈 momentum | 170 commits/7d |
+| 4 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.9 | 🆕 newcomer | 79d, 306.0/day |
+| 5 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.9 | 🆕 newcomer | 8d, 2850.8/day |
+| 6 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 8.5 | 🆕 newcomer | 37d, 157.5/day |
+| 7 | [awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro) | AI Observability | 8.4 | 🔥 surge | x1.0 this week |
+| 8 | [edgequake](https://github.com/raphaelmansuy/edgequake) | Knowledge Management | 8.3 | 🆕 newcomer | 112d, 14.6/day |
+| 9 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 8.2 | 📈 momentum | 211 commits/7d |
+| 10 | [OpenCLI](https://github.com/jackwener/OpenCLI) | AI Agent Framework | 8.1 | 🆕 newcomer | 28d, 543.2/day |
 
-> Last updated: 2026-04-11 — [Full Report](reports/2026-04-11.md)
+> Last updated: 2026-04-12 — [Full Report](reports/2026-04-12.md)
 <!-- TREND-END -->
 
 ---
