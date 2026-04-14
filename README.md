@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-13)
+### Today's Top Trending (2026-04-14)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.3 | 🆕 newcomer | 9d, 2721.1/day |
-| 2 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.2 | 🆕 newcomer | 8d, 4023.5/day |
-| 3 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 9.2 | 🆕 newcomer | 8d, 5530.2/day |
-| 4 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Multi-Agent | 9.1 | 📈 momentum | 8 commits/7d |
-| 5 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.0 | 🆕 newcomer | 94d, 301.1/day |
-| 6 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | AI Observability | 8.9 | 📈 momentum | 47 commits/7d |
-| 7 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.6 | 🆕 newcomer | 9d, 2664.6/day |
-| 8 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 8.5 | 🆕 newcomer | 45d, 205.8/day |
-| 9 | [agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) | Multi-Agent | 8.4 | 📈 momentum | 153 commits/7d |
-| 10 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.3 | 🆕 newcomer | 88d, 370.3/day |
+| 1 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.3 | 🆕 newcomer | 10d, 2588.2/day |
+| 2 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.9 | 📈 momentum | 81 commits/7d |
+| 3 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.7 | 📈 momentum | 164 commits/7d |
+| 4 | [edgequake](https://github.com/raphaelmansuy/edgequake) | Knowledge Management | 8.7 | 🔥 surge | x1.0 this week |
+| 5 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 8.6 | 📈 momentum | 147 commits/7d |
+| 6 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Knowledge Management | 8.6 | 📈 momentum | 43 commits/7d |
+| 7 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.4 | 🔥 surge | x1.0 this week |
+| 8 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.3 | 🆕 newcomer | 89d, 369.8/day |
+| 9 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.2 | 🆕 newcomer | 146d, 25.9/day |
+| 10 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.2 | 🆕 newcomer | 9d, 5043.0/day |
 
-> Last updated: 2026-04-13 — [Full Report](reports/2026-04-13.md)
+> Last updated: 2026-04-14 — [Full Report](reports/2026-04-14.md)
 <!-- TREND-END -->
 
 ---
