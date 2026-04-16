@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-15)
+### Today's Top Trending (2026-04-16)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 9.5 | 🔥 surge | x1.0 this week |
-| 2 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.8 | 📈 momentum | 80 commits/7d |
-| 3 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.7 | 🆕 newcomer | 147d, 25.8/day |
-| 4 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.7 | 🔥 surge | x1.0 this week |
-| 5 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.7 | 📈 momentum | 195 commits/7d |
-| 6 | [agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) | Multi-Agent | 8.6 | 📈 momentum | 164 commits/7d |
-| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.6 | 🆕 newcomer | 90d, 368.2/day |
-| 8 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.6 | 🆕 newcomer | 10d, 4629.3/day |
-| 9 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.6 | 🆕 newcomer | 11d, 2451.0/day |
-| 10 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 8.4 | 📈 momentum | 224 commits/7d |
+| 1 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 9.4 | 🔥 surge | x1.0 this week |
+| 2 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.1 | 📈 momentum | 79 commits/7d |
+| 3 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.9 | 🆕 newcomer | 32d, 262.4/day |
+| 4 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.9 | 🆕 newcomer | 50d, 31.5/day |
+| 5 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.8 | 🆕 newcomer | 12d, 2326.1/day |
+| 6 | [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) | Multi-Agent | 8.7 | 🆕 newcomer | 15d, 381.2/day |
+| 7 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.7 | 📈 momentum | 194 commits/7d |
+| 8 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.7 | 📈 momentum | 189 commits/7d |
+| 9 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.5 | 🆕 newcomer | 12d, 2810.0/day |
+| 10 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.3 | 🆕 newcomer | 11d, 4264.5/day |
 
-> Last updated: 2026-04-15 — [Full Report](reports/2026-04-15.md)
+> Last updated: 2026-04-16 — [Full Report](reports/2026-04-16.md)
 <!-- TREND-END -->
 
 ---
