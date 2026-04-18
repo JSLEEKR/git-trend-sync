@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-18",
+  "categories": {
+    "AI Agent Framework": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "RAG Framework": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "Multi-Agent": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "Coding Assistant": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "AI Infrastructure": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "Browser Agent": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "MCP": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "AI Workflow": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "Voice Agent": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "Knowledge Management": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "AI Observability": {
+      "total_signals": 0,
+      "top_gaps": []
+    },
+    "Computer Use Agent": {
+      "total_signals": 0,
+      "top_gaps": []
+    }
+  }
+}

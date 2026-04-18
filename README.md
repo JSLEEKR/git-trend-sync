@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-17)
+### Today's Top Trending (2026-04-18)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.6 | 🆕 newcomer | 13d, 2209.5/day |
-| 2 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | AI Workflow | 8.8 | 🔥 surge | x1.0 this week |
-| 3 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.8 | 🆕 newcomer | 13d, 2776.0/day |
-| 4 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.7 | 🆕 newcomer | 12d, 3946.6/day |
-| 5 | [edgequake](https://github.com/raphaelmansuy/edgequake) | Knowledge Management | 8.5 | 🔥 surge | x1.0 this week |
-| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.4 | 🆕 newcomer | 98d, 301.5/day |
-| 7 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.4 | 📈 momentum | 189 commits/7d |
-| 8 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.4 | 🆕 newcomer | 81d, 68.8/day |
-| 9 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.2 | 🆕 newcomer | 92d, 365.0/day |
-| 10 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.2 | 🆕 newcomer | 84d, 337.9/day |
+| 1 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.2 | 🆕 newcomer | 85d, 338.6/day |
+| 2 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🆕 newcomer | 82d, 245.9/day |
+| 3 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Knowledge Management | 9.0 | 🆕 newcomer | 50d, 217.3/day |
+| 4 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.7 | 🆕 newcomer | 93d, 362.9/day |
+| 5 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.4 | 📈 momentum | 189 commits/7d |
+| 6 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.4 | 🆕 newcomer | 14d, 2104.8/day |
+| 7 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 8.3 | 🆕 newcomer | 43d, 158.1/day |
+| 8 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.3 | 📈 momentum | 198 commits/7d |
+| 9 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.3 | 🆕 newcomer | 13d, 3668.6/day |
+| 10 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.3 | 🆕 newcomer | 14d, 2662.6/day |
 
-> Last updated: 2026-04-17 — [Full Report](reports/2026-04-17.md)
+> Last updated: 2026-04-18 — [Full Report](reports/2026-04-18.md)
 <!-- TREND-END -->
 
 ---
