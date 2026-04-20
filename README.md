@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-19)
+### Today's Top Trending (2026-04-20)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Knowledge Management | 9.4 | 📈 momentum | 54 commits/7d |
-| 2 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.2 | 🆕 newcomer | 15d, 2016.0/day |
-| 3 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🆕 newcomer | 83d, 250.2/day |
-| 4 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.8 | 📈 momentum | 156 commits/7d |
-| 5 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.8 | 🆕 newcomer | 86d, 343.8/day |
-| 6 | [agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) | Multi-Agent | 8.7 | 📈 momentum | 189 commits/7d |
-| 7 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.7 | 🆕 newcomer | 91d, 1766.8/day |
-| 8 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.7 | 🆕 newcomer | 15d, 2552.9/day |
-| 9 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.6 | 🆕 newcomer | 100d, 299.3/day |
-| 10 | [pro-workflow](https://github.com/rohitg00/pro-workflow) | AI Workflow | 8.5 | 🔥 surge | x1.0 this week |
+| 1 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.2 | 🆕 newcomer | 87d, 350.7/day |
+| 2 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.0 | 🆕 newcomer | 16d, 1940.9/day |
+| 3 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Knowledge Management | 8.9 | 📈 momentum | 52 commits/7d |
+| 4 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.8 | 📈 momentum | 177 commits/7d |
+| 5 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.7 | 📈 momentum | 194 commits/7d |
+| 6 | [agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) | Multi-Agent | 8.6 | 🔥 surge | x1.0 this week |
+| 7 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.6 | 🆕 newcomer | 16d, 2489.8/day |
+| 8 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.5 | 📈 momentum | 39 commits/7d |
+| 9 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.1 | 🆕 newcomer | 15d, 3223.4/day |
+| 10 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 8.0 | 🆕 newcomer | 85d, 253.1/day |
 
-> Last updated: 2026-04-19 — [Full Report](reports/2026-04-19.md)
+> Last updated: 2026-04-20 — [Full Report](reports/2026-04-20.md)
 <!-- TREND-END -->
 
 ---
