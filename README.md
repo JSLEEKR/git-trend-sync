@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-21)
+### Today's Top Trending (2026-04-22)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.3 | 🆕 newcomer | 88d, 356.1/day |
-| 2 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 9.1 | 🆕 newcomer | 96d, 357.3/day |
-| 3 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🆕 newcomer | 85d, 258.7/day |
-| 4 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.9 | 🆕 newcomer | 153d, 24.9/day |
-| 5 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.8 | 📈 momentum | 172 commits/7d |
-| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.7 | 📈 momentum | 196 commits/7d |
-| 7 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.3 | 🆕 newcomer | 16d, 3040.6/day |
-| 8 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Knowledge Management | 8.3 | 📈 momentum | 52 commits/7d |
-| 9 | [ouroboros](https://github.com/Q00/ouroboros) | Multi-Agent | 8.2 | 📈 momentum | 96 commits/7d |
-| 10 | [pro-workflow](https://github.com/rohitg00/pro-workflow) | AI Workflow | 8.2 | 🔥 surge | x1.0 this week |
+| 1 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.0 | 📈 momentum | 197 commits/7d |
+| 2 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 9.0 | 🆕 newcomer | 97d, 355.8/day |
+| 3 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.0 | 🆕 newcomer | 18d, 1820.1/day |
+| 4 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.9 | 🆕 newcomer | 154d, 24.8/day |
+| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.7 | 🆕 newcomer | 17d, 2251.4/day |
+| 6 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.5 | 🆕 newcomer | 114d, 183.5/day |
+| 7 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.4 | 🆕 newcomer | 89d, 361.1/day |
+| 8 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.4 | 🆕 newcomer | 22d, 63.2/day |
+| 9 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.3 | 🆕 newcomer | 94d, 1742.2/day |
+| 10 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.3 | 🆕 newcomer | 18d, 2388.5/day |
 
-> Last updated: 2026-04-21 — [Full Report](reports/2026-04-21.md)
+> Last updated: 2026-04-22 — [Full Report](reports/2026-04-22.md)
 <!-- TREND-END -->
 
 ---
