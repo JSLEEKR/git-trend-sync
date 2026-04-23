@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-22)
+### Today's Top Trending (2026-04-23)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.0 | 📈 momentum | 197 commits/7d |
-| 2 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 9.0 | 🆕 newcomer | 97d, 355.8/day |
-| 3 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.0 | 🆕 newcomer | 18d, 1820.1/day |
-| 4 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.9 | 🆕 newcomer | 154d, 24.8/day |
-| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.7 | 🆕 newcomer | 17d, 2251.4/day |
-| 6 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.5 | 🆕 newcomer | 114d, 183.5/day |
-| 7 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.4 | 🆕 newcomer | 89d, 361.1/day |
-| 8 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.4 | 🆕 newcomer | 22d, 63.2/day |
-| 9 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.3 | 🆕 newcomer | 94d, 1742.2/day |
-| 10 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.3 | 🆕 newcomer | 18d, 2388.5/day |
+| 1 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.2 | 🆕 newcomer | 19d, 1760.8/day |
+| 2 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🆕 newcomer | 87d, 260.2/day |
+| 3 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.8 | 🆕 newcomer | 18d, 2148.7/day |
+| 4 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.7 | 🆕 newcomer | 115d, 183.7/day |
+| 5 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.6 | 📈 momentum | 171 commits/7d |
+| 6 | [pro-workflow](https://github.com/rohitg00/pro-workflow) | AI Workflow | 8.5 | 🔥 surge | x1.0 this week |
+| 7 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.5 | 🆕 newcomer | 23d, 66.7/day |
+| 8 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.2 | 🆕 newcomer | 18d, 2730.4/day |
+| 9 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 8.1 | 🔥 surge | x1.0 this week |
+| 10 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.1 | 🆕 newcomer | 19d, 2317.3/day |
 
-> Last updated: 2026-04-22 — [Full Report](reports/2026-04-22.md)
+> Last updated: 2026-04-23 — [Full Report](reports/2026-04-23.md)
 <!-- TREND-END -->
 
 ---
