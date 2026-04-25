@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-24)
+### Today's Top Trending (2026-04-25)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.2 | 🆕 newcomer | 20d, 1701.2/day |
-| 2 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.1 | 📈 momentum | 79 commits/7d |
-| 3 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.0 | 📈 momentum | 211 commits/7d |
-| 4 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.6 | 🆕 newcomer | 96d, 1727.3/day |
-| 5 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.6 | 🆕 newcomer | 20d, 2262.2/day |
-| 6 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.5 | 🆕 newcomer | 19d, 2055.5/day |
-| 7 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.4 | 🆕 newcomer | 24d, 68.7/day |
-| 8 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.3 | 🆕 newcomer | 116d, 183.6/day |
-| 9 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.2 | 🆕 newcomer | 99d, 352.1/day |
-| 10 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.1 | 🆕 newcomer | 19d, 2598.3/day |
+| 1 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.1 | 🆕 newcomer | 20d, 1970.5/day |
+| 2 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.9 | 🆕 newcomer | 21d, 1642.9/day |
+| 3 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.7 | 🆕 newcomer | 41d, 215.3/day |
+| 4 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.6 | 🆕 newcomer | 92d, 380.5/day |
+| 5 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.5 | 📈 momentum | 50 commits/7d |
+| 6 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.4 | 🆕 newcomer | 97d, 1717.1/day |
+| 7 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 8.3 | 🆕 newcomer | 110d, 209.3/day |
+| 8 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.3 | 🆕 newcomer | 114d, 30.1/day |
+| 9 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.3 | 🆕 newcomer | 25d, 68.1/day |
+| 10 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.2 | 🆕 newcomer | 100d, 350.1/day |
 
-> Last updated: 2026-04-24 — [Full Report](reports/2026-04-24.md)
+> Last updated: 2026-04-25 — [Full Report](reports/2026-04-25.md)
 <!-- TREND-END -->
 
 ---
