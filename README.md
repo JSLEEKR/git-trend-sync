@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-25)
+### Today's Top Trending (2026-04-26)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.1 | 🆕 newcomer | 20d, 1970.5/day |
-| 2 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.9 | 🆕 newcomer | 21d, 1642.9/day |
-| 3 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.7 | 🆕 newcomer | 41d, 215.3/day |
-| 4 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.6 | 🆕 newcomer | 92d, 380.5/day |
-| 5 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.5 | 📈 momentum | 50 commits/7d |
-| 6 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.4 | 🆕 newcomer | 97d, 1717.1/day |
-| 7 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 8.3 | 🆕 newcomer | 110d, 209.3/day |
-| 8 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.3 | 🆕 newcomer | 114d, 30.1/day |
-| 9 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.3 | 🆕 newcomer | 25d, 68.1/day |
-| 10 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.2 | 🆕 newcomer | 100d, 350.1/day |
+| 1 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.2 | 🆕 newcomer | 93d, 384.5/day |
+| 2 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.0 | 🆕 newcomer | 107d, 292.9/day |
+| 3 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.9 | 📈 momentum | 194 commits/7d |
+| 4 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.9 | 🆕 newcomer | 22d, 1592.7/day |
+| 5 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 8.7 | 🆕 newcomer | 90d, 260.2/day |
+| 6 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.6 | 🆕 newcomer | 21d, 1894.7/day |
+| 7 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.6 | 🆕 newcomer | 26d, 69.7/day |
+| 8 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.5 | 🆕 newcomer | 21d, 2366.8/day |
+| 9 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.4 | 🆕 newcomer | 158d, 24.3/day |
+| 10 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 8.3 | 🆕 newcomer | 31d, 71.3/day |
 
-> Last updated: 2026-04-25 — [Full Report](reports/2026-04-25.md)
+> Last updated: 2026-04-26 — [Full Report](reports/2026-04-26.md)
 <!-- TREND-END -->
 
 ---
