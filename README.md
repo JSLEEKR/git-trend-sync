@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-26)
+### Today's Top Trending (2026-04-27)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.2 | 🆕 newcomer | 93d, 384.5/day |
-| 2 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.0 | 🆕 newcomer | 107d, 292.9/day |
-| 3 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.9 | 📈 momentum | 194 commits/7d |
-| 4 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.9 | 🆕 newcomer | 22d, 1592.7/day |
-| 5 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 8.7 | 🆕 newcomer | 90d, 260.2/day |
-| 6 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.6 | 🆕 newcomer | 21d, 1894.7/day |
-| 7 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.6 | 🆕 newcomer | 26d, 69.7/day |
-| 8 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.5 | 🆕 newcomer | 21d, 2366.8/day |
-| 9 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.4 | 🆕 newcomer | 158d, 24.3/day |
-| 10 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 8.3 | 🆕 newcomer | 31d, 71.3/day |
+| 1 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.1 | 🆕 newcomer | 22d, 1825.0/day |
+| 3 | [nanobot](https://github.com/HKUDS/nanobot) | AI Agent Framework | 9.0 | 🔥 surge | x1.0 this week |
+| 4 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.0 | 🆕 newcomer | 23d, 1566.6/day |
+| 5 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.8 | 🆕 newcomer | 99d, 1697.2/day |
+| 6 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.8 | 🆕 newcomer | 22d, 2269.0/day |
+| 7 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.7 | 📈 momentum | 64 commits/7d |
+| 8 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 90d, 71.4/day |
+| 9 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.4 | 🆕 newcomer | 159d, 24.2/day |
+| 10 | [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) | Multi-Agent | 8.3 | 🆕 newcomer | 26d, 228.2/day |
 
-> Last updated: 2026-04-26 — [Full Report](reports/2026-04-26.md)
+> Last updated: 2026-04-27 — [Full Report](reports/2026-04-27.md)
 <!-- TREND-END -->
 
 ---
