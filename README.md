@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-28)
+### Today's Top Trending (2026-04-29)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.0 | 🆕 newcomer | 23d, 1758.3/day |
-| 3 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 9.0 | 🆕 newcomer | 108d, 297.4/day |
-| 4 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 8.7 | 🆕 newcomer | 113d, 205.2/day |
-| 5 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 91d, 71.8/day |
-| 6 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 8.6 | 🆕 newcomer | 33d, 70.4/day |
-| 7 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.5 | 🆕 newcomer | 95d, 393.7/day |
-| 8 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.5 | 🆕 newcomer | 24d, 1538.8/day |
-| 9 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.2 | 🆕 newcomer | 23d, 2178.7/day |
-| 10 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.1 | 🆕 newcomer | 14d, 315.4/day |
+| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [prompt-master](https://github.com/nidhinjs/prompt-master) | AI Observability | 9.1 | 🆕 newcomer | 48d, 135.8/day |
+| 3 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 9.0 | 🆕 newcomer | 114d, 203.9/day |
+| 4 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🆕 newcomer | 93d, 258.0/day |
+| 5 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.9 | 🆕 newcomer | 101d, 1681.4/day |
+| 6 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.7 | 🆕 newcomer | 15d, 302.7/day |
+| 7 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.6 | 🆕 newcomer | 25d, 1508.6/day |
+| 8 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.5 | 🆕 newcomer | 24d, 1701.2/day |
+| 9 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.3 | 🆕 newcomer | 96d, 397.0/day |
+| 10 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.2 | 🆕 newcomer | 121d, 186.0/day |
 
-> Last updated: 2026-04-28 — [Full Report](reports/2026-04-28.md)
+> Last updated: 2026-04-29 — [Full Report](reports/2026-04-29.md)
 <!-- TREND-END -->
 
 ---
