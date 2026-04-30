@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-04-29)
+### Today's Top Trending (2026-04-30)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [prompt-master](https://github.com/nidhinjs/prompt-master) | AI Observability | 9.1 | 🆕 newcomer | 48d, 135.8/day |
-| 3 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 9.0 | 🆕 newcomer | 114d, 203.9/day |
-| 4 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🆕 newcomer | 93d, 258.0/day |
-| 5 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.9 | 🆕 newcomer | 101d, 1681.4/day |
-| 6 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.7 | 🆕 newcomer | 15d, 302.7/day |
-| 7 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.6 | 🆕 newcomer | 25d, 1508.6/day |
-| 8 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.5 | 🆕 newcomer | 24d, 1701.2/day |
-| 9 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.3 | 🆕 newcomer | 96d, 397.0/day |
-| 10 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.2 | 🆕 newcomer | 121d, 186.0/day |
+| 1 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.3 | 🆕 newcomer | 97d, 399.1/day |
+| 3 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 9.0 | 🔥 surge | x1.0 this week |
+| 4 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🆕 newcomer | 94d, 256.6/day |
+| 5 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.9 | 🆕 newcomer | 111d, 288.7/day |
+| 6 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.8 | 📈 momentum | 132 commits/7d |
+| 7 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 8.8 | 🆕 newcomer | 26d, 1487.9/day |
+| 8 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.7 | 📈 momentum | 233 commits/7d |
+| 9 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.6 | 🆕 newcomer | 25d, 1643.1/day |
+| 10 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 8.5 | 🆕 newcomer | 35d, 67.5/day |
 
-> Last updated: 2026-04-29 — [Full Report](reports/2026-04-29.md)
+> Last updated: 2026-04-30 — [Full Report](reports/2026-04-30.md)
 <!-- TREND-END -->
 
 ---
