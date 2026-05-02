@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-01)
+### Today's Top Trending (2026-05-02)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
 | 1 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [graphify](https://github.com/safishamsi/graphify) | Knowledge Management | 9.7 | 🆕 newcomer | 27d, 1455.7/day |
-| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.0 | 🆕 newcomer | 98d, 399.5/day |
-| 4 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🆕 newcomer | 95d, 254.8/day |
-| 5 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.9 | 📈 momentum | 54 commits/7d |
-| 6 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 94d, 73.9/day |
-| 7 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.5 | 🆕 newcomer | 103d, 1662.2/day |
-| 8 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.5 | 🆕 newcomer | 31d, 74.7/day |
-| 9 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.3 | 🆕 newcomer | 26d, 1945.8/day |
-| 10 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.3 | 🆕 newcomer | 47d, 203.6/day |
+| 2 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.3 | 🆕 newcomer | 28d, 1865.0/day |
+| 3 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 9.1 | 🆕 newcomer | 15d, 276.3/day |
+| 4 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.0 | 🆕 newcomer | 96d, 252.8/day |
+| 5 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.0 | 🆕 newcomer | 48d, 215.4/day |
+| 6 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.9 | 🆕 newcomer | 32d, 74.8/day |
+| 7 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 95d, 73.6/day |
+| 8 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.5 | 📈 momentum | 237 commits/7d |
+| 9 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.5 | 🆕 newcomer | 107d, 336.4/day |
+| 10 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.4 | 🆕 newcomer | 28d, 1436.5/day |
 
-> Last updated: 2026-05-01 — [Full Report](reports/2026-05-01.md)
+> Last updated: 2026-05-02 — [Full Report](reports/2026-05-02.md)
 <!-- TREND-END -->
 
 ---
