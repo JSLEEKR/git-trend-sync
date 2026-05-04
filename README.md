@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-03)
+### Today's Top Trending (2026-05-04)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.7 | 🆕 newcomer | 29d, 1816.8/day |
-| 2 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.2 | 🆕 newcomer | 29d, 1418.0/day |
-| 3 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 8.7 | 📈 momentum | 7 commits/7d |
-| 4 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.6 | 🆕 newcomer | 108d, 334.6/day |
-| 5 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.6 | 🆕 newcomer | 105d, 1641.2/day |
-| 6 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.4 | 🆕 newcomer | 28d, 1814.9/day |
-| 7 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.4 | 🆕 newcomer | 33d, 74.9/day |
-| 8 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.3 | 📈 momentum | 249 commits/7d |
-| 9 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.3 | 🆕 newcomer | 49d, 217.6/day |
-| 10 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 8.1 | 🆕 newcomer | 125d, 184.1/day |
+| 1 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.4 | 🆕 newcomer | 30d, 1778.5/day |
+| 3 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.0 | 🆕 newcomer | 106d, 1631.9/day |
+| 4 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 8.9 | 🆕 newcomer | 59d, 163.8/day |
+| 5 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.8 | 🆕 newcomer | 50d, 223.0/day |
+| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.7 | 📈 momentum | 197 commits/7d |
+| 7 | [holaOS](https://github.com/holaboss-ai/holaOS) | AI Agent Framework | 8.6 | 📈 momentum | 68 commits/7d |
+| 8 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.6 | 🆕 newcomer | 29d, 1759.7/day |
+| 9 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 8.6 | 🆕 newcomer | 17d, 254.2/day |
+| 10 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.4 | 🆕 newcomer | 30d, 1408.2/day |
 
-> Last updated: 2026-05-03 — [Full Report](reports/2026-05-03.md)
+> Last updated: 2026-05-04 — [Full Report](reports/2026-05-04.md)
 <!-- TREND-END -->
 
 ---
