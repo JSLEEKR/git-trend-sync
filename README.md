@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-04)
+### Today's Top Trending (2026-05-05)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
 | 1 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.4 | 🆕 newcomer | 30d, 1778.5/day |
-| 3 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.0 | 🆕 newcomer | 106d, 1631.9/day |
-| 4 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 8.9 | 🆕 newcomer | 59d, 163.8/day |
-| 5 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.8 | 🆕 newcomer | 50d, 223.0/day |
-| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.7 | 📈 momentum | 197 commits/7d |
-| 7 | [holaOS](https://github.com/holaboss-ai/holaOS) | AI Agent Framework | 8.6 | 📈 momentum | 68 commits/7d |
-| 8 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.6 | 🆕 newcomer | 29d, 1759.7/day |
-| 9 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 8.6 | 🆕 newcomer | 17d, 254.2/day |
-| 10 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.4 | 🆕 newcomer | 30d, 1408.2/day |
+| 2 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.3 | 🆕 newcomer | 51d, 237.2/day |
+| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.2 | 🆕 newcomer | 31d, 1385.7/day |
+| 4 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.9 | 🆕 newcomer | 107d, 1622.1/day |
+| 5 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.6 | 🆕 newcomer | 21d, 256.7/day |
+| 6 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.6 | 🆕 newcomer | 30d, 1705.7/day |
+| 7 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.4 | 🆕 newcomer | 31d, 1744.5/day |
+| 8 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.4 | 📈 momentum | 73 commits/7d |
+| 9 | [ppt-master](https://github.com/hugohe3/ppt-master) | AI Agent Framework | 8.1 | 📈 momentum | 67 commits/7d |
+| 10 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.0 | 🆕 newcomer | 98d, 72.8/day |
 
-> Last updated: 2026-05-04 — [Full Report](reports/2026-05-04.md)
+> Last updated: 2026-05-05 — [Full Report](reports/2026-05-05.md)
 <!-- TREND-END -->
 
 ---
