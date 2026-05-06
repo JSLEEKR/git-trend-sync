@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-05)
+### Today's Top Trending (2026-05-06)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
 | 1 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.3 | 🆕 newcomer | 51d, 237.2/day |
-| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.2 | 🆕 newcomer | 31d, 1385.7/day |
-| 4 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.9 | 🆕 newcomer | 107d, 1622.1/day |
-| 5 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.6 | 🆕 newcomer | 21d, 256.7/day |
-| 6 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.6 | 🆕 newcomer | 30d, 1705.7/day |
-| 7 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.4 | 🆕 newcomer | 31d, 1744.5/day |
-| 8 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.4 | 📈 momentum | 73 commits/7d |
-| 9 | [ppt-master](https://github.com/hugohe3/ppt-master) | AI Agent Framework | 8.1 | 📈 momentum | 67 commits/7d |
-| 10 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.0 | 🆕 newcomer | 98d, 72.8/day |
+| 2 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 9.4 | 🆕 newcomer | 19d, 245.1/day |
+| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.2 | 🆕 newcomer | 32d, 1362.7/day |
+| 4 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.1 | 🆕 newcomer | 103d, 413.5/day |
+| 5 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 9.1 | 🆕 newcomer | 22d, 252.5/day |
+| 6 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 9.1 | 🆕 newcomer | 31d, 1654.5/day |
+| 7 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.0 | 🆕 newcomer | 52d, 244.3/day |
+| 8 | [m_flow](https://github.com/FlowElement-ai/m_flow) | Knowledge Management | 8.9 | 🆕 newcomer | 36d, 74.9/day |
+| 9 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.2 | 🆕 newcomer | 168d, 23.6/day |
+| 10 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.1 | 🔥 surge | x1.0 this week |
 
-> Last updated: 2026-05-05 — [Full Report](reports/2026-05-05.md)
+> Last updated: 2026-05-06 — [Full Report](reports/2026-05-06.md)
 <!-- TREND-END -->
 
 ---
