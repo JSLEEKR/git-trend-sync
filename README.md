@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-08)
+### Today's Top Trending (2026-05-09)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
 | 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
 | 2 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 3 | [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | AI Observability | 9.3 | 🆕 newcomer | 13d, 349.0/day |
-| 4 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 9.1 | 🆕 newcomer | 21d, 246.0/day |
-| 5 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.0 | 🆕 newcomer | 54d, 246.8/day |
-| 6 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.7 | 🆕 newcomer | 34d, 1315.6/day |
-| 7 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 8.7 | 📈 momentum | 58 commits/7d |
-| 8 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.6 | 🆕 newcomer | 105d, 17.4/day |
-| 9 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.5 | 🆕 newcomer | 24d, 243.0/day |
-| 10 | [edict](https://github.com/cft0808/edict) | Multi-Agent | 8.2 | 🆕 newcomer | 73d, 214.4/day |
+| 3 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.8 | 🆕 newcomer | 55d, 246.7/day |
+| 4 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.7 | 🆕 newcomer | 25d, 236.2/day |
+| 5 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.4 | 📈 momentum | 157 commits/7d |
+| 6 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.3 | 🆕 newcomer | 35d, 1293.9/day |
+| 7 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 8.3 | 🔥 surge | x1.0 this week |
+| 8 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.1 | 🆕 newcomer | 34d, 1285.1/day |
+| 9 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.1 | 🆕 newcomer | 73d, 29.8/day |
+| 10 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 7.9 | 🆕 newcomer | 119d, 292.4/day |
 
-> Last updated: 2026-05-08 — [Full Report](reports/2026-05-08.md)
+> Last updated: 2026-05-09 — [Full Report](reports/2026-05-09.md)
 <!-- TREND-END -->
 
 ---
