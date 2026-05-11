@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-10)
+### Today's Top Trending (2026-05-11)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
 | 1 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [9router](https://github.com/decolua/9router) | AI Infrastructure | 9.2 | 🆕 newcomer | 125d, 54.8/day |
-| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.1 | 🆕 newcomer | 36d, 1271.8/day |
-| 4 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 9.1 | 🆕 newcomer | 23d, 233.2/day |
-| 5 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.9 | 🆕 newcomer | 112d, 1582.2/day |
-| 6 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.7 | 🆕 newcomer | 26d, 230.2/day |
-| 7 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.7 | 🆕 newcomer | 172d, 23.3/day |
-| 8 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 103d, 74.0/day |
-| 9 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.7 | 📈 momentum | 67 commits/7d |
-| 10 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.6 | 🆕 newcomer | 56d, 247.3/day |
+| 2 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.2 | 🆕 newcomer | 57d, 247.6/day |
+| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.9 | 🆕 newcomer | 37d, 1254.6/day |
+| 4 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.9 | 📈 momentum | 65 commits/7d |
+| 5 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.8 | 🆕 newcomer | 27d, 226.2/day |
+| 6 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 105d, 73.3/day |
+| 7 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.6 | 🆕 newcomer | 36d, 1442.5/day |
+| 8 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.5 | 📈 momentum | 68 commits/7d |
+| 9 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.3 | 📈 momentum | 50 commits/7d |
+| 10 | [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | AI Observability | 8.3 | 🆕 newcomer | 16d, 309.2/day |
 
-> Last updated: 2026-05-10 — [Full Report](reports/2026-05-10.md)
+> Last updated: 2026-05-11 — [Full Report](reports/2026-05-11.md)
 <!-- TREND-END -->
 
 ---
