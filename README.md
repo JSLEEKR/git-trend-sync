@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-12)
+### Today's Top Trending (2026-05-13)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
 | 1 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.4 | 🆕 newcomer | 38d, 1236.7/day |
-| 3 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.9 | 📈 momentum | 74 commits/7d |
-| 4 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.9 | 📈 momentum | 70 commits/7d |
-| 5 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.7 | 🆕 newcomer | 28d, 220.6/day |
-| 6 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 105d, 73.9/day |
-| 7 | [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | AI Observability | 8.7 | 🆕 newcomer | 17d, 298.2/day |
-| 8 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.4 | 📈 momentum | 257 commits/7d |
-| 9 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.4 | 🆕 newcomer | 58d, 245.8/day |
-| 10 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | RAG Framework | 8.1 | 🆕 newcomer | 122d, 291.1/day |
+| 2 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.4 | 🆕 newcomer | 39d, 1521.6/day |
+| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.0 | 🆕 newcomer | 110d, 428.4/day |
+| 4 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.0 | 🆕 newcomer | 59d, 244.8/day |
+| 5 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.7 | 🆕 newcomer | 39d, 1216.6/day |
+| 6 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 106d, 73.9/day |
+| 7 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.5 | 📈 momentum | 70 commits/7d |
+| 8 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.4 | 🆕 newcomer | 29d, 215.4/day |
+| 9 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.2 | 📈 momentum | 274 commits/7d |
+| 10 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.2 | 🆕 newcomer | 115d, 1573.9/day |
 
-> Last updated: 2026-05-12 — [Full Report](reports/2026-05-12.md)
+> Last updated: 2026-05-13 — [Full Report](reports/2026-05-13.md)
 <!-- TREND-END -->
 
 ---
