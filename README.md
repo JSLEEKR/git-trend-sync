@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-13)
+### Today's Top Trending (2026-05-14)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.4 | 🆕 newcomer | 39d, 1521.6/day |
-| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.0 | 🆕 newcomer | 110d, 428.4/day |
-| 4 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.0 | 🆕 newcomer | 59d, 244.8/day |
-| 5 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.7 | 🆕 newcomer | 39d, 1216.6/day |
-| 6 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 106d, 73.9/day |
-| 7 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.5 | 📈 momentum | 70 commits/7d |
-| 8 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.4 | 🆕 newcomer | 29d, 215.4/day |
-| 9 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.2 | 📈 momentum | 274 commits/7d |
-| 10 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.2 | 🆕 newcomer | 115d, 1573.9/day |
+| 1 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.4 | 🆕 newcomer | 116d, 1567.7/day |
+| 2 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.9 | 🆕 newcomer | 60d, 243.5/day |
+| 3 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.8 | 📈 momentum | 71 commits/7d |
+| 4 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.7 | 📈 momentum | 38 commits/7d |
+| 5 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.6 | 🆕 newcomer | 40d, 1195.7/day |
+| 6 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.6 | 🆕 newcomer | 119d, 315.0/day |
+| 7 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.4 | 🆕 newcomer | 111d, 17.4/day |
+| 8 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.3 | 📈 momentum | 284 commits/7d |
+| 9 | [OpenCLI](https://github.com/jackwener/OpenCLI) | AI Agent Framework | 8.2 | 🆕 newcomer | 60d, 342.1/day |
+| 10 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 8.2 | 🆕 newcomer | 129d, 185.3/day |
 
-> Last updated: 2026-05-13 — [Full Report](reports/2026-05-13.md)
+> Last updated: 2026-05-14 — [Full Report](reports/2026-05-14.md)
 <!-- TREND-END -->
 
 ---
