@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-15)
+### Today's Top Trending (2026-05-16)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.3 | 🆕 newcomer | 112d, 431.1/day |
-| 2 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.3 | 🆕 newcomer | 41d, 1475.5/day |
-| 3 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 9.0 | 🆕 newcomer | 117d, 1561.5/day |
-| 4 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.8 | 🆕 newcomer | 41d, 1175.5/day |
-| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.7 | 🆕 newcomer | 40d, 1120.2/day |
-| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.7 | 🆕 newcomer | 126d, 269.2/day |
-| 7 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.7 | 📈 momentum | 302 commits/7d |
-| 8 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 108d, 73.4/day |
-| 9 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.6 | 🔥 surge | x1.0 this week |
-| 10 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 8.1 | 🆕 newcomer | 50d, 52.4/day |
+| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 9.1 | 🆕 newcomer | 29d, 204.3/day |
+| 3 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.9 | 📈 momentum | 57 commits/7d |
+| 4 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.6 | 🆕 newcomer | 42d, 1153.6/day |
+| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.5 | 🆕 newcomer | 41d, 1096.6/day |
+| 6 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.2 | 📈 momentum | 319 commits/7d |
+| 7 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 8.2 | 🆕 newcomer | 51d, 51.5/day |
+| 8 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.2 | 🆕 newcomer | 62d, 239.0/day |
+| 9 | [browser-harness](https://github.com/browser-use/browser-harness) | AI Agent Framework | 7.8 | 🆕 newcomer | 29d, 443.2/day |
+| 10 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 7.7 | 🆕 newcomer | 113d, 430.8/day |
 
-> Last updated: 2026-05-15 — [Full Report](reports/2026-05-15.md)
+> Last updated: 2026-05-16 — [Full Report](reports/2026-05-16.md)
 <!-- TREND-END -->
 
 ---
