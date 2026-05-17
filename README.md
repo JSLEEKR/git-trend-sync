@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-16)
+### Today's Top Trending (2026-05-17)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 9.1 | 🆕 newcomer | 29d, 204.3/day |
-| 3 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.9 | 📈 momentum | 57 commits/7d |
-| 4 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.6 | 🆕 newcomer | 42d, 1153.6/day |
-| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.5 | 🆕 newcomer | 41d, 1096.6/day |
-| 6 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.2 | 📈 momentum | 319 commits/7d |
-| 7 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 8.2 | 🆕 newcomer | 51d, 51.5/day |
-| 8 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.2 | 🆕 newcomer | 62d, 239.0/day |
-| 9 | [browser-harness](https://github.com/browser-use/browser-harness) | AI Agent Framework | 7.8 | 🆕 newcomer | 29d, 443.2/day |
-| 10 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 7.7 | 🆕 newcomer | 113d, 430.8/day |
+| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.0 | 🆕 newcomer | 37d, 68.8/day |
+| 2 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 9.0 | 🆕 newcomer | 63d, 236.2/day |
+| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.9 | 🆕 newcomer | 43d, 1131.4/day |
+| 4 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.9 | 📈 momentum | 356 commits/7d |
+| 5 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.8 | 🆕 newcomer | 114d, 430.6/day |
+| 6 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.8 | 📈 momentum | 98 commits/7d |
+| 7 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.7 | 🆕 newcomer | 42d, 1073.7/day |
+| 8 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.7 | 📈 momentum | 58 commits/7d |
+| 9 | [RuVector](https://github.com/ruvnet/RuVector) | AI Infrastructure | 8.5 | 🆕 newcomer | 179d, 22.8/day |
+| 10 | [pro-workflow](https://github.com/rohitg00/pro-workflow) | AI Workflow | 8.5 | 🔥 surge | x1.0 this week |
 
-> Last updated: 2026-05-16 — [Full Report](reports/2026-05-16.md)
+> Last updated: 2026-05-17 — [Full Report](reports/2026-05-17.md)
 <!-- TREND-END -->
 
 ---
