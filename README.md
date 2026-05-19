@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-18)
+### Today's Top Trending (2026-05-19)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 9.0 | 📈 momentum | 362 commits/7d |
-| 2 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.9 | 🆕 newcomer | 44d, 1113.0/day |
-| 3 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 8.7 | 🆕 newcomer | 80d, 209.4/day |
-| 4 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | MCP | 8.7 | 📈 momentum | 119 commits/7d |
-| 5 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 8.7 | 🆕 newcomer | 31d, 200.3/day |
-| 6 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 8.6 | 🔥 surge | x1.0 this week |
-| 7 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.4 | 🆕 newcomer | 115d, 432.1/day |
-| 8 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.4 | 🆕 newcomer | 123d, 308.0/day |
-| 9 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.4 | 🆕 newcomer | 64d, 234.6/day |
-| 10 | [OpenCLI](https://github.com/jackwener/OpenCLI) | AI Agent Framework | 8.3 | 📈 momentum | 85 commits/7d |
+| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 9.0 | 📈 momentum | 60 commits/7d |
+| 3 | [OpenCLI](https://github.com/jackwener/OpenCLI) | AI Agent Framework | 8.5 | 🔥 surge | x1.0 this week |
+| 4 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.4 | 🆕 newcomer | 45d, 1097.5/day |
+| 5 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.3 | 🆕 newcomer | 65d, 233.5/day |
+| 6 | [wuphf](https://github.com/nex-crm/wuphf) | Knowledge Management | 8.3 | 🆕 newcomer | 54d, 19.3/day |
+| 7 | [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | AI Observability | 8.2 | 🆕 newcomer | 24d, 235.3/day |
+| 8 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.1 | 📈 momentum | 35 commits/7d |
+| 9 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.1 | 🆕 newcomer | 116d, 17.0/day |
+| 10 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.0 | 📈 momentum | 372 commits/7d |
 
-> Last updated: 2026-05-18 — [Full Report](reports/2026-05-18.md)
+> Last updated: 2026-05-19 — [Full Report](reports/2026-05-19.md)
 <!-- TREND-END -->
 
 ---
