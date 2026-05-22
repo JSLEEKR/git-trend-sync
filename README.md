@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-21)
+### Today's Top Trending (2026-05-22)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [ECC](https://github.com/affaan-m/ECC) | MCP | 9.3 | 🆕 newcomer | 123d, 1528.5/day |
-| 3 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.2 | 🆕 newcomer | 41d, 91.1/day |
-| 4 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.7 | 🆕 newcomer | 47d, 1074.7/day |
-| 5 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.7 | 🆕 newcomer | 47d, 1341.7/day |
-| 6 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.6 | 🆕 newcomer | 67d, 239.3/day |
-| 7 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 8.4 | 🆕 newcomer | 136d, 179.3/day |
-| 8 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 8.4 | 📈 momentum | 388 commits/7d |
-| 9 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.4 | 🆕 newcomer | 118d, 442.4/day |
-| 10 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.4 | 🆕 newcomer | 46d, 1143.7/day |
+| 1 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | Coding Assistant | 9.1 | 📈 momentum | 395 commits/7d |
+| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.7 | 🆕 newcomer | 119d, 442.5/day |
+| 4 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.6 | 🆕 newcomer | 127d, 301.9/day |
+| 5 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 8.4 | 🆕 newcomer | 42d, 91.8/day |
+| 6 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.4 | 🆕 newcomer | 68d, 255.5/day |
+| 7 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.3 | 🆕 newcomer | 48d, 1323.4/day |
+| 8 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.2 | 🆕 newcomer | 48d, 1067.5/day |
+| 9 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | RAG Framework | 7.8 | 📈 momentum | 38 commits/7d |
+| 10 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 7.7 | 🆕 newcomer | 47d, 1120.3/day |
 
-> Last updated: 2026-05-21 — [Full Report](reports/2026-05-21.md)
+> Last updated: 2026-05-22 — [Full Report](reports/2026-05-22.md)
 <!-- TREND-END -->
 
 ---
