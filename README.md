@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-23)
+### Today's Top Trending (2026-05-24)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.1 | 🆕 newcomer | 120d, 441.9/day |
-| 2 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.0 | 🆕 newcomer | 49d, 1303.8/day |
-| 3 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.5 | 🆕 newcomer | 128d, 300.3/day |
-| 4 | [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | AI Observability | 8.5 | 🆕 newcomer | 28d, 211.5/day |
-| 5 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.4 | 🆕 newcomer | 69d, 282.2/day |
-| 6 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 8.3 | 🆕 newcomer | 34d, 452.2/day |
-| 7 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 8.2 | 🆕 newcomer | 58d, 46.1/day |
-| 8 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.1 | 🆕 newcomer | 49d, 1063.7/day |
-| 9 | [git-lrc](https://github.com/HexmosTech/git-lrc) | Coding Assistant | 8.1 | 📈 momentum | 19 commits/7d |
-| 10 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.0 | 🆕 newcomer | 125d, 1509.6/day |
+| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [ECC](https://github.com/affaan-m/ECC) | MCP | 9.5 | 📈 momentum | 127 commits/7d |
+| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.2 | 🆕 newcomer | 50d, 1054.6/day |
+| 4 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.7 | 🆕 newcomer | 50d, 1283.1/day |
+| 5 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.6 | 🆕 newcomer | 121d, 441.7/day |
+| 6 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.6 | 🆕 newcomer | 70d, 334.2/day |
+| 7 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.6 | 📈 momentum | 31 commits/7d |
+| 8 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.4 | 🆕 newcomer | 40d, 174.4/day |
+| 9 | [git-lrc](https://github.com/HexmosTech/git-lrc) | Coding Assistant | 8.3 | 📈 momentum | 21 commits/7d |
+| 10 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.3 | 🆕 newcomer | 88d, 30.3/day |
 
-> Last updated: 2026-05-23 — [Full Report](reports/2026-05-23.md)
+> Last updated: 2026-05-24 — [Full Report](reports/2026-05-24.md)
 <!-- TREND-END -->
 
 ---
