@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-25)
+### Today's Top Trending (2026-05-27)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
+| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
 | 2 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x0.9 this week |
-| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.6 | 🆕 newcomer | 51d, 1048.0/day |
-| 4 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.6 | 🆕 newcomer | 51d, 1265.2/day |
-| 5 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.3 | 🆕 newcomer | 45d, 95.1/day |
-| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 9.1 | 📈 momentum | 64 commits/7d |
-| 7 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.1 | 🆕 newcomer | 122d, 441.6/day |
-| 8 | [ECC](https://github.com/affaan-m/ECC) | MCP | 9.1 | 📈 momentum | 127 commits/7d |
-| 9 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.9 | 🆕 newcomer | 71d, 412.9/day |
-| 10 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 8.1 | 📈 momentum | 86 commits/7d |
+| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.9 | 🆕 newcomer | 53d, 1032.2/day |
+| 4 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.9 | 🆕 newcomer | 124d, 442.6/day |
+| 5 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.7 | 📈 momentum | 131 commits/7d |
+| 6 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.6 | 📈 momentum | 44 commits/7d |
+| 7 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.6 | 🆕 newcomer | 43d, 165.2/day |
+| 8 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.6 | 🆕 newcomer | 73d, 525.1/day |
+| 9 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.5 | 🆕 newcomer | 138d, 253.8/day |
+| 10 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.4 | 📈 momentum | 317 commits/7d |
 
-> Last updated: 2026-05-25 — [Full Report](reports/2026-05-25.md)
+> Last updated: 2026-05-27 — [Full Report](reports/2026-05-27.md)
 <!-- TREND-END -->
 
 ---
