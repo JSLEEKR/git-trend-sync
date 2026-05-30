@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-29)
+### Today's Top Trending (2026-05-30)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
 | 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.3 | 🆕 newcomer | 126d, 444.7/day |
-| 4 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.1 | 📈 momentum | 326 commits/7d |
-| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.8 | 🆕 newcomer | 54d, 884.4/day |
-| 6 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.7 | 📈 momentum | 130 commits/7d |
-| 7 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.6 | 🆕 newcomer | 75d, 585.2/day |
-| 8 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.5 | 📈 momentum | 46 commits/7d |
-| 9 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | AI Agent Framework | 8.2 | 📈 momentum | 435 commits/7d |
-| 10 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.2 | 🆕 newcomer | 55d, 1016.6/day |
+| 2 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.3 | 🆕 newcomer | 127d, 444.2/day |
+| 3 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.7 | 📈 momentum | 320 commits/7d |
+| 4 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.5 | 🆕 newcomer | 56d, 1007.0/day |
+| 5 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.4 | 🆕 newcomer | 76d, 594.3/day |
+| 6 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 8.2 | 🆕 newcomer | 46d, 159.1/day |
+| 7 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.2 | 🆕 newcomer | 132d, 1506.7/day |
+| 8 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.1 | 🆕 newcomer | 55d, 870.5/day |
+| 9 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 8.0 | 🆕 newcomer | 43d, 160.1/day |
+| 10 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 7.9 | 🔥 surge | x1.0 this week |
 
-> Last updated: 2026-05-29 — [Full Report](reports/2026-05-29.md)
+> Last updated: 2026-05-30 — [Full Report](reports/2026-05-30.md)
 <!-- TREND-END -->
 
 ---
