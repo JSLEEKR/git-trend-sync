@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-05-31)
+### Today's Top Trending (2026-06-01)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 3 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.3 | 🆕 newcomer | 51d, 105.1/day |
-| 4 | [CyberVerse](https://github.com/dsd2077/CyberVerse) | Voice Agent | 9.0 | 🔥 surge | x1.0 this week |
-| 5 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.9 | 🆕 newcomer | 57d, 1000.6/day |
-| 6 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.7 | 🆕 newcomer | 136d, 288.6/day |
-| 7 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.7 | 🆕 newcomer | 133d, 1501.7/day |
-| 8 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.5 | 🆕 newcomer | 142d, 249.3/day |
-| 9 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.5 | 📈 momentum | 29 commits/7d |
-| 10 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 8.3 | 🆕 newcomer | 146d, 170.9/day |
+| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 3 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 9.3 | 📈 momentum | 48 commits/7d |
+| 4 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 9.2 | 🆕 newcomer | 48d, 154.6/day |
+| 5 | [ECC](https://github.com/affaan-m/ECC) | MCP | 9.1 | 📈 momentum | 111 commits/7d |
+| 6 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.0 | 🆕 newcomer | 129d, 443.9/day |
+| 7 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.9 | 🆕 newcomer | 58d, 996.3/day |
+| 8 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.6 | 🆕 newcomer | 78d, 621.7/day |
+| 9 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.5 | 🆕 newcomer | 96d, 29.8/day |
+| 10 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.3 | 📈 momentum | 29 commits/7d |
 
-> Last updated: 2026-05-31 — [Full Report](reports/2026-05-31.md)
+> Last updated: 2026-06-01 — [Full Report](reports/2026-06-01.md)
 <!-- TREND-END -->
 
 ---
