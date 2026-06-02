@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-01)
+### Today's Top Trending (2026-06-02)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
 | 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
 | 2 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 3 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 9.3 | 📈 momentum | 48 commits/7d |
-| 4 | [codeburn](https://github.com/getagentseal/codeburn) | Coding Assistant | 9.2 | 🆕 newcomer | 48d, 154.6/day |
-| 5 | [ECC](https://github.com/affaan-m/ECC) | MCP | 9.1 | 📈 momentum | 111 commits/7d |
-| 6 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.0 | 🆕 newcomer | 129d, 443.9/day |
-| 7 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.9 | 🆕 newcomer | 58d, 996.3/day |
-| 8 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.6 | 🆕 newcomer | 78d, 621.7/day |
-| 9 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.5 | 🆕 newcomer | 96d, 29.8/day |
-| 10 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.3 | 📈 momentum | 29 commits/7d |
+| 3 | [ECC](https://github.com/affaan-m/ECC) | MCP | 9.1 | 📈 momentum | 111 commits/7d |
+| 4 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.9 | 🆕 newcomer | 97d, 29.8/day |
+| 5 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Knowledge Management | 8.8 | 🆕 newcomer | 79d, 629.0/day |
+| 6 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.8 | 📈 momentum | 29 commits/7d |
+| 7 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.5 | 🆕 newcomer | 42d, 392.0/day |
+| 8 | [nanobot](https://github.com/HKUDS/nanobot) | AI Agent Framework | 8.4 | 🔥 surge | x1.0 this week |
+| 9 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 8.4 | 🆕 newcomer | 88d, 154.8/day |
+| 10 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.4 | 🆕 newcomer | 138d, 285.9/day |
 
-> Last updated: 2026-06-01 — [Full Report](reports/2026-06-01.md)
+> Last updated: 2026-06-02 — [Full Report](reports/2026-06-02.md)
 <!-- TREND-END -->
 
 ---
