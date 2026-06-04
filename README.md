@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-03)
+### Today's Top Trending (2026-06-04)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x1.0 this week |
-| 2 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
-| 3 | [headroom](https://github.com/chopratejas/headroom) | AI Observability | 9.1 | 📈 momentum | 67 commits/7d |
-| 4 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.6 | 🆕 newcomer | 59d, 821.5/day |
-| 5 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.6 | 📈 momentum | 104 commits/7d |
-| 6 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.6 | 📈 momentum | 111 commits/7d |
-| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.5 | 📈 momentum | 51 commits/7d |
-| 8 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.5 | 🆕 newcomer | 98d, 29.8/day |
-| 9 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.4 | 🆕 newcomer | 60d, 978.4/day |
-| 10 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.1 | 🆕 newcomer | 131d, 444.8/day |
+| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.4 | 🆕 newcomer | 55d, 110.7/day |
+| 2 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.3 | 🆕 newcomer | 44d, 405.3/day |
+| 3 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.9 | 📈 momentum | 111 commits/7d |
+| 4 | [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | MCP | 8.8 | 🆕 newcomer | 77d, 365.9/day |
+| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.5 | 🆕 newcomer | 60d, 810.1/day |
+| 6 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.5 | 🆕 newcomer | 132d, 444.7/day |
+| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.5 | 🆕 newcomer | 140d, 283.5/day |
+| 8 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 8.4 | 📈 momentum | 94 commits/7d |
+| 9 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 8.3 | 🆕 newcomer | 145d, 32.4/day |
+| 10 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | AI Agent Framework | 8.2 | 📈 momentum | 534 commits/7d |
 
-> Last updated: 2026-06-03 — [Full Report](reports/2026-06-03.md)
+> Last updated: 2026-06-04 — [Full Report](reports/2026-06-04.md)
 <!-- TREND-END -->
 
 ---
