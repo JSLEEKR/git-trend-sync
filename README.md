@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-04)
+### Today's Top Trending (2026-06-05)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.4 | 🆕 newcomer | 55d, 110.7/day |
-| 2 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.3 | 🆕 newcomer | 44d, 405.3/day |
-| 3 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.9 | 📈 momentum | 111 commits/7d |
-| 4 | [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | MCP | 8.8 | 🆕 newcomer | 77d, 365.9/day |
-| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.5 | 🆕 newcomer | 60d, 810.1/day |
-| 6 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.5 | 🆕 newcomer | 132d, 444.7/day |
-| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.5 | 🆕 newcomer | 140d, 283.5/day |
-| 8 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 8.4 | 📈 momentum | 94 commits/7d |
-| 9 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 8.3 | 🆕 newcomer | 145d, 32.4/day |
-| 10 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | AI Agent Framework | 8.2 | 📈 momentum | 534 commits/7d |
+| 1 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.7 | 🔥 surge | x5.4 this week |
+| 2 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.6 | 🔥 surge | x20.9 this week |
+| 3 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 9.4 | 🔥 surge | x1.1 this week |
+| 4 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 9.3 | 📈 momentum | 30 commits/7d |
+| 5 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 8.7 | 🆕 newcomer | 56d, 110.5/day |
+| 6 | [headroom](https://github.com/chopratejas/headroom) | AI Observability | 8.6 | 📈 momentum | 52 commits/7d |
+| 7 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.5 | 🆕 newcomer | 100d, 29.9/day |
+| 8 | [openclaude](https://github.com/Gitlawb/openclaude) | AI Agent Framework | 8.2 | 🆕 newcomer | 65d, 436.4/day |
+| 9 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | AI Agent Framework | 7.9 | 📈 momentum | 570 commits/7d |
+| 10 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 7.7 | 🆕 newcomer | 151d, 166.7/day |
 
-> Last updated: 2026-06-04 — [Full Report](reports/2026-06-04.md)
+> Last updated: 2026-06-05 — [Full Report](reports/2026-06-05.md)
 <!-- TREND-END -->
 
 ---
