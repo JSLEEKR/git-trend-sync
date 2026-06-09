@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-08)
+### Today's Top Trending (2026-06-09)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.6 | 🆕 newcomer | 65d, 968.7/day |
-| 2 | [edgequake](https://github.com/raphaelmansuy/edgequake) | Knowledge Management | 9.6 | 🔥 surge | x3.3 this week |
-| 3 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 9.2 | 📈 momentum | 108 commits/7d |
-| 4 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.0 | 🆕 newcomer | 48d, 409.1/day |
-| 5 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 8.8 | 🔥 surge | x1.0 this week |
-| 6 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.7 | 🆕 newcomer | 64d, 781.8/day |
-| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.6 | 🆕 newcomer | 144d, 278.2/day |
-| 8 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.6 | 🆕 newcomer | 141d, 1492.3/day |
-| 9 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.6 | 📈 momentum | 15 commits/7d |
-| 10 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 8.6 | 🆕 newcomer | 51d, 321.1/day |
+| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.5 | 🆕 newcomer | 65d, 786.0/day |
+| 3 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 9.2 | 📈 momentum | 118 commits/7d |
+| 4 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.1 | 🆕 newcomer | 49d, 411.9/day |
+| 5 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.9 | 🆕 newcomer | 66d, 967.0/day |
+| 6 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.9 | 🔥 surge | x1.0 this week |
+| 7 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.9 | 🆕 newcomer | 104d, 29.6/day |
+| 8 | [edgequake](https://github.com/raphaelmansuy/edgequake) | Knowledge Management | 8.5 | 🔥 surge | x3.5 this week |
+| 9 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.5 | 🆕 newcomer | 103d, 284.6/day |
+| 10 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.3 | 🆕 newcomer | 151d, 238.7/day |
 
-> Last updated: 2026-06-08 — [Full Report](reports/2026-06-08.md)
+> Last updated: 2026-06-09 — [Full Report](reports/2026-06-09.md)
 <!-- TREND-END -->
 
 ---
