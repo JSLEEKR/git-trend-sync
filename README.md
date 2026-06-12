@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-11)
+### Today's Top Trending (2026-06-12)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x0.4 this week |
-| 2 | [open-codex-computer-use](https://github.com/iFurySt/open-codex-computer-use) | Computer Use Agent | 10.0 | 🔥 surge | x1.1 this week |
-| 3 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.8 | 📈 momentum | 297 commits/7d |
-| 4 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.7 | 🔥 surge | x3.7 this week |
-| 5 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Knowledge Management | 9.2 | 🔥 surge | x1.6 this week |
-| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.8 | 🆕 newcomer | 153d, 236.6/day |
-| 7 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 8.8 | 🔥 surge | x1.0 this week |
-| 8 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.8 | 🆕 newcomer | 105d, 287.2/day |
-| 9 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 8.3 | 🆕 newcomer | 62d, 109.9/day |
-| 10 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.2 | 🆕 newcomer | 106d, 31.0/day |
+| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x0.7 this week |
+| 2 | [planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Multi-Agent | 9.6 | 🔥 surge | x3.5 this week |
+| 3 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.5 | 🆕 newcomer | 68d, 779.5/day |
+| 4 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.4 | 🆕 newcomer | 63d, 108.8/day |
+| 5 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.0 | 🆕 newcomer | 52d, 413.2/day |
+| 6 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Knowledge Management | 9.0 | 🆕 newcomer | 105d, 175.4/day |
+| 7 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent Framework | 8.9 | 🔥 surge | x33.0 this week |
+| 8 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 8.8 | 📈 momentum | 78 commits/7d |
+| 9 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.6 | 🆕 newcomer | 106d, 288.1/day |
+| 10 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 8.5 | 📈 momentum | 108 commits/7d |
 
-> Last updated: 2026-06-11 — [Full Report](reports/2026-06-11.md)
+> Last updated: 2026-06-12 — [Full Report](reports/2026-06-12.md)
 <!-- TREND-END -->
 
 ---
