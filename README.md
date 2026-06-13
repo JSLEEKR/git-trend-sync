@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-12)
+### Today's Top Trending (2026-06-13)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x0.7 this week |
-| 2 | [planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Multi-Agent | 9.6 | 🔥 surge | x3.5 this week |
-| 3 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.5 | 🆕 newcomer | 68d, 779.5/day |
-| 4 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.4 | 🆕 newcomer | 63d, 108.8/day |
-| 5 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.0 | 🆕 newcomer | 52d, 413.2/day |
-| 6 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Knowledge Management | 9.0 | 🆕 newcomer | 105d, 175.4/day |
-| 7 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent Framework | 8.9 | 🔥 surge | x33.0 this week |
-| 8 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 8.8 | 📈 momentum | 78 commits/7d |
-| 9 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.6 | 🆕 newcomer | 106d, 288.1/day |
-| 10 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 8.5 | 📈 momentum | 108 commits/7d |
+| 1 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.6 | 🆕 newcomer | 69d, 774.1/day |
+| 2 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.5 | 📈 momentum | 371 commits/7d |
+| 3 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.4 | 🆕 newcomer | 64d, 108.0/day |
+| 4 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent Framework | 9.3 | 🔥 surge | x34.0 this week |
+| 5 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 9.0 | 🆕 newcomer | 106d, 174.1/day |
+| 6 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.7 | 🆕 newcomer | 70d, 1029.2/day |
+| 7 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.4 | 🆕 newcomer | 108d, 31.6/day |
+| 8 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.3 | 🆕 newcomer | 141d, 14.4/day |
+| 9 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.2 | 🆕 newcomer | 137d, 75.0/day |
+| 10 | [headroom](https://github.com/chopratejas/headroom) | AI Observability | 8.2 | 📈 momentum | 92 commits/7d |
 
-> Last updated: 2026-06-12 — [Full Report](reports/2026-06-12.md)
+> Last updated: 2026-06-13 — [Full Report](reports/2026-06-13.md)
 <!-- TREND-END -->
 
 ---
