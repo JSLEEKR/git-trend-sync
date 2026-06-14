@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-13)
+### Today's Top Trending (2026-06-14)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.6 | 🆕 newcomer | 69d, 774.1/day |
-| 2 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.5 | 📈 momentum | 371 commits/7d |
-| 3 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.4 | 🆕 newcomer | 64d, 108.0/day |
-| 4 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent Framework | 9.3 | 🔥 surge | x34.0 this week |
-| 5 | [code-review-graph](https://github.com/tirth8205/code-review-graph) | Coding Assistant | 9.0 | 🆕 newcomer | 106d, 174.1/day |
-| 6 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 8.7 | 🆕 newcomer | 70d, 1029.2/day |
-| 7 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Knowledge Management | 8.4 | 🆕 newcomer | 108d, 31.6/day |
-| 8 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.3 | 🆕 newcomer | 141d, 14.4/day |
-| 9 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.2 | 🆕 newcomer | 137d, 75.0/day |
-| 10 | [headroom](https://github.com/chopratejas/headroom) | AI Observability | 8.2 | 📈 momentum | 92 commits/7d |
+| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x0.3 this week |
+| 2 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 9.8 | 📈 momentum | 4 commits/7d |
+| 3 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 9.7 | 📈 momentum | 14 commits/7d |
+| 4 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 9.3 | 🔥 surge | x0.4 this week |
+| 5 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | Multi-Agent | 9.2 | 📈 momentum | 6 commits/7d |
+| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.7 | 🆕 newcomer | 156d, 233.1/day |
+| 7 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.6 | 🆕 newcomer | 54d, 406.0/day |
+| 8 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.5 | 🔥 surge | x0.1 this week |
+| 9 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 8.5 | 🆕 newcomer | 58d, 128.1/day |
+| 10 | [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh) | Multi-Agent | 8.4 | 🔥 surge | x0.1 this week |
 
-> Last updated: 2026-06-13 — [Full Report](reports/2026-06-13.md)
+> Last updated: 2026-06-14 — [Full Report](reports/2026-06-14.md)
 <!-- TREND-END -->
 
 ---
