@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-14)
+### Today's Top Trending (2026-06-15)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x0.3 this week |
-| 2 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 9.8 | 📈 momentum | 4 commits/7d |
-| 3 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 9.7 | 📈 momentum | 14 commits/7d |
-| 4 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 9.3 | 🔥 surge | x0.4 this week |
-| 5 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | Multi-Agent | 9.2 | 📈 momentum | 6 commits/7d |
-| 6 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.7 | 🆕 newcomer | 156d, 233.1/day |
-| 7 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.6 | 🆕 newcomer | 54d, 406.0/day |
-| 8 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.5 | 🔥 surge | x0.1 this week |
-| 9 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 8.5 | 🆕 newcomer | 58d, 128.1/day |
-| 10 | [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh) | Multi-Agent | 8.4 | 🔥 surge | x0.1 this week |
+| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 9.0 | 🔥 surge | x1.4 this week |
+| 2 | [git-lrc](https://github.com/HexmosTech/git-lrc) | Coding Assistant | 8.8 | 🔥 surge | x1.0 this week |
+| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.8 | 🆕 newcomer | 143d, 437.2/day |
+| 4 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 8.8 | 🆕 newcomer | 66d, 106.2/day |
+| 5 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.7 | 🆕 newcomer | 55d, 404.8/day |
+| 6 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 8.6 | 🔥 surge | x0.8 this week |
+| 7 | [wuphf](https://github.com/nex-crm/wuphf) | Knowledge Management | 8.5 | 🆕 newcomer | 82d, 14.5/day |
+| 8 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.3 | 🆕 newcomer | 151d, 270.1/day |
+| 9 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 8.1 | 📈 momentum | 6 commits/7d |
+| 10 | [openclaude](https://github.com/Gitlawb/openclaude) | AI Agent Framework | 8.0 | 🆕 newcomer | 75d, 385.6/day |
 
-> Last updated: 2026-06-14 — [Full Report](reports/2026-06-14.md)
+> Last updated: 2026-06-15 — [Full Report](reports/2026-06-15.md)
 <!-- TREND-END -->
 
 ---
