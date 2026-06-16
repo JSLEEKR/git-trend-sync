@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-15)
+### Today's Top Trending (2026-06-16)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 9.0 | 🔥 surge | x1.4 this week |
-| 2 | [git-lrc](https://github.com/HexmosTech/git-lrc) | Coding Assistant | 8.8 | 🔥 surge | x1.0 this week |
-| 3 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.8 | 🆕 newcomer | 143d, 437.2/day |
-| 4 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 8.8 | 🆕 newcomer | 66d, 106.2/day |
-| 5 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.7 | 🆕 newcomer | 55d, 404.8/day |
-| 6 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 8.6 | 🔥 surge | x0.8 this week |
-| 7 | [wuphf](https://github.com/nex-crm/wuphf) | Knowledge Management | 8.5 | 🆕 newcomer | 82d, 14.5/day |
-| 8 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.3 | 🆕 newcomer | 151d, 270.1/day |
-| 9 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 8.1 | 📈 momentum | 6 commits/7d |
-| 10 | [openclaude](https://github.com/Gitlawb/openclaude) | AI Agent Framework | 8.0 | 🆕 newcomer | 75d, 385.6/day |
+| 1 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 2 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 10.0 | 🔥 surge | x2.4 this week |
+| 3 | [open-codex-computer-use](https://github.com/iFurySt/open-codex-computer-use) | Computer Use Agent | 10.0 | 🔥 surge | x1.0 this week |
+| 4 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.7 | 🔥 surge | x1.1 this week |
+| 5 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.6 | 🔥 surge | x1.0 this week |
+| 6 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 9.2 | 🔥 surge | x1.7 this week |
+| 7 | [squad](https://github.com/bradygaster/squad) | Multi-Agent | 8.9 | 📈 momentum | 52 commits/7d |
+| 8 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.9 | 🆕 newcomer | 152d, 268.9/day |
+| 9 | [Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract) | Knowledge Management | 8.7 | 🆕 newcomer | 160d, 7.7/day |
+| 10 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 8.3 | 📈 momentum | 23 commits/7d |
 
-> Last updated: 2026-06-15 — [Full Report](reports/2026-06-15.md)
+> Last updated: 2026-06-16 — [Full Report](reports/2026-06-16.md)
 <!-- TREND-END -->
 
 ---
