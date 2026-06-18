@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-17)
+### Today's Top Trending (2026-06-18)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x4.9 this week |
-| 2 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 10.0 | 🔥 surge | x2.8 this week |
-| 3 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.8 | 🔥 surge | x4.4 this week |
-| 4 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.5 | 🆕 newcomer | 74d, 925.4/day |
-| 5 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.3 | 🆕 newcomer | 68d, 104.2/day |
-| 6 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 8.7 | 📈 momentum | 50 commits/7d |
-| 7 | [zeroshot](https://github.com/the-open-engine/zeroshot) | Coding Assistant | 8.7 | 🔥 surge | x3.0 this week |
-| 8 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | MCP | 8.7 | 📈 momentum | 63 commits/7d |
-| 9 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.6 | 🆕 newcomer | 57d, 400.8/day |
-| 10 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Multi-Agent | 8.5 | 🔥 surge | x1.0 this week |
+| 1 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 10.0 | 🔥 surge | x30.5 this week |
+| 2 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x7.6 this week |
+| 3 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 9.8 | 🆕 newcomer | 6d, 5744.3/day |
+| 4 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.2 | 🔥 surge | x6.6 this week |
+| 5 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.2 | 🆕 newcomer | 69d, 104.1/day |
+| 6 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 9.0 | 🆕 newcomer | 84d, 33.3/day |
+| 7 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.9 | 🆕 newcomer | 74d, 736.7/day |
+| 8 | [openclaude](https://github.com/Gitlawb/openclaude) | AI Agent Framework | 8.7 | 🆕 newcomer | 78d, 372.9/day |
+| 9 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 8.7 | 🔥 surge | x2.8 this week |
+| 10 | [open-codex-computer-use](https://github.com/iFurySt/open-codex-computer-use) | Computer Use Agent | 8.7 | 🆕 newcomer | 62d, 18.2/day |
 
-> Last updated: 2026-06-17 — [Full Report](reports/2026-06-17.md)
+> Last updated: 2026-06-18 — [Full Report](reports/2026-06-18.md)
 <!-- TREND-END -->
 
 ---
