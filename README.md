@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-19)
+### Today's Top Trending (2026-06-20)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 10.0 | 🔥 surge | x38.8 this week |
-| 2 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x9.5 this week |
-| 3 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 9.9 | 🆕 newcomer | 7d, 5556.9/day |
-| 4 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.3 | 🔥 surge | x7.1 this week |
-| 5 | [little-coder](https://github.com/itayinbarr/little-coder) | Coding Assistant | 9.3 | 🆕 newcomer | 69d, 22.7/day |
-| 6 | [Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract) | Knowledge Management | 9.3 | 📈 momentum | 19 commits/7d |
-| 7 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.2 | 🆕 newcomer | 75d, 729.2/day |
-| 8 | [claude-code-local](https://github.com/nicedreamzapp/claude-code-local) | Browser Agent | 9.1 | 🔥 surge | x1.2 this week |
-| 9 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 8.6 | 📈 momentum | 66 commits/7d |
-| 10 | [open-multi-agent](https://github.com/open-multi-agent/open-multi-agent) | Multi-Agent | 8.6 | 🆕 newcomer | 79d, 81.1/day |
+| 1 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 10.0 | 🔥 surge | x40.2 this week |
+| 2 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x11.2 this week |
+| 3 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 10.0 | 🔥 surge | x5.6 this week |
+| 4 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.6 | 🔥 surge | x6.6 this week |
+| 5 | [zeroshot](https://github.com/the-open-engine/zeroshot) | Coding Assistant | 9.2 | 🔥 surge | x5.0 this week |
+| 6 | [little-coder](https://github.com/itayinbarr/little-coder) | Coding Assistant | 8.9 | 🆕 newcomer | 70d, 22.4/day |
+| 7 | [Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract) | Knowledge Management | 8.9 | 📈 momentum | 20 commits/7d |
+| 8 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 8.9 | 🔥 surge | x3.5 this week |
+| 9 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 8.7 | 🆕 newcomer | 71d, 103.0/day |
+| 10 | [headroom](https://github.com/chopratejas/headroom) | RAG Framework | 8.6 | 📈 momentum | 73 commits/7d |
 
-> Last updated: 2026-06-19 — [Full Report](reports/2026-06-19.md)
+> Last updated: 2026-06-20 — [Full Report](reports/2026-06-20.md)
 <!-- TREND-END -->
 
 ---
