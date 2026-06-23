@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-22)
+### Today's Top Trending (2026-06-23)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [OpenViking](https://github.com/volcengine/OpenViking) | RAG Framework | 9.3 | 🔥 surge | x1.0 this week |
-| 2 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 9.1 | 📈 momentum | 28 commits/7d |
-| 3 | [Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract) | Knowledge Management | 9.0 | 🆕 newcomer | 166d, 12.9/day |
-| 4 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 8.9 | 🔥 surge | x1.0 this week |
-| 5 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 8.8 | 🆕 newcomer | 11d, 402.7/day |
-| 6 | [browser-harness](https://github.com/browser-use/browser-harness) | AI Agent Framework | 8.7 | 🔥 surge | x1.0 this week |
-| 7 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 8.6 | 🆕 newcomer | 65d, 260.0/day |
-| 8 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.5 | 🔥 surge | x0.3 this week |
-| 9 | [OpenCLI](https://github.com/jackwener/OpenCLI) | AI Agent Framework | 8.4 | 🔥 surge | x0.3 this week |
-| 10 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 8.2 | 🆕 newcomer | 10d, 4873.8/day |
+| 1 | [headroom](https://github.com/headroomlabs-ai/headroom) | RAG Framework | 9.1 | 📈 momentum | 49 commits/7d |
+| 2 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.0 | 🆕 newcomer | 79d, 700.2/day |
+| 3 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 9.0 | 🔥 surge | x0.3 this week |
+| 4 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 8.9 | 🆕 newcomer | 12d, 376.0/day |
+| 5 | [little-coder](https://github.com/itayinbarr/little-coder) | Coding Assistant | 8.9 | 🆕 newcomer | 73d, 22.0/day |
+| 6 | [Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract) | Knowledge Management | 8.3 | 🆕 newcomer | 167d, 13.0/day |
+| 7 | [awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) | AI Observability | 8.2 | 🆕 newcomer | 66d, 256.5/day |
+| 8 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 8.1 | 🆕 newcomer | 80d, 887.2/day |
+| 9 | [CyberVerse](https://github.com/Lynpoint/CyberVerse) | Voice Agent | 8.0 | 🔥 surge | x0.8 this week |
+| 10 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 8.0 | 🆕 newcomer | 11d, 4659.8/day |
 
-> Last updated: 2026-06-22 — [Full Report](reports/2026-06-22.md)
+> Last updated: 2026-06-23 — [Full Report](reports/2026-06-23.md)
 <!-- TREND-END -->
 
 ---
