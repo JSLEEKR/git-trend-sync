@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-24)
+### Today's Top Trending (2026-06-25)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 9.4 | 🆕 newcomer | 12d, 4483.4/day |
-| 2 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.1 | 🆕 newcomer | 81d, 881.7/day |
-| 3 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.1 | 🆕 newcomer | 12d, 387.3/day |
-| 4 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.0 | 🆕 newcomer | 80d, 693.6/day |
-| 5 | [headroom](https://github.com/headroomlabs-ai/headroom) | RAG Framework | 8.8 | 📈 momentum | 65 commits/7d |
-| 6 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.6 | 🆕 newcomer | 64d, 379.9/day |
-| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.5 | 🆕 newcomer | 160d, 259.8/day |
-| 8 | [browser-harness](https://github.com/browser-use/browser-harness) | AI Agent Framework | 8.1 | 🔥 surge | x1.0 this week |
-| 9 | [Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract) | Knowledge Management | 8.1 | 🆕 newcomer | 168d, 13.0/day |
-| 10 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 8.0 | 🆕 newcomer | 165d, 31.4/day |
+| 1 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.9 | 🆕 newcomer | 13d, 370.8/day |
+| 2 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.7 | 🔥 surge | x1.0 this week |
+| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.1 | 🆕 newcomer | 82d, 876.3/day |
+| 4 | [headroom](https://github.com/headroomlabs-ai/headroom) | RAG Framework | 8.8 | 📈 momentum | 84 commits/7d |
+| 5 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 8.8 | 🆕 newcomer | 13d, 4375.8/day |
+| 6 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 150d, 73.9/day |
+| 7 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 8.5 | 🔥 surge | x1.0 this week |
+| 8 | [openclaude](https://github.com/Gitlawb/openclaude) | AI Agent Framework | 8.2 | 🆕 newcomer | 85d, 345.3/day |
+| 9 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.1 | 🆕 newcomer | 81d, 686.8/day |
+| 10 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.0 | 🆕 newcomer | 161d, 258.8/day |
 
-> Last updated: 2026-06-24 — [Full Report](reports/2026-06-24.md)
+> Last updated: 2026-06-25 — [Full Report](reports/2026-06-25.md)
 <!-- TREND-END -->
 
 ---
