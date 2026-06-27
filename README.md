@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-26)
+### Today's Top Trending (2026-06-27)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 9.8 | 🆕 newcomer | 14d, 4234.4/day |
-| 2 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.6 | 🆕 newcomer | 14d, 353.9/day |
-| 3 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.8 | 🆕 newcomer | 82d, 680.9/day |
-| 4 | [CyberVerse](https://github.com/Lynpoint/CyberVerse) | Voice Agent | 8.8 | 🔥 surge | x1.5 this week |
-| 5 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 8.7 | 🆕 newcomer | 137d, 13.2/day |
-| 6 | [headroom](https://github.com/headroomlabs-ai/headroom) | RAG Framework | 8.6 | 📈 momentum | 92 commits/7d |
-| 7 | [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | AI Observability | 8.6 | 🔥 surge | x1.0 this week |
-| 8 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.0 | 🆕 newcomer | 66d, 376.5/day |
-| 9 | [Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract) | Knowledge Management | 7.9 | 🆕 newcomer | 170d, 14.4/day |
-| 10 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 7.8 | 🆕 newcomer | 83d, 871.6/day |
+| 1 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.8 | 🆕 newcomer | 15d, 336.3/day |
+| 2 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 9.4 | 🆕 newcomer | 15d, 4051.5/day |
+| 3 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.2 | 🔥 surge | x2.0 this week |
+| 4 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.0 | 🆕 newcomer | 83d, 675.1/day |
+| 5 | [headroom](https://github.com/headroomlabs-ai/headroom) | RAG Framework | 8.9 | 📈 momentum | 113 commits/7d |
+| 6 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 151d, 74.4/day |
+| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.3 | 🆕 newcomer | 163d, 256.5/day |
+| 8 | [hyperframes](https://github.com/heygen-com/hyperframes) | MCP | 7.9 | 🆕 newcomer | 109d, 290.2/day |
+| 9 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 7.8 | 🆕 newcomer | 67d, 374.0/day |
+| 10 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 7.8 | 🆕 newcomer | 84d, 866.2/day |
 
-> Last updated: 2026-06-26 — [Full Report](reports/2026-06-26.md)
+> Last updated: 2026-06-27 — [Full Report](reports/2026-06-27.md)
 <!-- TREND-END -->
 
 ---
