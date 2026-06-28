@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-27)
+### Today's Top Trending (2026-06-28)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.8 | 🆕 newcomer | 15d, 336.3/day |
-| 2 | [ponytail](https://github.com/DietrichGebert/ponytail) | AI Observability | 9.4 | 🆕 newcomer | 15d, 4051.5/day |
-| 3 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.2 | 🔥 surge | x2.0 this week |
-| 4 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.0 | 🆕 newcomer | 83d, 675.1/day |
-| 5 | [headroom](https://github.com/headroomlabs-ai/headroom) | RAG Framework | 8.9 | 📈 momentum | 113 commits/7d |
-| 6 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 151d, 74.4/day |
-| 7 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.3 | 🆕 newcomer | 163d, 256.5/day |
-| 8 | [hyperframes](https://github.com/heygen-com/hyperframes) | MCP | 7.9 | 🆕 newcomer | 109d, 290.2/day |
-| 9 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 7.8 | 🆕 newcomer | 67d, 374.0/day |
-| 10 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 7.8 | 🆕 newcomer | 84d, 866.2/day |
+| 1 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.9 | 🔥 surge | x0.1 this week |
+| 2 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.2 | 🆕 newcomer | 16d, 324.2/day |
+| 3 | [codeg](https://github.com/xintaofei/codeg) | Coding Assistant | 8.9 | 🆕 newcomer | 139d, 13.2/day |
+| 4 | [little-coder](https://github.com/itayinbarr/little-coder) | Coding Assistant | 8.9 | 🆕 newcomer | 78d, 21.2/day |
+| 5 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | 8.9 | 🆕 newcomer | 84d, 674.7/day |
+| 6 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | AI Agent Framework | 8.6 | 🔥 surge | x1.0 this week |
+| 7 | [OpenCLI](https://github.com/jackwener/OpenCLI) | AI Agent Framework | 8.5 | 🔥 surge | x0.1 this week |
+| 8 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.5 | 🔥 surge | x0.1 this week |
+| 9 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 8.4 | 🆕 newcomer | 72d, 109.4/day |
+| 10 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.3 | 🆕 newcomer | 68d, 370.3/day |
 
-> Last updated: 2026-06-27 — [Full Report](reports/2026-06-27.md)
+> Last updated: 2026-06-28 — [Full Report](reports/2026-06-28.md)
 <!-- TREND-END -->
 
 ---
