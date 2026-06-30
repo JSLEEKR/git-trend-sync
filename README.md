@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-29)
+### Today's Top Trending (2026-06-30)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.9 | 🆕 newcomer | 86d, 861.5/day |
-| 2 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.6 | 🆕 newcomer | 18d, 300.2/day |
-| 3 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.6 | 🔥 surge | x3.6 this week |
-| 4 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | MCP | 9.4 | 📈 momentum | 60 commits/7d |
-| 5 | [little-coder](https://github.com/itayinbarr/little-coder) | Coding Assistant | 9.3 | 🆕 newcomer | 79d, 21.1/day |
-| 6 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.1 | 🆕 newcomer | 85d, 665.3/day |
-| 7 | [headroom](https://github.com/headroomlabs-ai/headroom) | RAG Framework | 9.0 | 🆕 newcomer | 172d, 311.3/day |
-| 8 | [agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) | Multi-Agent | 8.6 | 🆕 newcomer | 136d, 57.2/day |
-| 9 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.5 | 📈 momentum | 18 commits/7d |
-| 10 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | MCP | 8.5 | 🔥 surge | x1.0 this week |
+| 1 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.6 | 🔥 surge | x4.8 this week |
+| 2 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.3 | 🆕 newcomer | 18d, 312.1/day |
+| 3 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.2 | 🆕 newcomer | 86d, 659.8/day |
+| 4 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.1 | 🆕 newcomer | 87d, 857.9/day |
+| 5 | [ECC](https://github.com/affaan-m/ECC) | MCP | 9.1 | 📈 momentum | 44 commits/7d |
+| 6 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | MCP | 9.0 | 📈 momentum | 64 commits/7d |
+| 7 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 155d, 73.9/day |
+| 8 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.2 | 📈 momentum | 20 commits/7d |
+| 9 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | AI Agent Framework | 8.0 | 🔥 surge | x0.4 this week |
+| 10 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent Framework | 8.0 | 📈 momentum | 3 commits/7d |
 
-> Last updated: 2026-06-29 — [Full Report](reports/2026-06-29.md)
+> Last updated: 2026-06-30 — [Full Report](reports/2026-06-30.md)
 <!-- TREND-END -->
 
 ---
