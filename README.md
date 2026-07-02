@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-06-30)
+### Today's Top Trending (2026-07-02)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.6 | 🔥 surge | x4.8 this week |
-| 2 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.3 | 🆕 newcomer | 18d, 312.1/day |
-| 3 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.2 | 🆕 newcomer | 86d, 659.8/day |
-| 4 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.1 | 🆕 newcomer | 87d, 857.9/day |
-| 5 | [ECC](https://github.com/affaan-m/ECC) | MCP | 9.1 | 📈 momentum | 44 commits/7d |
-| 6 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | MCP | 9.0 | 📈 momentum | 64 commits/7d |
-| 7 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.7 | 🆕 newcomer | 155d, 73.9/day |
-| 8 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.2 | 📈 momentum | 20 commits/7d |
-| 9 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | AI Agent Framework | 8.0 | 🔥 surge | x0.4 this week |
-| 10 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent Framework | 8.0 | 📈 momentum | 3 commits/7d |
+| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x0.2 this week |
+| 2 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.6 | 🔥 surge | x6.0 this week |
+| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.5 | 🆕 newcomer | 89d, 849.8/day |
+| 4 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.5 | 🆕 newcomer | 20d, 299.9/day |
+| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.4 | 🔥 surge | x1.2 this week |
+| 6 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | MCP | 9.1 | 📈 momentum | 105 commits/7d |
+| 7 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.0 | 🆕 newcomer | 160d, 424.0/day |
+| 8 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.0 | 🆕 newcomer | 83d, 94.1/day |
+| 9 | [Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract) | Knowledge Management | 8.9 | 🆕 newcomer | 176d, 16.1/day |
+| 10 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.3 | 🆕 newcomer | 165d, 1362.8/day |
 
-> Last updated: 2026-06-30 — [Full Report](reports/2026-06-30.md)
+> Last updated: 2026-07-02 — [Full Report](reports/2026-07-02.md)
 <!-- TREND-END -->
 
 ---
