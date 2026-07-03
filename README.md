@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-07-02)
+### Today's Top Trending (2026-07-03)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 10.0 | 🔥 surge | x0.2 this week |
-| 2 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.6 | 🔥 surge | x6.0 this week |
-| 3 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.5 | 🆕 newcomer | 89d, 849.8/day |
-| 4 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.5 | 🆕 newcomer | 20d, 299.9/day |
-| 5 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.4 | 🔥 surge | x1.2 this week |
-| 6 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | MCP | 9.1 | 📈 momentum | 105 commits/7d |
-| 7 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 9.0 | 🆕 newcomer | 160d, 424.0/day |
-| 8 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.0 | 🆕 newcomer | 83d, 94.1/day |
-| 9 | [Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract) | Knowledge Management | 8.9 | 🆕 newcomer | 176d, 16.1/day |
-| 10 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.3 | 🆕 newcomer | 165d, 1362.8/day |
+| 1 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.9 | 🔥 surge | x1.6 this week |
+| 2 | [graphify](https://github.com/safishamsi/graphify) | RAG Framework | 9.6 | 🆕 newcomer | 90d, 850.7/day |
+| 3 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.6 | 🔥 surge | x6.6 this week |
+| 4 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.6 | 🔥 surge | x3.2 this week |
+| 5 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.2 | 🆕 newcomer | 21d, 290.9/day |
+| 6 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.0 | 🆕 newcomer | 84d, 93.3/day |
+| 7 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | MCP | 8.3 | 📈 momentum | 85 commits/7d |
+| 8 | [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Coding Assistant | 8.0 | 🆕 newcomer | 174d, 30.5/day |
+| 9 | [ECC](https://github.com/affaan-m/ECC) | MCP | 8.0 | 🆕 newcomer | 166d, 1358.3/day |
+| 10 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.0 | 🆕 newcomer | 157d, 74.6/day |
 
-> Last updated: 2026-07-02 — [Full Report](reports/2026-07-02.md)
+> Last updated: 2026-07-03 — [Full Report](reports/2026-07-03.md)
 <!-- TREND-END -->
 
 ---
