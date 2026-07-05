@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-07-04)
+### Today's Top Trending (2026-07-05)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [caveman](https://github.com/JuliusBrussee/caveman) | AI Observability | 9.9 | 🔥 surge | x3.2 this week |
-| 2 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.6 | 🔥 surge | x6.6 this week |
-| 3 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 9.4 | 🆕 newcomer | 91d, 850.0/day |
-| 4 | [awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | MCP | 9.2 | 🔥 surge | x2.2 this week |
-| 5 | [ECC](https://github.com/affaan-m/ECC) | MCP | 9.1 | 🆕 newcomer | 167d, 1352.3/day |
-| 6 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.0 | 🆕 newcomer | 85d, 92.4/day |
-| 7 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.7 | 🆕 newcomer | 90d, 649.6/day |
-| 8 | [wuphf](https://github.com/nex-crm/wuphf) | Knowledge Management | 8.6 | 🆕 newcomer | 100d, 12.1/day |
-| 9 | [OpenCLI](https://github.com/jackwener/OpenCLI) | AI Agent Framework | 8.4 | 🔥 surge | x1.4 this week |
-| 10 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 8.3 | 🆕 newcomer | 22d, 281.5/day |
+| 1 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 9.7 | 🆕 newcomer | 92d, 846.3/day |
+| 2 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.7 | 🔥 surge | x0.3 this week |
+| 3 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.6 | 🆕 newcomer | 91d, 644.1/day |
+| 4 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.6 | 🔥 surge | x0.2 this week |
+| 5 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.4 | 🆕 newcomer | 75d, 346.6/day |
+| 6 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 9.0 | 🔥 surge | x0.1 this week |
+| 7 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 9.0 | 🔥 surge | x2.2 this week |
+| 8 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | MCP | 8.7 | 📈 momentum | 5 commits/7d |
+| 9 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 8.4 | 🆕 newcomer | 86d, 91.8/day |
+| 10 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 8.3 | 🔥 surge | x0.1 this week |
 
-> Last updated: 2026-07-04 — [Full Report](reports/2026-07-04.md)
+> Last updated: 2026-07-05 — [Full Report](reports/2026-07-05.md)
 <!-- TREND-END -->
 
 ---
