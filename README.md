@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-07-05)
+### Today's Top Trending (2026-07-06)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 9.7 | 🆕 newcomer | 92d, 846.3/day |
-| 2 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.7 | 🔥 surge | x0.3 this week |
-| 3 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.6 | 🆕 newcomer | 91d, 644.1/day |
-| 4 | [voicebox](https://github.com/jamiepine/voicebox) | Voice Agent | 9.6 | 🔥 surge | x0.2 this week |
-| 5 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.4 | 🆕 newcomer | 75d, 346.6/day |
-| 6 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | Multi-Agent | 9.0 | 🔥 surge | x0.1 this week |
-| 7 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 9.0 | 🔥 surge | x2.2 this week |
-| 8 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | MCP | 8.7 | 📈 momentum | 5 commits/7d |
-| 9 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 8.4 | 🆕 newcomer | 86d, 91.8/day |
-| 10 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | AI Observability | 8.3 | 🔥 surge | x0.1 this week |
+| 1 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 9.2 | 🆕 newcomer | 93d, 843.6/day |
+| 2 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.0 | 🆕 newcomer | 76d, 344.0/day |
+| 3 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.0 | 🔥 surge | x0.4 this week |
+| 4 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 9.0 | 🔥 surge | x1.0 this week |
+| 5 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 9.0 | 🔥 surge | x7.5 this week |
+| 6 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.9 | 🆕 newcomer | 92d, 638.9/day |
+| 7 | [little-coder](https://github.com/itayinbarr/little-coder) | Coding Assistant | 8.5 | 🆕 newcomer | 86d, 19.9/day |
+| 8 | [rtk](https://github.com/rtk-ai/rtk) | Coding Assistant | 8.4 | 🆕 newcomer | 164d, 419.8/day |
+| 9 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.3 | 🔥 surge | x0.2 this week |
+| 10 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 8.3 | 📈 momentum | 31 commits/7d |
 
-> Last updated: 2026-07-05 — [Full Report](reports/2026-07-05.md)
+> Last updated: 2026-07-06 — [Full Report](reports/2026-07-06.md)
 <!-- TREND-END -->
 
 ---
