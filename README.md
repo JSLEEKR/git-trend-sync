@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-07-08)
+### Today's Top Trending (2026-07-09)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 9.9 | 🆕 newcomer | 95d, 841.7/day |
-| 2 | [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) | Multi-Agent | 9.8 | 🆕 newcomer | 5d, 719.0/day |
-| 3 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.3 | 🆕 newcomer | 26d, 258.2/day |
-| 4 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 9.0 | 🆕 newcomer | 94d, 628.9/day |
-| 5 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.6 | 🔥 surge | x0.8 this week |
-| 6 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.5 | 🆕 newcomer | 78d, 338.4/day |
-| 7 | [ai-berkshire](https://github.com/xbtlin/ai-berkshire) | AI Agent Framework | 8.4 | 🔥 surge | x1.0 this week |
-| 8 | [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | Coding Assistant | 8.1 | 🆕 newcomer | 174d, 244.8/day |
-| 9 | [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | Multi-Agent | 8.0 | 🔥 surge | x2.4 this week |
-| 10 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.0 | 🆕 newcomer | 162d, 74.4/day |
+| 1 | [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) | Multi-Agent | 9.7 | 🆕 newcomer | 6d, 670.5/day |
+| 2 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 9.7 | 🔥 surge | x4.0 this week |
+| 3 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 8.9 | 🆕 newcomer | 96d, 842.3/day |
+| 4 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 8.5 | 🆕 newcomer | 79d, 335.6/day |
+| 5 | [hyperframes](https://github.com/heygen-com/hyperframes) | MCP | 8.5 | 🆕 newcomer | 121d, 280.4/day |
+| 6 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.4 | 🔥 surge | x0.9 this week |
+| 7 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.1 | 🆕 newcomer | 95d, 623.9/day |
+| 8 | [agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) | Multi-Agent | 8.0 | 🔥 surge | x1.0 this week |
+| 9 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.0 | 🆕 newcomer | 164d, 74.1/day |
+| 10 | [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) | Voice Agent | 7.9 | 🆕 newcomer | 90d, 90.3/day |
 
-> Last updated: 2026-07-08 — [Full Report](reports/2026-07-08.md)
+> Last updated: 2026-07-09 — [Full Report](reports/2026-07-09.md)
 <!-- TREND-END -->
 
 ---
