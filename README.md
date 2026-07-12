@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-07-11)
+### Today's Top Trending (2026-07-12)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Knowledge Management | 9.2 | 🆕 newcomer | 118d, 615.9/day |
-| 2 | [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) | Multi-Agent | 9.0 | 🆕 newcomer | 8d, 546.2/day |
-| 3 | [openocta](https://github.com/openocta/openocta) | Multi-Agent | 8.8 | 🔥 surge | x2.4 this week |
-| 4 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.7 | 🔥 surge | x5.4 this week |
-| 5 | [hyperframes](https://github.com/heygen-com/hyperframes) | MCP | 8.7 | 🆕 newcomer | 123d, 278.3/day |
-| 6 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.4 | 🔥 surge | x1.1 this week |
-| 7 | [loop-engineering](https://github.com/cobusgreyling/loop-engineering) | AI Observability | 8.3 | 🆕 newcomer | 32d, 218.9/day |
-| 8 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.2 | 🆕 newcomer | 97d, 614.4/day |
-| 9 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 8.0 | 🆕 newcomer | 98d, 838.0/day |
-| 10 | [Trellis](https://github.com/mindfold-ai/Trellis) | AI Workflow | 8.0 | 🆕 newcomer | 165d, 74.4/day |
+| 1 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 9.8 | 🆕 newcomer | 99d, 835.1/day |
+| 2 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.7 | 🔥 surge | x1.0 this week |
+| 3 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 9.2 | 🆕 newcomer | 127d, 135.0/day |
+| 4 | [open-cowork](https://github.com/OpenCoworkAI/open-cowork) | Computer Use Agent | 9.2 | 🔥 surge | x0.9 this week |
+| 5 | [loop-engineering](https://github.com/cobusgreyling/loop-engineering) | AI Observability | 9.0 | 🆕 newcomer | 33d, 216.6/day |
+| 6 | [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | Coding Assistant | 8.9 | 📈 momentum | 10 commits/7d |
+| 7 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.9 | 🆕 newcomer | 136d, 275.2/day |
+| 8 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.8 | 📈 momentum | 7 commits/7d |
+| 9 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Knowledge Management | 8.5 | 🆕 newcomer | 119d, 617.1/day |
+| 10 | [hyperframes](https://github.com/heygen-com/hyperframes) | MCP | 8.4 | 🆕 newcomer | 124d, 277.3/day |
 
-> Last updated: 2026-07-11 — [Full Report](reports/2026-07-11.md)
+> Last updated: 2026-07-12 — [Full Report](reports/2026-07-12.md)
 <!-- TREND-END -->
 
 ---
