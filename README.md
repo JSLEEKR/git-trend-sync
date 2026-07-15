@@ -37,22 +37,22 @@ Think of it as a daily briefing: "Here's what's actively being built in the AI w
 Stop manually browsing GitHub. Let the trends sync to you.
 
 <!-- TREND-START -->
-### Today's Top Trending (2026-07-14)
+### Today's Top Trending (2026-07-15)
 
 | # | Repository | Category | Score | Signal | Detail |
 |---|-----------|----------|-------|--------|--------|
-| 1 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 9.3 | 🆕 newcomer | 84d, 320.5/day |
-| 2 | [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | Coding Assistant | 9.0 | 🔥 surge | x0.9 this week |
-| 3 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 8.9 | 📈 momentum | 53 commits/7d |
-| 4 | [loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Coding Assistant | 8.7 | 🆕 newcomer | 35d, 217.9/day |
-| 5 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.6 | 🆕 newcomer | 138d, 273.7/day |
-| 6 | [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | Browser Agent | 8.4 | 🆕 newcomer | 172d, 12.0/day |
-| 7 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Knowledge Management | 8.3 | 🆕 newcomer | 121d, 611.1/day |
-| 8 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 8.1 | 🆕 newcomer | 101d, 846.8/day |
-| 9 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 7.9 | 🆕 newcomer | 129d, 134.0/day |
-| 10 | [hyperframes](https://github.com/heygen-com/hyperframes) | MCP | 7.7 | 📈 momentum | 68 commits/7d |
+| 1 | [omnigent](https://github.com/omnigent-ai/omnigent) | Multi-Agent | 9.3 | 🆕 newcomer | 33d, 221.3/day |
+| 2 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI Agent Framework | 9.1 | 📈 momentum | 76 commits/7d |
+| 3 | [academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | AI Observability | 8.9 | 🆕 newcomer | 139d, 272.7/day |
+| 4 | [career-ops](https://github.com/santifer/career-ops) | AI Agent Framework | 8.7 | 🆕 newcomer | 101d, 595.9/day |
+| 5 | [graphify](https://github.com/Graphify-Labs/graphify) | RAG Framework | 8.5 | 🆕 newcomer | 102d, 854.5/day |
+| 6 | [hyperframes](https://github.com/heygen-com/hyperframes) | MCP | 8.3 | 📈 momentum | 124 commits/7d |
+| 7 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | Multi-Agent | 8.2 | 🆕 newcomer | 130d, 133.5/day |
+| 8 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Knowledge Management | 8.1 | 🆕 newcomer | 122d, 608.2/day |
+| 9 | [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI Agent Framework | 7.9 | 🆕 newcomer | 85d, 317.6/day |
+| 10 | [loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Coding Assistant | 7.9 | 🆕 newcomer | 36d, 219.9/day |
 
-> Last updated: 2026-07-14 — [Full Report](reports/2026-07-14.md)
+> Last updated: 2026-07-15 — [Full Report](reports/2026-07-15.md)
 <!-- TREND-END -->
 
 ---
